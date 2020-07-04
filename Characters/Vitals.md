@@ -2,58 +2,114 @@ Every Character has the following Vitals, which are derived from the Core Stats:
 
 HEALTH            
 ------
-Hearts: 2 + Brawn
------------------
-Health is comprised of Hearts and Strikes. Your Character has an amount of Hearts
-equal to 3 plus its Brawn Score. Your Character is able to sustain an amount of
-Damage equivalent to your Hearts x 3. For every 3 points of Damage (Strikes)
-sustained, you lose a Heart, and your Character takes -1 penalty to a Core of the
-offender's choice. If a character reaches 0 Hearts, they are knocked Unconscious.
-Armor, Elixers and other items within the game can grant Health beyond what is given
-by a Brawn Score. If a Character is reduced to 0 Hearts temporarily through damage
-sustained to their Brawn Core, they are Stunned instead of falling Unconscious. If
-they incur even more Damage after falling Unconscious, they begin Flirting With
-Death, the rules of which will be covered later. 
+Hits: [5] + Brawn + Heart | Blocks: Natural Defense [0] + Body Capacity + Level
+-------------------------------------------------------------------------------
 
-DEFENSE
--------
-Natural Defense (0) + Brawn + Speed
------------------------------------
-Defense refers to your Character's ability to withstand Damage before it begins to
-suffer injury. That is, Damage that you choose to not Dodge may by Blocked, in which
-case you subtract the Defense from the Damage before the leftover Damage is applied
-to your Health. A Creature's personal Defense Score cannot be higher than 10, but you
-can layer Defense so that a source of Damage must contend with multiple Defense
-Scores before applying to a Creature. Defense is equal to your Speed and Brawn Cores
-plus your Character's Natural Defense, which is 0 by default.
+    Health is comprised of Hits and Blocks. Your Character has an amount of Hits
+    equal to 5 plus its Brawn and Spirit Cores. Your Character is able to
+    sustain an amount of Damage equivalent to your Hits x Blocks. 
+    
+    Once you encounter a source of Damage higher than your Defense, it counts as
+    a Hit and your Character takes a -1 penalty to a Core of the offender's
+    choice. If a character reaches 0 Hits, they are rendered Unconscious. 
+    
+    Armor, Elixirs and other items within the game can grant Health beyond what is given
+    by a Brawn Core. If a Character is reduced to 0 Hits temporarily through damage
+    sustained to their Brawn Core, they are Stunned instead of falling Unconscious. If
+    they incur even more Damage after falling Unconscious, they begin Flirting With
+    Death, the rules of which will be covered later. 
+    
+    If a Hit Container is only partially emptied, it replenished on the Creature's next
+    Turn during combat, or immediately at the end of combat. 
+    
+    Damage can be categorized as True Damage, meaning that it does not have to
+    contend with a Blocks at all. This means that 1 point of True Damage immediately
+    depletes a single Hit, regardless of how full that Hit was, and the
+    victim immediately incurs the -1 Core Penalty. Even if a Hit Container had only
+    1 Hit remaining, the True Damage would simply empty the Hit, and leave the next
+    Hit untouched. Certain objects, environmental effects, vehicles and very high
+    level Spells deal in True Damage.
 
 STRIDE 
 ------
-Natural Stride (3) + Speed 
+Natural Stride [3] + Speed 
 --------------------------
-Your Character's Stride refers to their ability to move in quick, short sprints while
-in a combat situation without using Equipment, Traits or Maneuvers. This speed is
-independent of the speed they move while adventuring. Stride is determined by adding
-your Speed score to your Natural Stride (1 by default). If a player is forced to move
-more than their Stride allows, or they have moved up to their normal maximum Stride,
-but then had their Stride reduced after the fact, they Trip in the direction they
-were moving and being their next Turn with the Prone status. Movement produced by
-Equipment, Traits or Maneuvers do not count as expended Stride. 
 
-CHARGE 
-------
-5 * Spirit 
-----------
-Your Character's Charge refers to how potent their magical spells are. For every
-point of Spirit, the Character gains 5 Charge, and can utilize Spells by expending
-Charge or may take permanent or semi-permanent Charge penalty through Integrating
-with certain items or creatures. This process is explained in detail in the Magic,
-Symbiotic Relationships and Augmentations sections.
+    Your Character's Stride refers to their ability to move in quick, short sprints while
+    in a combat situation without using Equipment, Traits or Maneuvers. This speed is
+    independent of the speed they move while adventuring or casually moving through the
+    Game World. Stride is determined by adding your Speed score to your Natural Stride (3
+    by default). 
+    
+    If a player is forced to move more than their Stride allows, or they have moved up to
+    their normal maximum Stride, but then had their Stride reduced after the fact, they
+    Trip in the direction they were moving and if they fail or do not attempt a Recovery,
+    begin their next Turn with the Prone status. Movement produced by Equipment, Traits
+    or Maneuvers do not count as expended Stride. 
+    
+    If your Character is relaxed and unguarded, they are considered Flat Footed, and are
+    considered to have a Stride equivalent to their Natural Stride.
 
-CAPACITY
+STAMINA 
+-------
+0 || 3 + Body Capacity + Soul Capacity
+--------------------------------------
+
+    Your Character has a limited number of Challenge they can preform before they
+    become utterly exhausted. Whenever your Character attempts a Challenge, the card
+    drawn from the Play Deck is placed into your Upper Chakra with its face pointing
+    downward. These cards must be exchanged for Stamina in order to be used again.
+    You have a number of Stamina points equivalent to 3 plus the value of both
+    Capacities, however this value cannot be lower than 0. 
+    
+    You may either expend 1 point of Stamina or take a -1 penalty to a
+    Core in order to move the cards in the Upper Chakra into the Play Deck, then
+    shuffle the Play Deck. 
+    
+    Additionally, you may expend 2 points of Stamina, take a -2 penalty to a Core, or a
+    combination of both in order to place the Upper Chakra on the top of your Play Deck,
+    then resume play *WITHOUT* shuffling the replenished Play Deck.
+    
+    You may expend Stamina At Will. This means you can do it during your Turn or
+    anyone else's Turn during combat. You may choose to not expend Stamina, even in
+    instances where it would lead to death for your Character.
+    
+    Some items, spells, narrative events, and environmental hazards Exhaust the
+    Character. When Exhausted, before the Creature Attempts another CHallenge, all
+    Cards that were in the Character's Upper Chakra are placed into the Lower Chakra
+    with their face pointing downward. While Exhausted, all discarded Cards go into
+    your Lower Chakra.
+    
+    Cards in the Lower Chakra may be recovered in the same way you may recover cards
+    in the Upper Chakra, but their Stamina/Core Penalty cost is doubled. Cards that
+    fall into the Lower Chakra remain there until bought back with Stamina.
+    
+    Stamina is only recovered after a Rest assuming the Character's nutritional needs are
+    met. Alternatively, a Character is able to take a Break and recover 13 Cards from the
+    Upper Chakra per hour they Break for.
+
+MOMENTUM
 --------
-2 * Brain
----------
-Your Character's Capacity refers to how many Spells, Maneuvers and Integrations your
-Character can possess at once.
+[5]
+---
+
+    Your Momentum is used to determine the damage you take from Falls, Trips and
+    collisions as well as how easy it is to propel your Character by means other than
+    Stride. In addition, it is used to determine how hard it is to catch yourself
+    mid-fall or Trip. 
+    
+    Momentum is 5 by default, but has a boundless range. Your Character can lift at
+    maximum twice their Momentum plus their Brawn Core. Your own personal Momentum is not
+    counted towards this total, but otherwise everything you carry/wear is given a
+    Momentum score and the sum of these scores is considered your Burden. 
+    
+    If your Burden is more than your Character's base Momentum, you Character Busts while
+    attempting all Physical Challenges. This is known as Burden I.
+    
+    If your Burden is higher than your Character's base Momentum in addition to their
+    Brawn Score, your Character's Stride is reduced to 1. This is known as
+    Burden II 
+    
+    If your Burden is equal to twice your Character's Momentum Score, your Character's
+    Stride is reduced to 0. This is known as Burden III.
 

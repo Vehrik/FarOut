@@ -1,212 +1,310 @@
 TRAITS
 ======
-At Character Creation you are given 20 Exo points, however, applying them to your
-Character is optional. You may defer their application to a later time, or decide not
-to use them at all.
+
+At Character Creation you are given 20 EXO points, however, applying them to
+your Character is optional. You may defer their application to a later time, or
+decide not to use them at all.
 
 At Level 1, you may optionally take a -1 penalty to one of your Cores to gain an
-additional 15 Exo Points. You may make this exchange up to 3 times. These points may
-be exchanged for anything from to fangs, awesome kung-fu, to acid breath, to wrist
-mounted laser cannons. Whatever your Trait gives you, it represents a change to your
-character's appearance that is either mechanical, magical or biological that warrants
-the effect it grants you. If your character suddenly able to reach out and touch
-someone 30ft away, for example, it means something along along the lines of your
-character is able to shoot web, it has a tentacle arm, or it has a shoulder mounted
-harpoon. Whatever it is, the GM must sign off on it.  
+additional 10 EXO Points. You may make this exchange up to 3 times during
+Character creation. A Core Stat may not be lower than *-4* after all the effects
+of Mutations and Core Points are applied. These points may be exchanged for
+anything from to fangs, awesome kung-fu, to acid breath, to wrist mounted laser
+cannons. 
+
+When you gain a Core Point later on in your Character's level progression, you
+may exchange it for 15 additional EXO points.
+
+Whatever your Trait gives you, it represents a change to your character's appearance
+that is either mechanical, magical or biological that warrants the effect it grants
+you. If your character suddenly able to reach out and touch someone 30ft away, for
+example, it means something along along the lines of your character is able to shoot
+web, it has a tentacle arm, or it has a shoulder mounted harpoon. Whatever it is, the
+GM must sign off on it.
 
 Your Trait is bound by its Properties and Aesthetics. The Properties inform the
 Aesthetics which inform the Narrative. In other words, Traits won't be able to
-influence the "Meta Game" (creature statistics like Hearts, Defense, etc) more than
-is defined by their Properties, but the resulting Aesthetics may allow for creative
-applications, or, at times, unforeseen consequences within the Narrative. The
-Secondary Traits section provides a framework for building the Aesthetics of a Trait,
-but is by no means exhaustive.
+influence the "Meta Game" (creature statistics like Hits, Stride, etc) more than
+is defined by their Properties, but the resulting Aesthetics may allow for
+creative applications or unforeseen consequences within the Narrative.
 
 STEP 1) HOW MANY TRAITS?
 ------------------------
-Whether or not you take a Trait at all should be carefully considered.  While they
-are undoubtably useful, Traits incur a financial and practical consideration for you
+Whether or not you take a Trait at all should be carefully considered. While they
+are undoubtedly useful, Traits incur a financial and practical consideration for you
 Character. 
 
-For every 10 EXO Points used, their Characters Hunger increases by 1.
+The bodies of Creatures can only handle so much Mutation before it starts to
+stress existing body systems. At level 1, for every 15 EXO Points used, their Character's
+Stamina decreases by 1. At every odd level (3, 5, 7, and 9), this threshold is
+increased by 10 points. 
 
-You may have more than one Trait at once, but they all pull from the same pool of Exo
+You may have more than one Trait at once, but they all pull from the same pool of EXO
 Points. 
 
 STEP 2) WHAT PROPERTIES WILL THE TRAIT(S) HAVE?
 -----------------------------------------------
+There are two types of Traits, Natural Weapons and Anatomy Mutations. All
+properties combine with other of the same type. For example, purchasing both
+Damage and Range creates a Trait that can be used as a Weapon in combat that can
+interact with Creatures up to the Range specified and apply the damage
+specified.
+
 NATURAL WEAPONS
 ===============
-///////////////
 
 DAMAGE(D)
 ---------
 ###COST: 5 EXO / 1 D
-This value is used to help determine the Damage dealt by this Trait. It may either be
-Force, Heat, Chemical, or Energy.  
+    
+    This value is used to determine the Damage dealt by this Trait whenever it
+    contacts a Creature. This Damage can only be applied through use of the
+    Trait directly. It may either be Force, Chemical, Fire, Frost, or Electric
+    and you must also Specifiy it as Crude or Technical.  
 
-CHALLENGE (C)            
--------------
-###COST: 5 EXO / 1 C
-This value is added to the Hit Check that is imposed whenever a Target tries to
-Dodge, Block, or Resist contact with the Trait. This number also serves as the
-Challenge for whether the afflicted Creature avoids the Traits associated Core
-Damage.
+    When the first point of Damage is bought, you may designate the Trait as
+    Synergizing. Doing so implies that all Damage purchased for the Trait is
+    Synergistic Damage, meaning that it can only be applied if it is first
+    layered over an object as an Action. Synergistic Damage costs 10 EXO per
+    point of it instead of 5.
 
-AREA OF EFFECT (AoE)     
---------------------
-###COST: 5 EXO / 15ft OF AoE
-You may Trigger a Hit Check and/or a Core Challenge to /all/ creatures within the
-Area of Effect of a Trait. There is no distinction between Friend and Foe within an
-AoE. You may combine Range with Area of Effect so that the Area of Effect spreads
-outward from a chosen point within its Range. The shape of an AoE is decided at Trait
-Creation, it is locked into that shape until the Trait is upgraded, where the
-existing AoE shape may be added to, but not subtracted from. The Point of Origin may
-begin at any point adjascent to the Traits owner if the Trait has no Range.
-
-Alternatively, the Point of Origin can occupy the same square as the Trait's owner if
-that is desired, however this would cause the Trait's owner to contend with the
-effects of the Trait.  
+    You may also designate Damage as Simple when the first point is bought.
+    Doing so incurs an additional cost of 5 EXO, and disqualifies the Trait from
+    having all other properties except Range and Core Damage, but this allows
+    you to utilize the Trait as if it was a normal Weapon. Traits with Simple
+    Damage can also benefit from Reach.
 
 RANGE (RG)
 ----------
 ###COST: 5 EXO / 10ft OF RG
-You may trigger a Hit Check or Core Check to any one Creature within the Range of
-Trait. You may split Range between several projectiles, allowing you to trigger the
-other associated Properties of a Trait within a designated Range, but you must split
-Damage between each projectile equally. Range begins counting from adjascent space to
-the Trait's owner.  On your Creature's turn, you may double the Range of an Trait,
-but you Bust while making Hit Checks with the Trait.  When you buy the first 10ft of
-Range, you may designate the Trait as "Heavy", which permanently adds +3 Damage to it
-and doubles the Range, but always incurs a Bust when using it. 
 
-DEFENSE (DEF)
------------
-###COST: 5 EXO / 1 Point of DEF
-The quality of your Trait refers to how well it can protect you against Damage.  This
-value is not added to your Character's personal Defense score, but instead is layered
-ontop of it. If Defense is given Range, it may "latch" onto a Creature within this
-Range. With multiple RG pools, the Trait's total DEF is spread out equally amongst
-all Targets, with preference given to whomever is closest to the Point of Origin. You
-may optionally decide to make the Defense Specialized, giving it a +3 against one
-type of Damage (Force, Chemical, Heat, or Energy), but also giving it a -3 to a
-seperate Damage type.
+    You may trigger a Challenge against any one Creature within the Range of the
+    Trait. You may split Range into several different pools, allowing you to
+    trigger the other associated Properties of a Trait to multiple Creatures
+    within its designated Range. Damage must be split between each projectile
+    equally, with no partial values allowed. Range begins counting from space
+    adjascent to the Trait's maximum Reach (5ft by default). 
 
-DURATION (DUR)
+    On your Creature's Turn, assuming the projectile produced by the Trait was
+    designated as Slow (i.e. not bullets or lazers or magic) you may double the
+    Range of an Trait, but you Bust while making Challenges with the Trait. Fast
+    Projectiles gain 20ft of bonus Range, but may not use this Range doubling
+    mechanic. 
+
+    When you buy the first 10ft of Range of a Trait, you may also
+    designate the Trait as "Heavy", which permanently adds +2 Damage to it and
+    doubles the Range, but always incurs a Bust when using it. Heavy Traits
+    cannot have Slow projectiles. 
+
+    When you go to purchase Range, you may designate it as Dextrous. This incurs
+    a 5 EXO cost immediately, and also doubles the cost to 10 EXO / 10ft of
+    Range for this Trait. When you spend the initial 5 EXO to designate Range as
+    Dextrous Range, you gain an additional Hand to wield weapons and items with.
+    If the Trait has Damage, it is added to the new Hand's Unarmed Strike
+    Damage, Synergistic Damage applies as normal.
+
+
+AREA OF EFFECT (AoE)     
+--------------------
+###COST: 5 EXO / 15ft OF AoE
+
+    You may Trigger a Core Challenge to *all* creatures within the Area of
+    Effect of a Trait. There is no distinction between Friend and Foe within an
+    AoE. You may combine Range with Area of Effect so that the Area of Effect
+    spreads outward from a chosen point within its Range. 
+
+    The shape of an AoE is decided at Trait Creation, it is locked into that
+    shape until the Trait is upgraded, where the existing AoE shape may be added
+    to, but not subtracted from. The Point of Origin may begin at any point
+    adjascent to the Traits owner if the Trait has no Range.
+    
+    Alternatively, the Point of Origin can occupy the same square as the Trait's
+    owner if that is desired, however this would cause the Trait's owner to
+    contend with the effects of the Trait whenever it is activated.  
+
+INTEGRITY (ITG)
 --------------
-###COST: 10 EXO / 1 DUR
-All properties that effect the Statistics of a Creature (Damage, Core Damage, Core
-Boost or Defense) will be reapplied for a number of rounds equal to the Duration on
-the beginning of the effected Creature's turn if they fail the relevant Challenge. If
-the Trait is reapplied before its Duration expires, the Duration is refreshed, not
-compounded. 
+###COST: 10 EXO / 1 ITG
+    
+    All properties that effect the Statistics of a Creature (Damage, Core
+    Damage, Core Boost) will be reapplied to the Victim(s) at the beginning of
+    every Round until the Trait's products are reduced to an Integrity of 0.
+
+    If a Trait has even 1 point of Integrity, it implies that it produces some
+    tangible material that persists in the Game World until it is
+    destroyed/dispersed by oppossing forces. Traits with constructive properties
+    like Core Boost are considered to Challenge themselves, but these Challenges
+    are automatically failed. In other words, if a Trait has a Core Boost, it
+    lasts for an amount of Rounds equal to its Integrity.
+
+    The Integrity of a Trait's products are reduced by 1 whenever they are
+    Challenged, but the Integrity is reduced to 0 if they are overcome by an
+    oppossing Challenge and the Trait's products are destroyed. 
+
+    Before you purchase the first point of Integrity, you must designate the
+    product's Form as either plasma, gas, liquid, or solid. Creatures are able
+    to interact with any substances with Integrity in ways that makes sense
+    given its Form and other Aesthetics.
+
+    A Trait's products may also be used as improvized tools to complete a
+    Challenge, and in these cases the Integrity is reduced by 1. Something with
+    Integrity is assumed to have a Momentum equivalent to its Integrity unless
+    it is designated as a Plasma or Gas, in which case the Momentum is capped at
+    zero. Plasma implicitely has Damage equivalent to its Integrity. Gas is
+    moved by air currents, but only becomes inert after its Integrity is reduced
+    to 0.
+
+    If the Trait is reapplied before its Integrity is depleted, the Integrity is
+    refreshed, not added to. Traits with at least 1 point of Integrity may be
+    set as traps in ways that make sense for its given Form. Traps laid in this
+    way require a Sense Challenge equivalent to Activation Challenge preformed
+    by the owner in order to detect it. 
+
+    Integrity applies over every Square of AoE a Trait, but only a singular
+    point (or a full Square) for Traits that only have Range.
+
+EFFECT CHALLENGE (EC)
+--------------------
+###COST: 10 EXO / 3 EC
+
+    In addition to the primary effects of the Trait (i.e. Damage or Core
+    Damage), you are able to assign the product of your Trait an Effect. This
+    Effect is any Challenge your Character would normally be able to preform,
+    but instead, it is treated as if it produced the Attempt score equivalent to
+    the assigned Effect Challenge. You must designate exactly what the Effect
+    entails, however the Effect cannot directly influence the Statistics of a
+    Creature. 
+
+    For example, a Character may have a Trait that allows it to shoot a string
+    of web of Integrity 2 out by 30ft. If this Trait was also given a Brawn
+    Effect Challenge of 6 that's intended to allow the web to latch onto any
+    hard surface it touches, the web would be treated as if it just completed a
+    Brawn Challenge with an Attempt of 5 whenever it does encounter a hard
+    surface. Effect Challenges do not reduce the Integrity of a Trait's
+    products.
 
 CORE DAMAGE (CD) 
 ----------------
 ###COST: 10 EXO / 1 CD
-This value is used to determine the Core Damage, and resulting Vital Damage dealt by
-this Trait. This Damage does not synergise with any other source of Core Damage, but
-may be applied to the same target as a separate action. Core Damage must be
-accompanied by Damage if you want it to apply through conscious resistance from the
-Target. If at least 1 point of Health Damage is applied, the Creature will have to
-Resist the Trait's Challenge with an appropriate Core. An afflicted Creature may not
-necessarily be aware they are affected by Core Damage until they Actively attempt to
-use a Core if the Trait does not also cause Damage.
-
-STRIKE REPLENISHMENT (SR)
--------------------------
-###COST: 10 EXO / 1 SR
-This value represents how many Strikes of a Target may be replenished if the Effect
-of the Trait is applied. You normally will not have to overcome a Challenge in order
-to apply Strike Replenishment, but in certain circumstances (e.g. the Character you
-want to heal is currently adjacent to an enemy) the GM may ask you to perform a Core
-Check to see if you apply the replenishment to the correct Creature. Strike
-Replenishment is not capable of replenishing exhausted Hearts by itself, but may be
-combined with a Rest to do so. Buying SR implies you are adding to a SR Pool with
-which you may dole out at your discretion. This Pool is regenerate after a Rest,
-assuming your Creature has met its hunger requirements.
-
-PROJECTED STRENGTH (PS)
------------------------
-###COST: 10 EXO / 1 PS
-You may possess an ability that allows you to interact with objects or creatures at a
-distance. This can be telekinesis, tentacle arms, or web shooting. You may act as
-though you are controlling a Creature with a Brawn score equivalent to the Trait's
-Projected Strength. 
-
-This pseudo-creature may be damaged and destroyed. In this case, the Trait's owner
-receives no damage, and is able to regenerate any lost biomass At Will (as long as
-the Trait Owner has satisfied their Hunger requirments). Detatched biomass is
-worthless but qualifies as DNA/Ballistic Data for Forensic Challenges. This
-pseudo-creature is able to move up to the Trait's Range, but may not move further
-from its owner than the Trait's Range. 
-
-You may designate the Projected Strength as an Anchoring Projectile, giving it +10ft
-of Range and +1 round of Duration, but you are not able change the position of the
-Trait after it is activated, but instead you are able to interact with the produced
-Biomass while the Trait has Duration, allowing you to pull any object that it hits.
-If a Brawn Challenge higher that the Projected Strength is applied to or with the
-Anchoring Projectile, the biomass breaks and becomes unuseable.
-
-You may also designate the Projected Strength as a Concussive Field, giving it a
-+15ft AoE and +1 PS. Concussive Fields apply as a Push Challenge to all Creatures
-that make contact with the Field's AoE over the course of the Field's Trajectory. 
+    
+    This value is used to determine the Core Damage, and resulting Vital Damage
+    dealt by this Trait. Core Damage must be accompanied by Damage if you want
+    it to apply through conscious resistance from the Target. An afflicted
+    Creature may not necessarily be aware they are affected by Core Damage until
+    they actively Attempt to use a Core if the Trait does not also cause Damage.
 
 CONCEALMENT (~)
 ---------------
-###COST: 5 EXO Points
-A Trait with this property is not discernible at a glance. In order to discover a
-Concealed Trait, a Creature must either have a specialized tool that explicitly
-detects some aspect of the Concealed Trait, or be able to freely touch and grope the
-Creature (as if frisking them). This protects the Trait from Analysis Challenges
-preformed without meeting either of the above criteria. If one has multiple Traits,
-Concealment will apply to all Traits that stemmed from the same pool of Exo points.
-While the Trait is being activated/used, it loses the benefit of Concealment.
-Concealment can only apply to Natural Weapons.
+###COST: 5 EXO
+    
+    A Trait with this property is not discernible at a glance. In order to
+    discover a Concealed Trait, a Creature must either have a specialized tool
+    that explicitly detects some aspect of the Concealed Trait, or be able to
+    freely touch and grope the Creature, as if frisking them. This protects the
+    Trait from detection if neither of the above criteria are met. If one has
+    multiple Traits, Concealment must be purchased for each seperate Trait.
+    While the Trait is being activated/used, it loses the benefit of
+    Concealment. 
 
-ANATOMY ENHANCMENTS
-===================
-///////////////////
+HIT REPLENISHMENT (HR)
+----------------------
+###COST: 15 EXO / 1 HR
+    
+    This value represents how many Hits of a Target may be replenished if the
+    Effect of the Trait is applied. You normally will not have to overcome a
+    Challenge in order to apply Hit Replenishment, but in certain circumstances
+    (e.g. the Character you want to heal is currently adjacent to an enemy) the GM
+    may ask you to perform a Core Check to see if you apply the replenishment to the
+    correct Creature. Hit Replenishments may also be used to replenish expended
+    Stamina instead.
+
+    Buying HR implies you are adding to a HR Pool with which you may dole out at your
+    discretion. 1 Point of HR is replenished per hour of Break Time assuming that a
+    Creature has met its nutritional requirements. 
+
+ANATOMY MUTATIONS
+=================
+
+EXTRA HANDS(EA)
+---------------
+###COST: 10 EXO / 5ft OF RCH
+    
+    Typically, Creatures have two "hands" that they can wield weapons with. All
+    Creatures are considered ambidextrous for all purposes except maybe for World
+    Lore. Gaining an extra Hand allows you to simultaneously wield 3 Weapons at
+    a time (or some combination of 2-Handed Weapons and 1 Handed Weapons).
+    Gaining more than 1 Hand allows for a larger variety of weapon combinations
+    you can utilize. Despite there name, Hands do not have to actual hands. Like
+    all Traits, the details of their aesthetics is between you and your
+    table-mates.
+
 REACH (RCH)
 -----------
 ###COST: 10 EXO / 5ft OF RCH
-Reach refers to how far away from something a Creature can be and still adeptly
-interact with it. Typically, a Creature is able to interact with anything that is
-adjascent (within 5ft) to it, but having Reach increases this space. This implicitely
-increases the range of weapons. Some Weapons will have Reach requirements, meaning
-that unless you possess a Trait with the specified amount of Reach, you will not be
-able to use it. 
-
-SELF PROPULSION (SP)
------------------------
-###COST: 15 EXO / 1 SP
-Having Self Propulsion designates that your Character's aspect has a means to propel
-themself without the use of Stride. When purchasing Self Propulsion, you must
-designate it as Dash, Flight, Dig or Swim. Your Trait's Self Propulsion must be equal
-to your Character's Momentum
-
-CORE BOOST (CB)
----------------
-###COST: 20 EXO / 1 CB
-This value represents by how many points you may Raise a Target's designated Core by.
-If this effect is applied, the Creature's Vitals are *not* changed. Boost must be
-shared amongst Creatures within the Traits AoE. Core Boost radiates outward from the
-Point of Origin, being divided equally if possible, but with the nearest Creature
-receiving any remainder, up to a maximum of +5. That is, if you possess a Trait that
-has +1 Boost and has a 20ft AoE, only the Creature nearest to the Point of Origin
-will receive the Core Boost. Core Boost lasts for a number of rounds equivalent to
-the Traits Duration, after which it must be reapplied with an Action.
+    
+    Reach refers to how far away from something a Creature can be and still
+    adeptly interact with it. Typically, a Creature is able to interact with
+    anything that is adjascent (within 5ft) to it, but having Reach increases
+    this radius, similar to Dextrous Range, except Reach applies to all existing
+    Hands a Creature has. This implicitely increases the range of weapons. Some
+    items will have Reach requirements, meaning that unless you possess a Trait
+    with the specified amount of Reach, you will not be able to use it. 
 
 RESIZE (RZ)
 -----------
-###COST: 20 EXO / SIZE CATEGORY  
-Purchasing a Resize allows you to increase/decrease your Character's Size by 1
-Category, incurring all the Core and Vital benefits and penalties.
+###COST: 15 EXO / SIZE CATEGORY  
+    
+    There are 7 Size Categories. From smallest to largest they are:
 
-CORE ENHANCMENT
+                    Minute
+                    Tiny
+                *-----------*
+     Average    |   Small   |
+      Human ----I   Medium  |
+      Sizes     |   Big     |
+                *-----------*
+                    Huge
+                    Massive
+
+    Each size has various properties that alter your Character's baseline
+    physiology. These alternations are not all beneficial. Each Size Category is
+    explained in detail in the Physiology section.
+
+CORE BOOST (CB)
 ---------------
-###COST: 25 EXO / 1 CE
-This value represents how many points you may raise a Core of your Creature by. Core Enhancment does not synergize with
-any other Trait property. Unlike Core Boost, Core Enhancement *does* enhance the Vitals of the owner. Core Enhancement
-are constant, and persist even while the Traits owner is unconscious.
+###COST: 10 EXO / 1 CB
+    
+    This value represents by how many points you may Raise a Target's designated Core
+    by. If this effect is applied, the Creature's Vitals and Capacities are *not*
+    changed. Boost must be shared amongst Creatures within the Traits AoE if it has
+    AoE. Core Boost radiates outward from the Point of Origin, being divided equally
+    if possible, but with the nearest Creature receiving any remainder, up to a
+    maximum of +5. Creatures may not have a Core boosted beyond its Maximum (5
+    by default). 
 
+    That is, if you possess a Trait that has +1 Core Boost and has a
+    20ft AoE, only the Creature nearest to the Point of Origin will receive the Core
+    Boost. Core Boost lasts for a number of rounds equivalent to the Traits Integrity
+    (or at least until the end of the boosted Creature's Turn) after which it must be
+    reapplied with an action. Core Boost is not generic, you must specify which Core
+    it boosts when you purchase it.
+
+
+CORE ENHANCEMENT
+---------------
+###COST: 15 EXO / 1 CE
+    
+    This value represents how many points you may raise a Core of your Creature by.
+    Core Enhancment does not synergize with any other Trait property. Unlike Core
+    Boost, Core Enhancement *does* enhance the Vitals and Capacities of the owner.
+    Core Enhancement are constant, and persist even while the Traits owner is
+    unconscious.
+
+STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
+-------------------------------------------------
+
+Anatomy Mutations are alternations that fundamentally alter the foundation of
+your Anatomy. On the other hand, Natural Mutations build off of pre-existing
+Anatomy, and almost always involve creating additional material in order to
+apply effects or otherwise utilizing specialized limbs.
+There are additional costs associated with using Natural Weapons. Th
