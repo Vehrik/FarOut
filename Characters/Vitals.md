@@ -2,7 +2,7 @@ Every Character has the following Vitals, which are derived from the Core Stats:
 
 HEALTH            
 ------
-Hits: [5] + Brawn + Heart | Blocks: Natural Defense [0] + Body Capacity + Level
+Hits: [5] + Brawn + Heart | Defense: Natural Defense [0] + Body Capacity + Level
 -------------------------------------------------------------------------------
 
     Health is comprised of Hits and Blocks. Your Character has an amount of Hits
@@ -19,16 +19,11 @@ Hits: [5] + Brawn + Heart | Blocks: Natural Defense [0] + Body Capacity + Level
     they incur even more Damage after falling Unconscious, they begin Flirting With
     Death, the rules of which will be covered later. 
     
-    If a Hit Container is only partially emptied, it replenished on the Creature's next
-    Turn during combat, or immediately at the end of combat. 
-    
     Damage can be categorized as True Damage, meaning that it does not have to
-    contend with a Blocks at all. This means that 1 point of True Damage immediately
-    depletes a single Hit, regardless of how full that Hit was, and the
-    victim immediately incurs the -1 Core Penalty. Even if a Hit Container had only
-    1 Hit remaining, the True Damage would simply empty the Hit, and leave the next
-    Hit untouched. Certain objects, environmental effects, vehicles and very high
-    level Spells deal in True Damage.
+    contend with a Blocks at all. This means that 1 point of True Damage counts
+    as a single Hit, regardless the Character's Defense, and the victim
+    immediately incurs the -1 Core Penalty. Certain objects, environmental
+    effects, vehicles and very high level Spells deal in True Damage.
 
 STRIDE 
 ------
