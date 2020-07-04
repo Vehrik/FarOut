@@ -5,9 +5,8 @@ HEALTH
 Hits: [5] + Brawn + Heart | Defense: Natural Defense [0] + Body Capacity + Level
 -------------------------------------------------------------------------------
 
-    Health is comprised of Hits and Blocks. Your Character has an amount of Hits
-    equal to 5 plus its Brawn and Spirit Cores. Your Character is able to
-    sustain an amount of Damage equivalent to your Hits x Blocks. 
+    Health is comprised of Hits and Defense. Your Character has an amount of Hits
+    equal to 5 plus its Brawn and Heart Cores. 
     
     Once you encounter a source of Damage higher than your Defense, it counts as
     a Hit and your Character takes a -1 penalty to a Core of the offender's
@@ -20,10 +19,10 @@ Hits: [5] + Brawn + Heart | Defense: Natural Defense [0] + Body Capacity + Level
     Death, the rules of which will be covered later. 
     
     Damage can be categorized as True Damage, meaning that it does not have to
-    contend with a Blocks at all. This means that 1 point of True Damage counts
-    as a single Hit, regardless the Character's Defense, and the victim
-    immediately incurs the -1 Core Penalty. Certain objects, environmental
-    effects, vehicles and very high level Spells deal in True Damage.
+    contend with your Defense at all. This means that 1 point of True Damage
+    counts as a single Hit, and the victim immediately incurs the -1 Core
+    Penalty. Certain objects, environmental effects, vehicles and very high
+    level Spells deal in True Damage.
 
 STRIDE 
 ------
