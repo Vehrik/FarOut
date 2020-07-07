@@ -9,8 +9,8 @@ Difficulty based on what it is depending what you're doing.
 In order to complete a Challenge, you must become familiar with three things:
 
     The Play Deck
-    Cores & Capacities
-    Boons and Busts
+    Cores & Challenges
+    Bangs, Busts, and Boons
 
 The Play Deck is a physical deck of of playing cards. It contains 54 Cards in
 total, 2 Jokers (1 Red and 1 Black) plus 13 each of 4 Suits (Clubs, Spades,
@@ -24,20 +24,20 @@ Ideally, they are high-quality, durable playing cards with Suits
 distinguished by colour, but low-budget decks can be made out of readily
 available materials in a pinch.
 
-The relationship between each Deck's Cards, Colour, Character Cores and Capacities
+The relationship between each Deck's Cards, Colour, and Character Cores
 are as follows:
 
        CLUB CARDS<--------------------\ /-------------------->DIAMOND CARDS
            +                    BRAWN  |  BRAIN                    +
            v                           |                           v
     (BRAWN CHALLENGES) AC<+---<<---(A)-|-(X)--->>---+>XZ (BRAIN CHALLENGES)
-                          ^    BLACK   |     RED    ^
+                          ^            |            ^
                           +            |            + 
-                         (C)  (BODY)   |    (SOUL) (Z)
+                         (L)   BLACK   |   RED     (R)
                           +            |            +
                           v            |            v
     (SPEED CHALLENGES) BC<+---<<---(B)-|-(Y)--->>---+>YZ (HEART CHALLENGES)
-           ^                           |                            ^ 
+           ^                           |                           ^ 
            +                    SPEED  |  HEART                    +
       SPADE CARDS<--------------------/ \--------------------->HEART CARDS
 
@@ -53,8 +53,7 @@ next turn. A colour is "correct" if you are using the colour of its associated
 Core (Black for Speed and Brawn, Red for Brain and Heart)
 
 As discussed in the Core Section, when your Character is faced with a Challenge,
-you combine the Card's face value with the total of the Challenges associated Core and
-Capacity.
+you combine the Card's face value with the Challenges associated Core.
 
 This number is your Attempt Score. The having an Attempt be greater than or equal
 to the Challenge's Difficulty results in an increasing degree of success. Falling

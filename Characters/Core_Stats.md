@@ -62,9 +62,6 @@ CORE VALUES
     mechanics within the game that allow to both temporarily and permanently
     increase and decrease your Cores.
 
-    At Levels 3, 6 and 9 you are given an additional Core Point to spend how you
-    wish.
-    
     A score of 0 for any Core is considered to be the average for an able-bodied
     adult human.
     
@@ -74,49 +71,21 @@ CORE VALUES
     of.
     
     A score of -5 means that your character is incapacitated in some way. Either
-    your character is pinned flat by a boulder, they just inhaled mustard gas or
-    they're getting shocked with several car batteries, but whatever the case your
-    character's is not performing any task willingly if any of their Cores are
-    reduced to -5. It only requires one Core to be dropped to -5 in order to render
-    a Creature Incapacitated and potentially Helpless.
+    your character is suffering from a massive injury, is under the effects of a
+    potent spell, or otherwise are contending with some environmental effect
+    like being shocked by an electric fence. In any event, your character is
+    not operating at full capacity if any of their Cores are reduced to -5.
 
-CAPACITIES
-==========
-
-    Every Creature, whether sentient or not, is split into two metaphorical
-    halves. Each half represents factors of its biology that compound on top of
-    eachother to form a cohesive unit. These two units are Body and Soul
-
-    Brain and Heart are part of the Soul category, and Brawn and Speed belong to
-    the Body Capacity. 
-    
-    For every 2 Core Points placed into a Core, its associated Capacity is
-    raised by 1, regardless if the Core is negative or positive value. Effects
-    that permanently raise a Core (Resizing, Core Enhancement, etc.) also
-    increase the associated Capacity by 1 for every 2 Points the Core is raised
-    by. 
-    
-    Once a Capacity is raised, fluctuations to any of its Associated Cores do not
-    lower it. This means that if you had a Brawn Core of 5, a Speed Core of 2 and a
-    Body Capacity of 3, if either or both of the Brawn and Speed Cores are dropped
-    to -4, your Body Capacity would remain at 3 for the purposes of resolving
-    Challenges and determining Vitals. 
-    
-    When a Character attempts a Challenge, they will combine the Capacity with the
-    Core which will combine with a randomly generated number from the Play Deck.
-    
     The stat cross is represented visually below:
 
-                                 ---|LEVEL|----  
-                                    |  $  |
-                                    *-----*
-                                 BRAWN | BRAIN
-    (BRAWN CHALLENGES) AC +---<<---(A)-|-(X)--->>---+ XZ (BRAIN CHALLENGES)
-                          ^            |            ^
-                          +            |            + 
-                      (C) |    BODY    |     SOUL   | (Z)
-                          +            |            +
-                          v            |            v
-    (SPEED CHALLENGES) BC +---<<---(B)-|-(Y)--->>---+ YZ (HEART CHALLENGES)
-                                 SPEED | SPIRIT
-                                   ___| |___
+                                 BRAWN   BRAIN
+                                      \ /
+    (BRAWN CHALLENGES) AC +---<<---(A)< >(X)--->>---+ XZ (BRAIN CHALLENGES)
+                                       |            
+                                       |             
+                                BODY   |   SOUL     
+                                       |            
+                                       |            
+    (SPEED CHALLENGES) BC +---<<---(B)< >(Y)--->>---+ YZ (HEART CHALLENGES)
+                                      / \
+                                 SPEED   HEART

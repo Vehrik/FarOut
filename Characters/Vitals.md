@@ -2,22 +2,34 @@ Every Character has the following Vitals, which are derived from the Core Stats:
 
 HEALTH            
 ------
-Hits: [5] + Brawn + Heart | Defense: Natural Defense [0] + Body Capacity + Level
--------------------------------------------------------------------------------
+1 || [5] + Brawn + Heart  
+-------------------------
 
-    Health is comprised of Hits and Defense. Your Character has an amount of Hits
-    equal to 5 plus its Brawn and Heart Cores. 
+    Health is comprised of comprised of a number of discrete units known as
+    Hits. Your Character has an amount of Hits equal to 5 plus its Brawn and
+    Heart. When initially set, regardless of the Brawn of Heart Cores, a
+    Character cannot be created with less than 1 Health.  
     
-    Once you encounter a source of Damage higher than your Defense, it counts as
-    a Hit and your Character takes a -1 penalty to a Core of the offender's
-    choice. If a character reaches 0 Hits, they are rendered Unconscious. 
+    Once you encounter a source of Damage higher than your Creature's Defense,
+    it counts as a Hit and your Character takes a -1 penalty to a Core of the
+    offender's choice, though this does not in turn reduce the Viitals
+    associated with the penalized Core. 
     
-    Armor, Elixirs and other items within the game can grant Health beyond what is given
-    by a Brawn Core. If a Character is reduced to 0 Hits temporarily through damage
-    sustained to their Brawn Core, they are Stunned instead of falling Unconscious. If
-    they incur even more Damage after falling Unconscious, they begin Flirting With
-    Death, the rules of which will be covered later. 
+    Mutations, Elixirs and other items within the game can grant Health beyond
+    what is given by Brawn and Heart Cores. If they incur even more Damage
+    after falling Unconscious, they begin Flirting With Death, the rules of
+    which will be covered later. 
+
+
+DEFENSE
+-------
+Natural Defense [1] + Brawn + Speed
+-----------------------------------
     
+    Health is closely tied with Defense. When a Creature encounters a source of
+    Damage, if the Damage value is less than or equal to the Creature's Defense,
+    it does not count as a Hit.
+
     Damage can be categorized as True Damage, meaning that it does not have to
     contend with your Defense at all. This means that 1 point of True Damage
     counts as a single Hit, and the victim immediately incurs the -1 Core
@@ -35,19 +47,19 @@ Natural Stride [3] + Speed
     Game World. Stride is determined by adding your Speed score to your Natural Stride (3
     by default). 
     
-    If a player is forced to move more than their Stride allows, or they have moved up to
-    their normal maximum Stride, but then had their Stride reduced after the fact, they
-    Trip in the direction they were moving and if they fail or do not attempt a Recovery,
-    begin their next Turn with the Prone status. Movement produced by Equipment, Traits
-    or Maneuvers do not count as expended Stride. 
+    If a player is forced to move more than their Stride allows, but then had
+    their Stride reduced after the fact, they Trip in the direction they were
+    moving and if they fail or do not attempt a Recovery, begin their next Turn
+    with the Prone status. Movement produced by Equipment, Traits or Maneuvers
+    do not count as expended Stride. 
     
     If your Character is relaxed and unguarded, they are considered Flat Footed, and are
     considered to have a Stride equivalent to their Natural Stride.
 
 STAMINA 
 -------
-0 || 3 + Body Capacity + Soul Capacity
---------------------------------------
+0 || 3 + Heart
+--------------
 
     Your Character has a limited number of Challenge they can preform before they
     become utterly exhausted. Whenever your Character attempts a Challenge, the card
@@ -100,10 +112,11 @@ MOMENTUM
     If your Burden is more than your Character's base Momentum, you Character Busts while
     attempting all Physical Challenges. This is known as Burden I.
     
-    If your Burden is higher than your Character's base Momentum in addition to their
-    Brawn Score, your Character's Stride is reduced to 1. This is known as
-    Burden II 
+    If your Burden is higher than your Character's base Momentum in addition to
+    their Brawn Score, your Character's Stride is reduced to 1 and they may only
+    make one Action per round of Combat. This is known as Burden II. 
     
-    If your Burden is equal to twice your Character's Momentum Score, your Character's
-    Stride is reduced to 0. This is known as Burden III.
+    If your Burden is equal to twice your Character's Momentum Score, your
+    Character's Stride is reduced to 0 and may not preform any other Actions
+    than Deburdening. This is known as Burden III.
 

@@ -19,8 +19,7 @@ Gigantic -  Real World Analogue (African Forest Elephant)
 
     Benefits
     |   +3 Brawn
-         |  (Incidentally provides +1 to Body Capacity)  
-    |   +4 Natural Defense
+    |   +3 Natural Defense
     |   +3 Natural Stride
     |   +10ft Reach  
     |   You may move through the Occupied Space of Creatures that are Small or
@@ -37,7 +36,7 @@ Gigantic -  Real World Analogue (African Forest Elephant)
     |   Weight:   6000lb ~
     
     Brawn Maximum: 8
-    Speed Maximum: 1
+    Speed Maximum: 2
     Momentum: 15
     Occupied Space: 8 x 5ft^3 Squares
 
@@ -46,7 +45,6 @@ Huge   - Real World Analogue (Polar Bear)
 
     Benefits
     |   +2 Brawn
-        |  (Incidentally provides +1 to Body Capacity)  
     |   +2 Natural Defense
     |   +2 Natural Stride
     |   +5ft Reach  
@@ -172,7 +170,7 @@ Minute - Real World Analogue (White Footed Mouse)
     |   Height:   6in ~ 
     |   Weight:   0.05lb ~
 
-    Brawn Maximum: 1
+    Brawn Maximum: 2
     Speed Maximum: 8
     Momentum:     -3
     Occupied Space:   <1 x 5ft^3 Square
@@ -195,7 +193,7 @@ Each category offers variations on the following:
     Occupied Space
     Momentum
 
-CORE MAXIMUMS
+###CORE MAXIMUMS
 
     As mentioned in the Core Stats section, you are typically able to possess a
     Core Value that is between -5 and +5, before you factor in specialized
@@ -205,7 +203,7 @@ CORE MAXIMUMS
     and therefore are more naturally inclined to be agile, whereas larger
     Characters inherently have more muscle mass, and thus can exert more force. 
 
-MOMENTUM
+###MOMENTUM
 
     The bigger something is, the harder it is to force it to move, but once it
     *is* moving, the harder it is to slow it down. Your Character's Momentum is
@@ -218,7 +216,7 @@ MOMENTUM
     in the middle of a Trip, having a high Momentum will increase the Damage and
     Difficulty associated with their Challenges.
 
-NATURAL STRIDE
+###NATURAL STRIDE
 
     Natural Stride refers to several factors that influence how quickly your
     Character can perform quick, short sprints with only second-long breaks
@@ -236,7 +234,7 @@ NATURAL STRIDE
     can get quite fast, especially if they gain some sort of flight mechanism,
     but can also end up quite slow if they don't invest in mobility.
 
-NATURAL DEFENSE
+###NATURAL DEFENSE
 
     Natural Defense refers to a variety of factors that determine how resistant to
     damage your body is. Being bigger inherently brings on a thick cushioning of
@@ -249,7 +247,7 @@ NATURAL DEFENSE
     cannot be greater than 10, and is set to 0 by default. Taking on a different body
     type changes this default value to the one specified in the chart above.
 
-REACH
+###REACH
 
     As defined in the Traits section, Reach is a value that represents how far
     away something can be before your Character is able to attack it. To
@@ -264,18 +262,6 @@ REACH
 
 OCCUPIED SPACE
 
-    The "Real World Analogue" subheading refers to the rough body-mass of a
-    thing that actually exists. It does not lock you into a specific
-    distribution of that body mass at Character Creation. Whether you take on a
-    huge snake-like body, or a sentient, sixed-leg spider form it best
-    determined by having a discussion about it with your GM, they will probably
-    have some ideas about the Game World that limit what kind of
-    Anatomies/Forms/Species would "fit". Often, GM's will tell you enough about
-    the World they're building (or otherwise refer to premade Worlds) that you
-    will get an idea what's allowed and what isn't. In any event, the only
-    tangible number that must be refered during this discussion is your
-    Character's Occupied Space.
-
     Character's possess a range of natural postures or movement patterns during
     active combat scenarios. This "field of probability" in-game is represented
     by a number of cubes that are 5ft long, 5ft wide and 5ft tall [5x5x5] in
@@ -288,6 +274,23 @@ OCCUPIED SPACE
     Action. When a Character Squeezes into a Space, their Occupied Space is
     reduced by half, but they reduce their Stride to 0 and Bust while preforming
     all Brawn and Speed Challenges until they Unsqueeze as an Action.
+
+    The "Real World Analogue" subheading refers to the rough body-mass of a
+    thing that actually exists. It does not lock you into a specific
+    distribution of that body mass at Character Creation. Whether you take on a
+    huge snake-like body, or a sentient, sixed-leg spider form it best
+    determined by having a discussion about it with your GM, they will probably
+    have some ideas about the Game World that limit what kind of
+    Anatomies/Forms/Species would "fit". Often, GM's will tell you enough about
+    the World they're building (or otherwise refer to premade Worlds) that you
+    will get an idea what's allowed and what isn't. In any event, the only
+    tangible number that must be refered during this discussion is your
+    Character's Occupied Space. 
+
+    That all said, Occupied Space must be laid out such that every Square of it
+    is connected to at least one other, and in order for two Squares to be
+    considered connected, the center of a flat side of one Square must be
+    touching the center of a flat side of at least one other Square.
 
     This space is seperate from (but influenced by) the natural mental image players
     are meant to develope of their Characters. Your GM is at liberty to decide that
@@ -320,7 +323,8 @@ abilities beyond what are biologically possible for humans.
 
 The Sense Skill tree follows:
 
-Sight:
+SIGHT
+-----
 
         Night Vision
         ------------
@@ -356,7 +360,7 @@ Sight:
             materials in addition to the distance already acquired.
 
 SMELL/TASTE
-===========
+-----------
 
         Scent Tracking 
         --------------
@@ -392,7 +396,7 @@ SMELL/TASTE
             metabolically significant amount of the material.
 
 HEARING
-=======
+-------
 
         Echo Location
         -------------
@@ -413,7 +417,7 @@ HEARING
             in order to recreate these sounds when they gain their Perfect Ear.
 
 TOUCH
-=====
+-----
 
         Tremor Sense
         ------------
