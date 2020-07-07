@@ -6,7 +6,7 @@ HEALTH
 -------------------------
 
     Health is comprised of comprised of a number of discrete units known as
-    Hits. Your Character has an amount of Hits equal to 5 plus its Brawn and
+    Hits. Your Character has an amount of Health equal to 5 plus its Brawn and
     Heart. When initially set, regardless of the Brawn of Heart Cores, a
     Character cannot be created with less than 1 Health.  
     
@@ -17,8 +17,8 @@ HEALTH
     
     Mutations, Elixirs and other items within the game can grant Health beyond
     what is given by Brawn and Heart Cores. If they incur even more Damage
-    after falling Unconscious, they begin Flirting With Death, the rules of
-    which will be covered later. 
+    after falling Unconscious, they begin Flirting With Death.
+
 
 
 DEFENSE
@@ -28,7 +28,9 @@ Natural Defense [1] + Brawn + Speed
     
     Health is closely tied with Defense. When a Creature encounters a source of
     Damage, if the Damage value is less than or equal to the Creature's Defense,
-    it does not count as a Hit.
+    it does not count as a Hit. 
+
+    Natural Defense cannot be higher than +10.
 
     Damage can be categorized as True Damage, meaning that it does not have to
     contend with your Defense at all. This means that 1 point of True Damage
@@ -38,8 +40,8 @@ Natural Defense [1] + Brawn + Speed
 
 STRIDE 
 ------
-Natural Stride [3] + Speed 
---------------------------
+1 || Natural Stride [3] + Speed 
+-------------------------------
 
     Your Character's Stride refers to their ability to move in quick, short sprints while
     in a combat situation without using Equipment, Traits or Maneuvers. This speed is

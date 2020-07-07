@@ -69,7 +69,7 @@ DAMAGE(D)
 
     You may also designate Damage as Simple when the first point is bought.
     Doing so incurs an additional cost of 5 EXO, and disqualifies the Trait from
-    having all other properties except Range and Core Damage, but this allows
+    having any other properties except Range and Core Damage, but this allows
     you to utilize the Trait as if it was a normal Weapon. Traits with Simple
     Damage can also benefit from Reach.
 
@@ -85,7 +85,7 @@ RANGE (RG)
     adjascent to the Trait's maximum Reach (5ft by default). 
 
     On your Creature's Turn, assuming the projectile produced by the Trait was
-    designated as Slow (i.e. not bullets or lazers or magic) you may attempt a
+    designated as Slow (i.e. not bullets or lazers or eldritch bolts) you may attempt a
     Long Shot, where you temporarily double the Range of an Trait, but you Bust
     while making the Challenge with the Trait. Fast Projectiles gain 20ft of
     bonus Range, but may not use this Range doubling mechanic. 
@@ -97,10 +97,12 @@ RANGE (RG)
 
     When you go to purchase Range, you may designate it as Dextrous. This incurs
     a 5 EXO cost immediately, and also doubles the cost to 10 EXO / 10ft of
-    Range for this Trait. When you spend the initial 5 EXO to designate Range as
-    Dextrous Range, you gain an additional Hand to wield weapons and items with.
-    If the Trait has Damage, it is added to the new Hand's Unarmed Strike
-    Damage, Synergistic Damage applies as normal.
+    Range for this Trait. Dextrous Range is capable of wielding weapons,
+    interacting with objects and activating items just as adeptly as the owner's
+    natural hands. When you spend the initial 5 EXO to designate Range as
+    Dextrous Range, you automatically gain an additional Hand to wield weapons
+    and items with.  If the Trait has Damage, it is added to the new Hand's
+    Unarmed Strike Damage, Synergistic Damage applies as normal.
 
 
 AREA OF EFFECT (AoE)     
@@ -139,7 +141,7 @@ CORE DAMAGE (CD)
 
 CORE BOOST (CB)
 ---------------
-###COST: 5 EXO / 1 CB
+###COST: 10 EXO / 1 CB
     
     This value represents by how many points you may Raise a Target's designated
     Core by. If this effect is applied, the Creature's Vitals are *not* changed.
@@ -174,7 +176,7 @@ INTEGRITY (ITG)
 ###COST: 10 EXO / 1 ITG
     
     All properties of a Trait (Damage, Core Damage, Core Boost) will be
-    reapplied to the Victim(s) at the beginning of every Round until the Trait's
+    reapplied to the Target(s) at the beginning of every Round until the Trait's
     products are reduced to an Integrity of 0.
 
     If a Trait has even 1 point of Integrity, it implies that it produces some
@@ -183,41 +185,31 @@ INTEGRITY (ITG)
 
     The Integrity of a Trait's products are reduced by 1 whenever they are
     Challenged, but the Integrity is reduced to 0 if they are overcome by an
-    oppossing Challenge and the Trait's products are destroyed. 
+    oppossing Challenge and the Trait's products are destroyed. Traits with
+    constructive properties like Core Boost automatically lose 1 point of
+    Integrity at the beginning of every round. 
 
-    Traits with constructive properties like Core Boost are considered to
-    Challenge themselves at the beginning of every round, but these Challenges
-    are automatically failed. In other words, if a Trait has a Core Boost, it
-    lasts for an amount of Rounds equal to its Integrity plus the remaining
-    length of the Round on which the Trait was activated.
-
-    Before you purchase the first point of Integrity, you must designate the
-    product's Form as either plasma, gas, liquid, or solid. Creatures are able
-    to interact with any substances with Integrity in ways that makes sense
-    given its Form and other aesthetics.
+    You must designate the product's Form as either gas, liquid, or
+    solid. Creatures are able to interact with any substances with Integrity in
+    ways that makes sense given its Form and other aesthetics.
 
     A Trait's products may also be used as improvized tools to complete a
     Challenge, and in these cases the Integrity is reduced by 1 whenever they
-    are used. The shape, size, and other measurements of a Trait's products are
-    consistent, and cannot be changed at will.
+    are used. The shape and size of a Trait's products are set at Trait
+    Creation, and cannot be changed at will.
 
-    Something with Integrity is assumed to have a Momentum equivalent to its
-    Integrity unless it is designated as a Plasma or Gas, in which case the
-    Momentum is capped at 0. Plasma implicitely has Damage equivalent to its
-    Integrity, but each point of Integrity costs 15 EXO instead of 10. Gas is
-    moved by air currents, but only becomes inert after its Integrity is reduced
-    to 0.
+    Something with Integrity has Momentum equivalent to its Integrity unless it
+    is a gas, in which case the Momentum is capped at 0. 
 
     If the Trait is reapplied to Squares occupied by its products before their
     Integrity is depleted, the Integrity is refreshed, not added to. Traits with
-    at least 1 point of Integrity may be set as traps in ways that make sense
-    for its given Form. Traps laid in this way require a Sense Challenge
-    equivalent to Activation Challenge preformed by the owner in order to detect
-    it. 
+    Integrity may be set as traps in ways that make sense for its given Form.
+    Traps laid in this way require a Sense Challenge equivalent to Activation
+    Challenge preformed by the owner in order to detect it. 
 
 EFFECT CHALLENGE (EC)
 --------------------
-###COST: 5 EXO / 2 EC
+###COST: 5 EXO / 1 EC
 
     In addition to the primary effects of the Trait (i.e. Damage or Core
     Damage), you are able to assign the product of your Trait an Effect. This
@@ -230,16 +222,16 @@ EFFECT CHALLENGE (EC)
     For example, a Character may have a Trait that allows it to shoot a string
     of web of Integrity 2 out by 30ft. If this Trait was also given a Brawn
     Effect Challenge of 4 that's intended to allow the web to latch onto any
-    hard surface it touches, the web would be treated as if it just completed a
-    Brawn Challenge with an Attempt of 4 whenever it does encounter a hard
-    surface. The aesthetics of a Trait are taken into account by the GM when
-    they decide if the Effect is applied successfully. Effect Challenges do not
-    reduce the Integrity of a Trait's products.
+    surface it touches, the web would be treated as if it just completed a Brawn
+    Challenge with an Attempt of 4 whenever it does encounter a surface.  The
+    aesthetics of a Trait are taken into account by the GM when they decide if
+    the Effect is applied successfully. Effect Challenges do not reduce the
+    Integrity of a Trait's products when it activates.
 
 
 HEALTH REPLENISHMENT (HR)
 -------------------------
-###COST: 15 EXO / 1 HR
+###COST: 10 EXO / 1 HR
     
     This value represents how many Hits of a Target may be replenished if the
     Effect of the Trait is applied. You normally will not have to overcome a
@@ -256,22 +248,21 @@ HEALTH REPLENISHMENT (HR)
 ANATOMY MUTATIONS
 =================
 
-EXTRA HANDS(EA)
+BONUS HANDS(BH)
 ---------------
-###COST: 10 EXO / 5ft OF RCH
+###COST: 10 EXO / BH
     
-    Typically, Creatures have two "hands" that they can wield weapons with. All
-    Creatures are considered ambidextrous for all purposes except maybe for World
-    Lore. Gaining an extra Hand allows you to simultaneously wield 3 Weapons at
-    a time (or some combination of 2-Handed Weapons and 1 Handed Weapons).
-    Gaining more than 1 Hand allows for a larger variety of weapon combinations
-    you can utilize. Despite there name, Hands do not have to actual hands. Like
-    all Traits, the details of their aesthetics is between you and your
-    table-mates.
+    Typically, Creatures have two "hands" that they can wield items with. All
+    Creatures are considered ambidextrous for all Challenges. Gaining an extra
+    Hand allows you to simultaneously wield 3 Weapons at a time (or some
+    combination of 2-Handed Weapons and 1-Handed Weapons). Gaining more than 1
+    EH allows for a larger variety of weapon combinations you can utilize.
+    Despite there name, Hands do not have to be actual hands. Like all Traits,
+    the details of their aesthetics is between you and your table-mates.
 
 REACH (RCH)
 -----------
-###COST: 10 EXO / 5ft OF RCH
+###COST: 15 EXO / +5ft OF RCH
     
     Reach refers to how far away from something a Creature can be and still
     adeptly interact with it. Typically, a Creature is able to interact with
@@ -318,5 +309,12 @@ STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
 Anatomy Mutations are alternations that fundamentally alter the foundation of
 your Anatomy. On the other hand, Natural Mutations build off of pre-existing
 Anatomy, and almost always involve creating additional material in order to
-apply effects or otherwise utilizing specialized limbs.
-Therj are additional costs associated with using Natural Weapons. Th
+apply effects or otherwise utilizing specialized limbs. 
+
+There are additional costs associated with using Natural Weapons. Natural
+Weapons are given a Power Level, which is equal to its (EXO / 10)^. Every time a
+Trait is used, in addition to the Cards discarded normally, you will also need
+to discard 1 additional Card per Power Level. This means if you used 20 EXO to
+build a Trait, using that Trait forces you to discard a total of 3 Cards every
+time it is used; 1 for the Action itself, and 2 because of the Traits Power
+Level.
