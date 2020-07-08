@@ -7,7 +7,7 @@ HEALTH
 
     Health is comprised of comprised of a number of discrete units known as
     Hits. Your Character has an amount of Health equal to 5 plus its Brawn and
-    Heart. When initially set, regardless of the Brawn of Heart Cores, a
+    Heart. When initially set, regardless of the Brawn or Heart Cores, a
     Character cannot be created with less than 1 Health.  
     
     Once you encounter a source of Damage higher than your Creature's Defense,
