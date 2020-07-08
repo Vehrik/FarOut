@@ -9,7 +9,7 @@ At Level 1, you may optionally take a -1 penalty to one of your Cores to gain an
 additional 10 EXO Points. You may make this exchange up to 3 times during
 Character creation. A Core Stat may not be lower than *-4* after all the effects
 of Mutations and Core Points are applied. These points may be exchanged for
-anything from to fangs, awesome kung-fu, to acid breath, to wrist mounted laser
+anything from to fangs, to alien martial arts, to acid breath, to wrist mounted laser
 cannons. 
 
 Whatever your Trait gives you, it represents a change to your character's appearance
@@ -21,12 +21,12 @@ GM must sign off on it.
 
 Your Trait is bound by its Properties and Aesthetics. The Properties inform the
 Aesthetics which inform the Narrative. In other words, Traits won't be able to
-influence the "Meta Game" (creature statistics like Health, Stride, etc) more than
-is defined by their Properties, but the resulting Aesthetics may allow for
-creative applications or unforeseen consequences within the Narrative.
+influence the "Meta Game" (creature statistics like Health, Stride, Reach, etc)
+more than is defined by their Properties, but the resulting Aesthetics may allow
+for creative applications or unforeseen consequences within the Narrative.
 
 STEP 1) HOW MANY TRAITS?
-------------------------
+========================
 Whether or not you take a Trait at all should be carefully considered. While they
 are undoubtedly useful, Traits incur a financial and practical consideration for you
 Character. 
@@ -39,7 +39,7 @@ increased by 10 points.
 You may have more than one Trait at once.
 
 STEP 2) WHAT PROPERTIES WILL THE TRAIT(S) HAVE?
------------------------------------------------
+===============================================
 There are two types of Traits, Natural Weapons and Anatomy Mutations. All
 properties combine with other of the same type. For example, purchasing both
 Damage and Range creates a Trait that can be used as a Weapon in combat that can
@@ -47,11 +47,10 @@ interact with Creatures up to the Range specified and apply the damage
 specified.
 
 NATURAL WEAPONS
-===============
+---------------
 
-DAMAGE(D)
----------
-###COST: 5 EXO / 2 D
+### DAMAGE(D)
+#### COST: 5 EXO / 2 D
     
     This value is used to determine the Damage dealt by this Trait whenever it
     contacts a Creature. This Damage can only be applied through use of the
@@ -73,9 +72,8 @@ DAMAGE(D)
     you to utilize the Trait as if it was a normal Weapon. Traits with Simple
     Damage can also benefit from Reach.
 
-RANGE (RG)
-----------
-###COST: 5 EXO / 10ft OF RG
+### RANGE (RG)
+####  COST: 5 EXO / 10ft OF RG
 
     You may trigger a Challenge against any one Creature within the Range of the
     Trait. You may split Range into several different pools, allowing you to
@@ -105,9 +103,8 @@ RANGE (RG)
     Unarmed Strike Damage, Synergistic Damage applies as normal.
 
 
-AREA OF EFFECT (AoE)     
---------------------
-###COST: 5 EXO / 15ft OF AoE
+### AREA OF EFFECT (AoE)     
+#### COST: 5 EXO / 15ft OF AoE
 
     You may Trigger a Core Challenge to *all* creatures within the Area of
     Effect of a Trait. There is no distinction between Friend and Foe within an
@@ -123,9 +120,8 @@ AREA OF EFFECT (AoE)
     owner if that is desired, however this would cause the Trait's owner to
     contend with the effects of the Trait whenever it is activated.  
 
-CORE DAMAGE (CD) 
-----------------
-###COST: 5 EXO / 2 CD
+### CORE DAMAGE (CD) 
+#### COST: 5 EXO / 2 CD
     
     This value is used to determine the penalty applied to a Core of a target
     Creature once it interacts with the Trait/its products. Core Damage must be
@@ -139,9 +135,8 @@ CORE DAMAGE (CD)
     Creature is Incapacitated, meaning that it can perform no Actions. Vitals
     are not affected by changes to their Core.
 
-CORE BOOST (CB)
----------------
-###COST: 10 EXO / 1 CB
+### CORE BOOST (CB)
+#### COST: 10 EXO / 1 CB
     
     This value represents by how many points you may Raise a Target's designated
     Core by. If this effect is applied, the Creature's Vitals are *not* changed.
@@ -158,9 +153,8 @@ CORE BOOST (CB)
     which it must be reapplied with an action. Core Boost is not generic, you
     must specify which Core it boosts when you purchase it.
 
-CONCEALMENT (~)
----------------
-###COST: 5 EXO
+### CONCEALMENT (~)
+#### COST: 5 EXO
     
     A Trait with this property is not discernible at a glance. In order to
     discover a Concealed Trait, a Creature must either have a specialized tool
@@ -171,9 +165,8 @@ CONCEALMENT (~)
     While the Trait is being activated/used, it loses the benefit of
     Concealment. 
 
-INTEGRITY (ITG)
---------------
-###COST: 10 EXO / 1 ITG
+### INTEGRITY (ITG)
+#### COST: 10 EXO / 1 ITG
     
     All properties of a Trait (Damage, Core Damage, Core Boost) will be
     reapplied to the Target(s) at the beginning of every Round until the Trait's
@@ -207,9 +200,8 @@ INTEGRITY (ITG)
     Traps laid in this way require a Sense Challenge equivalent to Activation
     Challenge preformed by the owner in order to detect it. 
 
-EFFECT CHALLENGE (EC)
---------------------
-###COST: 5 EXO / 1 EC
+### EFFECT CHALLENGE (EC)
+#### COST: 10 EXO / 3 EC
 
     In addition to the primary effects of the Trait (i.e. Damage or Core
     Damage), you are able to assign the product of your Trait an Effect. This
@@ -229,9 +221,8 @@ EFFECT CHALLENGE (EC)
     Integrity of a Trait's products when it activates.
 
 
-HEALTH REPLENISHMENT (HR)
--------------------------
-###COST: 10 EXO / 1 HR
+### HEALTH REPLENISHMENT (HR)
+#### COST: 10 EXO / 1 HR
     
     This value represents how many Hits of a Target may be replenished if the
     Effect of the Trait is applied. You normally will not have to overcome a
@@ -248,9 +239,8 @@ HEALTH REPLENISHMENT (HR)
 ANATOMY MUTATIONS
 =================
 
-BONUS HANDS(BH)
----------------
-###COST: 10 EXO / BH
+### BONUS HANDS(BH)
+#### COST: 10 EXO / BH
     
     Typically, Creatures have two "hands" that they can wield items with. All
     Creatures are considered ambidextrous for all Challenges. Gaining an extra
@@ -260,9 +250,8 @@ BONUS HANDS(BH)
     Despite there name, Hands do not have to be actual hands. Like all Traits,
     the details of their aesthetics is between you and your table-mates.
 
-REACH (RCH)
------------
-###COST: 15 EXO / +5ft OF RCH
+### REACH (RCH)
+#### COST: 15 EXO / +5ft OF RCH
     
     Reach refers to how far away from something a Creature can be and still
     adeptly interact with it. Typically, a Creature is able to interact with
@@ -272,9 +261,8 @@ REACH (RCH)
     items will have Reach requirements, meaning that unless you possess a Trait
     with the specified amount of Reach, you will not be able to use it. 
 
-RESIZE (RZ)
------------
-###COST: 15 EXO / SIZE CATEGORY  
+### RESIZE (RZ)
+#### COST: 15 EXO / SIZE CATEGORY  
     
     There are 7 Size Categories. From smallest to largest they are:
 
@@ -293,9 +281,8 @@ RESIZE (RZ)
     explained in detail in the Physiology section.
 
 
-CORE ENHANCEMENT
----------------
-###COST: 15 EXO / 1 CE
+### CORE ENHANCEMENT
+#### COST: 15 EXO / 1 CE
     
     This value represents how many points you may raise a Core of your Creature by.
     Core Enhancment does not synergize with any other Trait property. Unlike Core
@@ -303,8 +290,8 @@ CORE ENHANCEMENT
     Core Enhancement are constant, and persist even while the Traits owner is
     unconscious.
 
-STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
--------------------------------------------------
+### STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
+=====================================================
 
 Anatomy Mutations are alternations that fundamentally alter the foundation of
 your Anatomy. On the other hand, Natural Mutations build off of pre-existing
@@ -313,8 +300,9 @@ apply effects or otherwise utilizing specialized limbs.
 
 There are additional costs associated with using Natural Weapons. Natural
 Weapons are given a Power Level, which is equal to its (EXO / 10)^. Every time a
-Trait is used, in addition to the Cards discarded normally, you will also need
-to discard 1 additional Card per Power Level. This means if you used 20 EXO to
-build a Trait, using that Trait forces you to discard a total of 3 Cards every
-time it is used; 1 for the Action itself, and 2 because of the Traits Power
-Level.
+Natural Weapon is used, in addition to the Cards discarded normally, you will also need
+to discard 1 additional Card per Power Level. 
+
+This means if you used 20 EXO to build a Trait, using that Trait forces you to
+discard a total of 3 Cards every time it is used; 1 for the Action itself, and 2
+because of the Traits Power Level.

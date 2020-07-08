@@ -80,12 +80,12 @@ CORE VALUES
 
                                  BRAWN   BRAIN
                                       \ /
-    (BRAWN CHALLENGES) AC +---<<---(A)< >(X)--->>---+ XZ (BRAIN CHALLENGES)
+    (BRAWN CHALLENGES) BwB +--<<--(Bw)< >(Br)-->>--+ BrS (BRAIN CHALLENGES)
                                        |            
                                        |             
-                                BODY   |   SOUL     
+                             (B)BODY   |   SOUL(S)
                                        |            
                                        |            
-    (SPEED CHALLENGES) BC +---<<---(B)< >(Y)--->>---+ YZ (HEART CHALLENGES)
+    (SPEED CHALLENGES) SpB +--<<--(Sp)< >(Ht)-->>--+ HtS (HEART CHALLENGES)
                                       / \
                                  SPEED   HEART

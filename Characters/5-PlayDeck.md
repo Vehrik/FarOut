@@ -30,13 +30,13 @@ are as follows:
        CLUB CARDS<--------------------\ /-------------------->DIAMOND CARDS
            +                    BRAWN  |  BRAIN                    +
            v                           |                           v
-    (BRAWN CHALLENGES) AC<+---<<---(A)-|-(X)--->>---+>XZ (BRAIN CHALLENGES)
+    (BRAWN CHALLENGES) AL<+---<<---(A)-|-(X)--->>---+>XR (BRAIN CHALLENGES)
                           ^            |            ^
                           +            |            + 
                          (L)   BLACK   |   RED     (R)
                           +            |            +
                           v            |            v
-    (SPEED CHALLENGES) BC<+---<<---(B)-|-(Y)--->>---+>YZ (HEART CHALLENGES)
+    (SPEED CHALLENGES) BL<+---<<---(B)-|-(Y)--->>---+>YR (HEART CHALLENGES)
            ^                           |                           ^ 
            +                    SPEED  |  HEART                    +
       SPADE CARDS<--------------------/ \--------------------->HEART CARDS

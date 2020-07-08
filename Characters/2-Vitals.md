@@ -20,7 +20,9 @@ HEALTH
 
     If a Character is reduced to 0 Health, they are considered to be Flirting
     With Death. Characters that are Flirting With Death are unable to act
-    willingly, meaning they cannot make Action or Reactions. 
+    willingly, meaning they cannot make Action or Reactions. The mechanics
+    associated with Death and Dying will be explained in detail in the Combat
+    section of this document.
 
 DEFENSE
 -------
@@ -63,38 +65,16 @@ STAMINA
 0 || 3 + Heart
 --------------
 
-    Your Character has a limited number of Challenge they can preform before they
-    become utterly exhausted. Whenever your Character attempts a Challenge, the card
-    drawn from the Play Deck is placed into your Upper Chakra with its face pointing
-    downward. These cards must be exchanged for Stamina in order to be used again.
-    You have a number of Stamina points equivalent to 3 plus the value of both
-    Capacities, however this value cannot be lower than 0. 
-    
-    You may either expend 1 point of Stamina or take a -1 penalty to a
-    Core in order to move the cards in the Upper Chakra into the Play Deck, then
-    shuffle the Play Deck. 
-    
-    Additionally, you may expend 2 points of Stamina, take a -2 penalty to a Core, or a
-    combination of both in order to place the Upper Chakra on the top of your Play Deck,
-    then resume play *WITHOUT* shuffling the replenished Play Deck.
-    
-    You may expend Stamina At Will. This means you can do it during your Turn or
-    anyone else's Turn during combat. You may choose to not expend Stamina, even in
-    instances where it would lead to death for your Character.
-    
-    Some items, spells, narrative events, and environmental hazards Exhaust the
-    Character. When Exhausted, before the Creature Attempts another CHallenge, all
-    Cards that were in the Character's Upper Chakra are placed into the Lower Chakra
-    with their face pointing downward. While Exhausted, all discarded Cards go into
-    your Lower Chakra.
-    
-    Cards in the Lower Chakra may be recovered in the same way you may recover cards
-    in the Upper Chakra, but their Stamina/Core Penalty cost is doubled. Cards that
-    fall into the Lower Chakra remain there until bought back with Stamina.
-    
-    Stamina is only recovered after a Rest assuming the Character's nutritional needs are
-    met. Alternatively, a Character is able to take a Break and recover 13 Cards from the
-    Upper Chakra per hour they Break for.
+    Your Character has a limited number of Challenge they can preform before
+    they become utterly exhausted. FarOut utilizes a Chakra system to
+    simulate exhaustion in Creatures, and it revolves around your Stamina
+    points. Additionally, utilizing Magic requires the use of Stamina. It needs
+    to be used wisely, as you can end up in situations where your Character,
+    while otherwise perfectly healthy, collapses to the floor unable to move!
+
+    You have a number of Stamina points equivalent to 3 plus your Heart Core,
+    however this value cannot be lower than 0 in the event that your Heart Core
+    has a negative value. 
 
 MOMENTUM
 --------
