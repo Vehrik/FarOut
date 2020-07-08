@@ -16,10 +16,11 @@ HEALTH
     associated with the penalized Core. 
     
     Mutations, Elixirs and other items within the game can grant Health beyond
-    what is given by Brawn and Heart Cores. If they incur even more Damage
-    after falling Unconscious, they begin Flirting With Death.
+    what is given by Brawn and Heart Cores. 
 
-
+    If a Character is reduced to 0 Health, they are considered to be Flirting
+    With Death. Characters that are Flirting With Death are unable to act
+    willingly, meaning they cannot make Action or Reactions. 
 
 DEFENSE
 -------
@@ -50,10 +51,9 @@ STRIDE
     by default). 
     
     If a player is forced to move more than their Stride allows, but then had
-    their Stride reduced after the fact, they Trip in the direction they were
-    moving and if they fail or do not attempt a Recovery, begin their next Turn
-    with the Prone status. Movement produced by Equipment, Traits or Maneuvers
-    do not count as expended Stride. 
+    they Trip in the direction they were moving and if they fail or do not
+    attempt a Recovery, begin their next Turn with the Prone status. Movement
+    produced by Equipment, Traits or Maneuvers do not count as expended Stride. 
     
     If your Character is relaxed and unguarded, they are considered Flat Footed, and are
     considered to have a Stride equivalent to their Natural Stride.

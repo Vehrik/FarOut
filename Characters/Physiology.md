@@ -194,7 +194,7 @@ Each category offers variations on the following:
     Occupied Space
     Momentum
 
-###CORE MAXIMUMS
+### CORE MAXIMUMS
 
     As mentioned in the Core Stats section, you are typically able to possess a
     Core Value that is between -5 and +5, before you factor in specialized
@@ -204,7 +204,7 @@ Each category offers variations on the following:
     and therefore are more naturally inclined to be agile, whereas larger
     Characters inherently have more muscle mass, and thus can exert more force. 
 
-###MOMENTUM
+### MOMENTUM
 
     The bigger something is, the harder it is to force it to move, but once it
     *is* moving, the harder it is to slow it down. Your Character's Momentum is
@@ -217,7 +217,7 @@ Each category offers variations on the following:
     in the middle of a Trip, having a high Momentum will increase the Damage and
     Difficulty associated with their Challenges.
 
-###NATURAL STRIDE
+### NATURAL STRIDE
 
     Natural Stride refers to several factors that influence how quickly your
     Character can perform quick, short sprints with only second-long breaks
@@ -235,7 +235,7 @@ Each category offers variations on the following:
     can get quite fast, especially if they gain some sort of flight mechanism,
     but can also end up quite slow if they don't invest in mobility.
 
-###NATURAL DEFENSE
+### NATURAL DEFENSE
 
     Natural Defense refers to a variety of factors that determine how resistant to
     damage your body is. Being bigger inherently brings on a thick cushioning of
@@ -248,7 +248,7 @@ Each category offers variations on the following:
     cannot be greater than 10, and is set to 0 by default. Taking on a different body
     type changes this default value to the one specified in the chart above.
 
-###REACH
+### REACH
 
     As defined in the Traits section, Reach is a value that represents how far
     away something can be before your Character is able to attack it. To
@@ -262,7 +262,7 @@ Each category offers variations on the following:
     requirements baked into them, and you are always able to attack Creatures
     within your Reach assuming you have Line of Sight with them.
 
-###OCCUPIED SPACE
+### OCCUPIED SPACE
 
     Character's possess a range of natural postures or movement patterns during
     active combat scenarios. This "field of probability" in-game is represented
@@ -373,6 +373,18 @@ SMELL/TASTE
             lines present. Flowing water, vacuum environments, fire, heavy wind,
             and rain among other things destroy these lines.
         
+        Social Scent   
+        ------------
+            
+            1 SP per 8 smells that you can recognize as accurately as people
+            tend to recognize faces. Each Creature that you learn the smell of
+            is immediately recognizeable as that Creature assuming their scent
+            has not been drastically altered. Things like perfumes do not
+            prevent recognition. Items that the Creature is around daily are
+            also marked with their scent, and may be recognized in the same
+            fashion. You may expend one of these "slots" to recognize the
+            general scent given off by a species/material instead.
+
         Pheremone Sensitivty
         --------------------
 
