@@ -54,7 +54,7 @@ HEART
 CORE VALUES
 -----------
 
-    Every stat can have a score from -5 to +5 without the help of items, mutations,
+    Every stat can have a score from 0 to +5 without the help of items, mutations,
     or magic. Every new character a Player creates starts the game with 3 Core
     Points, which may be spread amongst the Core Stats as desired. 
     
