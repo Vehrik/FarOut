@@ -5,19 +5,18 @@ At Character Creation you are given 20 EXO points, however, applying them to
 your Character is optional. You may defer their application to a later time, or
 decide not to use them at all.
 
-At Level 1, you may optionally take a -1 penalty to one of your Cores to gain an
-additional 10 EXO Points. You may make this exchange up to 3 times during
-Character creation. A Core Stat may not be lower than *-4* after all the effects
-of Mutations and Core Points are applied. These points may be exchanged for
-anything from to fangs, to alien martial arts, to acid breath, to wrist mounted laser
-cannons. 
+At Level 1, you may optionally exchange 1 Slant in order to gain 10 EXO Points.
+You may make this exchange up to 3 times during Character creation.
 
-Whatever your Trait gives you, it represents a change to your character's appearance
-that is either mechanical, magical or biological that warrants the effect it grants
-you. If your character suddenly able to reach out and touch someone 30ft away, for
-example, it means something along along the lines of your character is able to shoot
-web, it has a tentacle arm, or it has a shoulder mounted harpoon. Whatever it is, the
-GM must sign off on it.
+These points may be exchanged for anything from to fangs, to AI-designed martial arts,
+to acid breath, to wrist mounted laser cannons. 
+
+Whatever your Trait gives you, it represents a change to your character's
+appearance that is either mechanical or biological that warrants the effect it
+grants you. If your character suddenly able to reach out and touch someone 30ft
+away, for example, it means something along the lines of your character is able
+to shoot web, it has a tentacle arm, or it has a shoulder mounted harpoon.
+Whatever it is, the GM must sign off on it.
 
 Your Trait is bound by its Properties and Aesthetics. The Properties inform the
 Aesthetics which inform the Narrative. In other words, Traits won't be able to
@@ -27,6 +26,7 @@ for creative applications or unforeseen consequences within the Narrative.
 
 STEP 1) HOW MANY TRAITS?
 ========================
+
 Whether or not you take a Trait at all should be carefully considered. While they
 are undoubtedly useful, Traits incur a financial and practical consideration for you
 Character. 
@@ -40,6 +40,7 @@ You may have more than one Trait at once.
 
 STEP 2) WHAT PROPERTIES WILL THE TRAIT(S) HAVE?
 ===============================================
+
 There are two types of Traits, Natural Weapons and Anatomy Mutations. All
 properties combine with other of the same type. For example, purchasing both
 Damage and Range creates a Trait that can be used as a Weapon in combat that can
@@ -63,7 +64,7 @@ NATURAL WEAPONS
     Synergistic Damage, meaning that it can either be used as normal, but also
     have it combine with the Damage from one other source such as a Weapon, or
     another existing Trait. Synergizing Damage can only be combined with Damage
-    with aligning types. Synergistic Damage costs 10 EXO per point of it instead
+    with the same type. Synergistic Damage costs 10 EXO per point of it instead
     of 5.
 
     You may also designate Damage as Simple when the first point is bought.
@@ -73,11 +74,11 @@ NATURAL WEAPONS
     Damage can also benefit from Reach.
 
 ### RANGE (RG)
-####  COST: 5 EXO / 10ft OF RG
+#### COST: 5 EXO / 10ft OF RG
 
     You may trigger a Challenge against any one Creature within the Range of the
     Trait. You may split Range into several different pools, allowing you to
-    trigger the other associated Properties of a Trait to multiple Creatures
+    apply the other associated Properties of a Trait to multiple Creatures
     within its designated Range. Damage must be split between each projectile
     equally, with no partial values allowed. Range begins counting from space
     adjascent to the Trait's maximum Reach (5ft by default). 
@@ -120,10 +121,10 @@ NATURAL WEAPONS
     owner if that is desired, however this would cause the Trait's owner to
     contend with the effects of the Trait whenever it is activated.  
 
-### CORE DAMAGE (CD) 
-#### COST: 5 EXO / 2 CD
+### CAPACITY DAMAGE (CD) 
+#### COST: 10 EXO / 1 CD
     
-    This value is used to determine the penalty applied to a Core of a target
+    This value is used to determine the penalty applied to a Capacity of a target
     Creature once it interacts with the Trait/its products. Core Damage must be
     accompanied by Damage or Integrity if you want it to apply through conscious
     resistance from the Target. An afflicted Creature may not necessarily be
@@ -143,8 +144,8 @@ NATURAL WEAPONS
     Boost must be shared amongst Creatures within the Traits AoE if it has AoE.
     Core Boost radiates outward from the Point of Origin, being divided equally
     if possible, but with the nearest Creature receiving any remainder, up to a
-    maximum of +5. Creatures may not have a Core boosted beyond its Maximum (5
-    by default). 
+    maximum of +5. Creatures may not have a Core boosted beyond what is allowed
+    by its Capacity (5 by default). 
 
     That is, if you possess a Trait that has +1 Core Boost and has a 20ft AoE,
     only the Creature nearest to the Point of Origin will receive the Core
@@ -270,7 +271,7 @@ ANATOMY MUTATIONS
                     Tiny
                 *-----------*
      Average    |   Small   |
-      Human ----I   Medium  |
+      Human ----|   Medium  |
       Sizes     |   Big     |
                 *-----------*
                     Huge
@@ -280,15 +281,6 @@ ANATOMY MUTATIONS
     physiology. These alternations are not all beneficial. Each Size Category is
     explained in detail in the Physiology section.
 
-
-### CORE ENHANCEMENT
-#### COST: 15 EXO / 1 CE
-    
-    This value represents how many points you may raise a Core of your Creature by.
-    Core Enhancment does not synergize with any other Trait property. Unlike Core
-    Boost, Core Enhancement *does* enhance the Vitals and Capacities of the owner.
-    Core Enhancement are constant, and persist even while the Traits owner is
-    unconscious.
 
 ### STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
 =====================================================

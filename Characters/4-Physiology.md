@@ -17,71 +17,95 @@ The Size Categories are as followings, all with different benefits, penalties an
 Gigantic -  Real World Analogue (African Forest Elephant) 
 ---------------------------------------------------------
 
-    Benefits
-    |   +2 Health
-    |   +3 Brawn
-    |   +3 Natural Stride
-    |   +6 Natural Defense
-    |   +10ft Reach  
-    |   You may move through the Occupied Space of Creatures that are Medium or
-        smaller unhindered
+    Primary Effects:
+        + 3 Brawn
+        + 2 Natural Bulk
+        + 3 Natural Stride
+        + 5 Body Capacity
+        + 12 Natural Defense
 
-    Penalties
-    |   -3 Speed
-    |   -3 Stamina
-    |   Creatures that are Big or smaller are able to freely move through your Occupied
-    |   Space.
+    You get ...
+    +3 Brawn
+        That causes ...
+        | +3 Health
+        | +3 Momentum
+        | -3 Speed
+            That causes ...
+            | -3 Stride
+            | -3 Defense
+            | -3 Stamina
 
-    Dimensions    
+
+    +2 Bonus Health
+    +2 Reach  
+    +3 Natural Stride
+    +5 Body Capacity
+    +12 Natural Defense
+
+    Momentum
+        Base: 12
+        Total: 15
+
+    You may move through the Occupied Space of Creatures that are Medium or
+    smaller unhindered
+
+    Creatures that are Big or smaller are able to freely move through your Occupied
+    Space.
+
+    General Dimensions    
     |   Height:   12ft ~ 
     |   Weight:   6000lb ~
     
-    Brawn Maximum: 10
-    Speed Maximum: 1
-    Momentum: 15
     Occupied Space: 8 x 5ft^3 Squares
 
 Huge   - Real World Analogue (Polar Bear)
 -----------------------------------------
 
-    Benefits
-    |   +1 Health
-    |   +2 Brawn
-    |   +2 Natural Stride
-    |   +5 Natural Defense
-    |   +5ft Reach  
+    +2 Brawn
+    | +2 Health
+    | +2 Momentum
+    | -2 Speed
+        | -2 Stride
+        | -2 Defense
+        | -2 Stamina
 
-    Penalties
-    |   -2 Speed
-    |   -2 Stamina
+    +1 Bonus Health
+    +1 Reach  
+    +2 Natural Stride
+    +2 Body Capacity
+    +7 Natural Defense
+
+    Momentum:
+        Base: 8
+        Total: 10
 
     Dimensions    
     |   Height:  9ft ~ 
     |   Weight:  1200lb ~
 
-    Brawn Maximum: 7
-    Speed Maximum: 3
-    Momentum: 10
     Occupied Space: 4 x 5ft^3 Squares
 
 Big    - Real World Analogue (NFL Defensive Lineman)
 -------------------------------------------------------------------------------
 
-    Benefits
-    |   +1 Brawn
-    |   +1 Natural Defense
+    +1 Brawn
+    | +1 Health
+    | +1 Momentum
+    | -1 Speed
+        | -1 Stride
+        | -1 Defense
+        | -1 Stamina
 
-    Penalties
-    |   -1 Speed
-    |   -1 Stamina
+    +1 Body Capacity
 
     Dimensions    
-    |   Height:        6ft ~ 
-    |   Weight:        300lb ~
+        Height:        6ft ~ 
+        Weight:        300lb ~
 
-    Brawn Maximum:     6
-    Speed Maximum:     4
-    Momentum:          6 
+    Momentum:         
+        Base: 5 
+        Total: 6
+
     Occupied Space:    1 x 5ft^3 Square
 
 Medium - Real World Analogue (Adult Male Human)
@@ -91,81 +115,86 @@ Medium - Real World Analogue (Adult Male Human)
     |   Height:   5ft ~ 
     |   Weight:   160lb ~
 
-    Brawn Maximum: 5
-    Speed Maximum: 5
-
     Momentum: 5
-
     Occupied Space:    1 x 5ft^3 Square
 
 Small - Real World Analogue (Adolescent Human)
 ------------------------------------------------------
 
-    Benefits
-    |   +1 Speed
+    +1 Speed
     |   +1 Stamina
-
-    Penalties
     |   -1 Brawn
+        | -1 Momentum
+        | -1 Health
+        
+    +1 Body Capacity
 
     Dimensions    
     |   Height:     4ft ~ 
     |   Weight:     100lb ~
 
-    Brawn Maximum:  4
-    Speed Maximum:  6
-
-    Momentum:       3
+    Momentum:       4
 
     Occupied Space: 1 x 5ft^3 Square
 
 Tiny - Real World Analogue (House Cat)
 ----------------------------------------------
 
-    Benefits:
-    |   +2 Natural Defense
-    |   +2 Speed
+    +2 Speed
     |   +2 Stamina
-    |   Dodge Attempts made for attacks from larger creatures are made with a Bang
-    |   You may make +1 additional Dodge per Round.
-    |   You may move through the Occupied Space of Creatures that are Small or
-        larger unhindered.
-
-    Penalties:
-    |   -2 Natural Stride
+    |   +2 Defense
+    |   +2 Stride
     |   -2 Brawn
-    |   -5ft  Reach
-    |   Creatures that are Small or larger may move through or be in your
-        Occupied Space unhindered
+        | -2 Health
+        | -2 Momentum
+    +2 Natural Defense
+    +2 Body Capacity
+    -2 Natural Stride
+    -5ft Reach
+
+
+    ~ Dodge Attempts made for attacks from larger creatures are made with a Bang
+
+    ~ You may make 1 additional Dodge per Round, for a total of 3 potential
+      Dodges per Round.
+
+    ~ You may move through the Occupied Space of Creatures that are Small or
+      larger unhindered.
+
+    ~ Creatures that are Small or larger may move through or be in your Occupied
+      Space unhindered.
 
     Dimensions:
     |   Height:   1.5ft ~ 
     |   Weight:   20lb ~
     
-    Brawn Maximum: 3
-    Speed Maximum: 7
-
-    Momentum:      0
+    Momentum:      2
 
     Occupied Space:   <1 x 5ft^3 Square
 
 Minute - Real World Analogue (White Footed Mouse)
 --------------------------------------------------------
-
-    Benefits
-    |   +3 Natural Defense
-    |   +3 Speed
+     
+    +3 Speed
     |   +3 Stamina
-    |   You may make +2 additional Dodges per Round.
-    |   Dodge Attempts made for attacks from larger Creatures are made with a Bang
-    |   You may move through/be in the Occupied Space of other Creatures unhindered.
-
-    Penalties
+    |   +3 Defense
+    |   +3 Stride
     |   -3 Brawn
-    |   -4 Natural Stride
-    |   -5ft Reach
-    |   Creatures that are Tiny or Larger may move through your Occupied Space
-        unhindered
+        | -3 Health
+        | -3 Momentum
+
+    +3 Natural Defense
+    +5 Body Capacity
+
+    -3 Natural Stride
+    -5ft Reach
+
+    ~ Dodge Attempts made for attacks from larger creatures are made with a Bang
+
+    ~ You may make 2 additional Dodge per Round, for a total of 4 potential
+      Dodges per Round.
+
+    ~ You may move through/be in the Occupied Space of other Creatures unhindered.
 
     Dimensions    
     |   Height:   6in ~ 
@@ -183,9 +212,7 @@ outlined in the Traits section.
 
 Each category offers variations on the following:
 
-    Brawn Maximum\
-                  +---> Core Maximums
-    Speed Maximum/
+    Bonus Body Capacity
 
     Natural Stride
     Natural Defense
@@ -194,15 +221,20 @@ Each category offers variations on the following:
     Occupied Space
     Momentum
 
-### CORE MAXIMUMS
+### BONUS BODY CAPACITY
 
     As mentioned in the Core Stats section, you are typically able to possess a
-    Core Value that is between -5 and +5, before you factor in specialized
-    equipment. However, the implications of having a body that escapes the range
-    of the average human anatomy either raises or lowers the maximum possible
-    Cores for your Character. Smaller Characters have less mass to worry about,
-    and therefore are more naturally inclined to be agile, whereas larger
-    Characters inherently have more muscle mass, and thus can exert more force. 
+    Core Value that is between -5 and +5 before you factor in specialized
+    equipment and mutations. However, the implications of having a body that
+    escapes the range of the average human anatomy either raises or lowers the
+    maximum possible Cores for your Character. 
+
+    Smaller Characters have less mass to worry about, and therefore are more
+    naturally inclined to be agile, whereas larger Characters inherently have
+    more muscle mass, and thus can exert more force. 
+
+    A bonus to your Body Capacity raises the maximum value that either the Brawn
+    or Speed Core can be by an amount equivalent to the bonus.
 
 ### MOMENTUM
 
@@ -215,7 +247,7 @@ Each category offers variations on the following:
     lifted up an elevator, using a jet-pack, or being moved out of harm's way.
     It is a double edged sword. When your Character is already Falling, or is
     in the middle of a Trip, having a high Momentum will increase the Damage and
-    Difficulty associated with their Challenges.
+    Difficulty associated with these Challenges.
 
 ### NATURAL STRIDE
 
@@ -333,7 +365,7 @@ SIGHT
 
             1 SP per 30ft of vision that is not affected by low-light
             environments. Details are perserved as long as some amount of light
-            is present.
+            is present. Vision is lost in complete absence of light.
 
         Thermal Vision
         --------------
@@ -356,9 +388,9 @@ SIGHT
         X-Ray Vision
         ------------
 
-            2 SP per 5ft through non-metalic materials.  After 4 SP have been
-            put into this skill, you may see through up to 5ft of metalic
-            materials in addition to the distance already acquired.
+            2 SP per 5ft through non-metalic materials. After 4 SP have been put
+            into this skill, you may see through up to 5ft of metalic materials
+            in addition to the distance already acquired.
 
 SMELL/TASTE
 -----------

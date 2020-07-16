@@ -24,23 +24,6 @@ Ideally, they are high-quality, durable playing cards with Suits
 distinguished by colour, but low-budget decks can be made out of readily
 available materials in a pinch.
 
-The relationship between each Deck's Cards, Colour, and Character Cores
-are as follows:
-
-       CLUB CARDS<--------------------\ /-------------------->DIAMOND CARDS
-           +                    BRAWN  |  BRAIN                    +
-           v                           |                           v
-    (BRAWN CHALLENGES) AL<+---<<---(A)-|-(X)--->>---+>XR (BRAIN CHALLENGES)
-                          ^            |            ^
-                          +            |            + 
-                         (L)   BLACK   |   RED     (R)
-                          +            |            +
-                          v            |            v
-    (SPEED CHALLENGES) BL<+---<<---(B)-|-(Y)--->>---+>YR (HEART CHALLENGES)
-           ^                           |                           ^ 
-           +                    SPEED  |  HEART                    +
-      SPADE CARDS<--------------------/ \--------------------->HEART CARDS
-
 When you attempt a Challenge, you draw the top card from your Play Deck. The value
 on the card (2, 3, 4, 5, 6, 7, 8, 9, 10, Jack(11), Queen(12), King(13), Ace(11//1),
 Joker(15//0)) is added to the value of the corresponding Core of your Character.
@@ -72,15 +55,15 @@ but the following chart should guide their decisions:
    5   -> Average
 
            These actions refer to those that average humans are capable of,
-           especially if properly motivated. This includes raising collapsed
-           rubble by a few inches to help a loved one escape, beginner level
-           skateboard tricks, or putting together an impressive slideshow. 
+           especially if properly motivated. This includes doing your taxes,
+           beginner level skateboard tricks, or putting together an impressive
+           slideshow. 
 
    10   -> Above Average
 
-           These actions refer to those that humans can only typically
+           These actions refer to those that humans can only typically do
            consistently if they've practiced them. These actions aren't record
-           setting, but many humans are not automatically capable of them
+           setting, but most humans are not automatically capable of them
            without at least some effort.  This includes ramming down a wooden
            door, climbing a mountain, or participating in a varsity chess
            tournament.
@@ -90,15 +73,15 @@ but the following chart should guide their decisions:
            These actions refer to those that only highly talented humans are
            capable of doing consistently, but that are still able to be
            completed by average humans with a good deal of luck, preperation
-           and/or stubborness.  This includes walking across a thin wooden beam
+           and/or stubborness. This includes walking across a thin wooden beam
            in a storm, fighting off a shark, or successfully completing a PhD.
 
    20   -> Hero
 
            These actions are extremely impressive ones that are beyond the realm
-           of human ability. This includes things like bench-pressing cars,
-           running across water like it were solid ground, or cracking an
-           encrypted computer cypher. 
+           of the human anatomy is physically capable of. This includes things
+           like bench-pressing cars, running across water like it were solid
+           ground, or cracking an encrypted computer cypher. 
 
    25   -> Super Hero 
 

@@ -7,13 +7,16 @@ CORE STATS
     stats wisely, there are plenty of items/environmental hazards that impart a
     "minimum requirement" for a certain Core. 
     
-    You can't (or at least shouldn't) be amazing at everything. Often times,
-    achieving a higher Core Value means making sacrifices, sometimes that could
-    literally be an arm and a leg. 
+    You can't be amazing at everything. Often times, achieving a higher Core
+    Value means making sacrifices, sometimes that could literally be an arm and
+    a leg. In a society where all but the most destitute and far-flung have been
+    genetically engineered so they are at the peak of what the human physiology
+    is capable of, the only way to gain meaningul advantanges is to specialize.
     
-    Below each Stat is described for what it represents. These descriptions are not
-    meant to be exhaustive, and with clever role-playing you can 'force' your GM to
-    allow you to utilize a Core for something it wouldn't normally be used for.
+    Below each Stat is described for what facets of a creature it represents.
+    These descriptions are not meant to be exhaustive, and with clever
+    role-playing you can 'force' your GM to allow you to utilize a Core for
+    something it wouldn't normally be used for.
 
 BRAWN
 -----
@@ -25,7 +28,7 @@ BRAWN
 
 SPEED
 -----
-
+    
     Speed is a measure of how accurately and quickly your Character can move between
     and through obstacles. Having a higher Speed score indicates your character is
     fast moving, acrobatic and in possession of quick reflexes. Speed also
@@ -35,57 +38,63 @@ SPEED
 BRAIN
 -----
 
-    Brain is a measure of your character's mental processing power, intuition and
-    also precise movements like lock-picking and stitching up wounds. A character
-    with a high Brain score can retain more Protocols and are typically in
-    possession of a large bank of trivial knowledge. Brain also determines your
-    accuracy with Magical and Psionic weapons.
+    Brain is a measure of your character's mental processing power, memory,
+    perception, and precise, methodical movements like lock-picking and
+    stitching up wounds. A character with a high Brain score can retain more
+    Protocols and are typically in possession of a large bank of trivial
+    knowledge. Brain also determines your Accuracy and Damage with Psionic
+    Attacks.
 
 HEART
 -----
 
-    Heart is a measure of your character's discipline, will, stubbornness
-    and confidence. Your ability to resist and impose mental effects, ignore
-    exhaustion and tolerate pain is determined by your Heart Core. It is also
-    used in part to determine Sense Challenges involving things like Sight,
-    Smell, Taste, Touch, and Feel. 
+    Heart is a measure of your character's discipline, will, instinct, and
+    confidence. Your ability to resist and impose mental effects, ignore
+    exhaustion and tolerate pain is determined by your Heart Core.
 
 
 CORE VALUES
 -----------
 
-    Every stat can have a score from 0 to +5 without the help of items, mutations,
-    or magic. Every new character a Player creates starts the game with 3 Core
-    Points, which may be spread amongst the Core Stats as desired. 
-    
-    Stats are not locked into their value after they are assigned. There are
-    mechanics within the game that allow to both temporarily and permanently
-    increase and decrease your Cores.
+    You have two Capacities, Body and Soul. Brawn and Speed belong to the Body
+    Capacity and Brain and Heart belong to the Soul Capacity.
 
-    A score of 0 for any Core is considered to be the average for an able-bodied
-    adult human.
-    
-    A score of +5 is considered to be on the tamer side of super humanity. Your
-    character is not lifting cars one-handed or racing them during their early
-    morning jog, but they're definitely well beyond what normal humans are capable
-    of.
-    
-    A score of -5 means that your character is incapacitated in some way. Either
-    your character is suffering from a massive injury, is under the effects of a
-    potent spell, or otherwise are contending with some environmental effect
-    like being shocked by an electric fence. In any event, your character is
-    not operating at full capacity if any of their Cores are reduced to -5.
+    Every Core can have a score from -5 to 5 without the help of items, mutations,
+    or technology. However, raising one Core implicitely lowers another. A score
+    of 0 indicates that your Character is in possession of skills that are at
+    the biological peak of humanity.
 
-    The stat cross is represented visually below:
+    Because of this, your Capacities are best thought of as a finite resource
+    that you must dole out amongst the Cores, favouring one Core means harming the
+    other associated Core as it implies your Creature has made its anatomy more
+    specialized in some way.
 
-                                 BRAWN   BRAIN
-                                      \ /
-    (BRAWN CHALLENGES) BwB +--<<--(Bw)< >(Br)-->>--+ BrS (BRAIN CHALLENGES)
-                                       |            
-                                       |             
-                             (B)BODY   |   SOUL(S)
-                                       |            
-                                       |            
-    (SPEED CHALLENGES) SpB +--<<--(Sp)< >(Ht)-->>--+ HtS (HEART CHALLENGES)
-                                      / \
-                                 SPEED   HEART
+    For example, if you had a +3 Brawn Core, it would implicitely cause your
+    Speed Core to be set at -3. Having a negative score in a Core is not
+    automatically "bad", it merely means that the Creature has a anatomy that is
+    highly specialized.
+    
+    With this in mind, you are given 3 Slant at Character Creation, which you
+    may apply to your Cores in one of two directions. Using Slant for Core
+    Enhancement is not required. Your Cores and Capacities are represented
+    visually below:
+
+
+                -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
+                 |    |     |     |     |     |     |     |     |     |    |
+                 ----------------------------->----------------------------- BRAWN
+                    Flexibility, Accuracy << BODY >> Strength, Durability
+           SPEED -----------------------------<-----------------------------      
+                 |    |     |     |     |     |     |     |     |     |    |
+                +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
+
+
+
+                -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
+                 |    |     |     |     |     |     |     |     |     |    |
+                 ----------------------------->----------------------------- BRAIN
+                     Intuition, Willpower << SOUL >> Knowledge, Perception
+           HEART -----------------------------<-----------------------------      
+                 |    |     |     |     |     |     |     |     |     |    |
+                +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
+
