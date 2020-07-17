@@ -292,6 +292,13 @@ ANATOMY MUTATIONS
     physiology. These alternations are not all beneficial. Each Size Category is
     explained in detail in the Physiology section.
 
+### CORE ENHANCEMENT
+#### COST: 15 EXO / 1 CE
+    
+    This value represents how many points you may raise a Core of your Creature by.
+    Core Enhancment does not synergize with any other Trait property. Unlike Core
+    Boost, Core Enhancement *does* enhance the Vitals of the owner. Core Enhancement 
+    are constant, and persist even while the Traits owner is unconscious.
 
 STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
 =================================================
