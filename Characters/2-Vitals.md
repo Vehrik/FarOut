@@ -2,16 +2,23 @@ Every Character has the following Vitals, which are derived from the Core Stats:
 
 HEALTH            
 ------
-1 || [5] + Brawn + Heart  
-------------------------
+1 || [5] + Brawn + Heart | Armor  
+--------------------------------
 
     Health is of comprised of a number of discrete units known as Hits. Your
     Character has an amount of Health equal to 5 plus its Brawn and Heart Cores.
     When initially set, regardless of the Brawn or Heart Cores, a Character
     cannot be created with less than 1 Health.  
     
-    Once you encounter a source of Damage higher than your Creature's Defense,
-    it counts as a Hit and your Character will incur an Injury.
+    Once you encounter a source of Damage higher than your Creature's Dodge,
+    it counts as a Hit and your Character will incur an Injury. Armor provides a
+    layer of Bonus Health that does not incur Injury when it is lost. 
+
+    Damage can be categorized as True Damage, meaning that it does not have to
+    contend with your Armor at all. This means that 1 point of True Damage
+    counts as a single Hit, and the victim immediately incurs incurs Injury.
+    Certain objects, environmental effects, vehicles and very high level Spells
+    deal in True Damage.
 
     If a Character is reduced to 0 Health, they are considered to be Flirting
     With Death. Characters that are Flirting With Death are unable to act
@@ -23,29 +30,17 @@ HEALTH
     what is given by Brawn and Heart Cores. 
 
 
-DEFENSE
--------
-0 || Natural Defense [1] + Speed + Brain
+DODGE
+-----
+0 || Natural Dodge [1] + Speed + Brain
 ----------------------------------------
     
-    Health is closely tied with Defense. When a Creature encounters a source of
-    Damage, if the Damage value is less than or equal to the Creature's Defense,
-    it does not count as a Hit. Defense is equivalent to a Creature's Natural
-    Defense (1 by default), plus the totals of its Speed and Brain Cores. A
-    Creature's Defense cannot be lower than 0.
+    Health is closely tied with Dodge. When a Creature encounters a source of
+    Damage, if the Accuracy value is less than or equal to the Creature's Dodge,
+    it does not count as a Hit. Dodge is equivalent to a Creature's Natural
+    Dodge (1 by default), plus the totals of its Speed and Brain Cores. A
+    Creature's Dodge cannot be lower than 0.
 
-    When determining Injury, you must consider by how much a Creature's Defense was
-    overcome. Typically, if a Creature's defense was beat by a few points, a body
-    part will be Damaged, if the Defense was beaten twice over (i.e. the damage
-    was equal to 2x the Creature's Defense or slightly higher) a body part will
-    be Disabled, and if the Defense was beaten thrice over a body part will be
-    Destroyed.
-
-    Damage can be categorized as True Damage, meaning that it does not have to
-    contend with your Defense at all. This means that 1 point of True Damage
-    counts as a single Hit, and the victim immediately incurs incurs Injury.
-    Certain objects, environmental effects, vehicles and very high level Spells
-    deal in True Damage.
 
 STRIDE 
 ------
@@ -93,17 +88,14 @@ MOMENTUM
     yourself mid-fall or Trip. 
     
     Momentum is 5 by default, but has a boundless range. Your Character can lift
-    at maximum twice their Momentum plus their Brawn Core. Your own personal
-    Momentum is not counted towards this total, but otherwise everything you
-    carry/wear is given a Momentum score and the sum of these scores is
-    considered your Burden. 
-    
-    If your Burden is more than your Character's Momentum, you Character Busts
-    while attempting all Physical Challenges. This is known as Burden I.
+    at maximum twice their Momentum. Your own personal Momentum is not counted
+    towards this total, but otherwise everything you carry/wear is given a
+    Momentum score and the sum of these scores is considered your Burden. 
     
     If your Burden is higher than your Character's base Momentum but lower than
     double their Momentum, your Character's Stride is reduced to 1 and they may
-    only make one Action per round of Combat. This is known as Burden II. 
+    only make one Action per round of Combat. This condition is known as Burden
+    I. 
     
     If your Burden is equal to twice your Character's Momentum Score, your
     Character's Stride is reduced to 0 and may not preform any other Actions
@@ -112,5 +104,5 @@ MOMENTUM
     Attempting to lift a Burden that is higher than your Momentum is
     automatically failed, but one should keep in mind that the Momentum of
     something can be reduced/increased without adding or removing mass from the
-    Burden. Things like balance, friction and gravity result a Momentum being
-    prone to change.
+    object you're trying to lift. Things like balance, friction and gravity
+    may change the Momentum of an object.

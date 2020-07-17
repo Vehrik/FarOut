@@ -1,17 +1,17 @@
 CORE STATS
 ==========
 
-    Your Cores are the ranking of your Character's mental and physical attributes.
-    They influence every Action your Character takes and helps the GM decide whether
-    your Character will succeed or fail Challenges and to what extent. Choose your
-    stats wisely, there are plenty of items/environmental hazards that impart a
-    "minimum requirement" for a certain Core. 
+    Your Cores are the ranking of your Character's mental and physical
+    attributes.  They influence every Action your Character takes and helps the
+    GM decide whether your Character will succeed or fail Challenges and to what
+    extent. Choose your stats wisely, there are plenty of items/environmental
+    hazards that impart a "minimum requirement" for a certain Core. 
     
     You can't be amazing at everything. Often times, achieving a higher Core
     Value means making sacrifices, sometimes that could literally be an arm and
     a leg. In a society where all but the most destitute and far-flung have been
     genetically engineered so they are at the peak of what the human physiology
-    is capable of, the only way to gain meaningul advantanges is to specialize.
+    is capable of, the only way to gain meaningful advantanges is to specialize.
     
     Below each Stat is described for what facets of a creature it represents.
     These descriptions are not meant to be exhaustive, and with clever
@@ -21,18 +21,19 @@ CORE STATS
 BRAWN
 -----
 
+
     Brawn is a measure of your character's physical hardiness, physique and raw
-    brute strength. Having a higher Brawn score allows your Character to dish out
-    hard punches, take harder hits, and lift heavy burdens. Brawn also determines
-    your Accuracy and Damage with Crude Weapons and Unarmed Attacks.
+    brute strength. Having a higher Brawn score allows your Character to dish
+    out hard punches, take harder hits, and lift heavy burdens. Brawn also
+    determines your Accuracy and Damage with Crude Weapons and Unarmed Attacks.
 
 SPEED
 -----
     
-    Speed is a measure of how accurately and quickly your Character can move between
-    and through obstacles. Having a higher Speed score indicates your character is
-    fast moving, acrobatic and in possession of quick reflexes. Speed also
-    determines your accuracy with Ranged and Technical weapons.
+    Speed is a measure of how accurately and quickly your Character can move
+    between and through obstacles. Having a higher Speed score indicates your
+    character is fast moving, acrobatic and in possession of quick reflexes.
+    Speed also determines your accuracy with Ranged and Technical weapons.
 
 
 BRAIN

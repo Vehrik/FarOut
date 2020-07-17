@@ -8,15 +8,15 @@ decide not to use them at all.
 At Level 1, you may optionally exchange 1 Slant in order to gain 10 EXO Points.
 You may make this exchange up to 3 times during Character creation.
 
-These points may be exchanged for anything from to fangs, to AI-designed martial arts,
-to acid breath, to wrist mounted laser cannons. 
+EXO may be exchanged for anything from to fangs, to AI-designed martial arts, to
+acid breath, to wrist mounted laser cannons. 
 
-Whatever your Trait gives you, it represents a change to your character's
-appearance that is either mechanical or biological that warrants the effect it
-grants you. If your character suddenly able to reach out and touch someone 30ft
-away, for example, it means something along the lines of your character is able
-to shoot web, it has a tentacle arm, or it has a shoulder mounted harpoon.
-Whatever it is, the GM must sign off on it.
+Whatever your Trait is, it represents a change to your character's appearance
+that is either mechanical or biological that warrants the effect it grants you.
+If your character suddenly able to reach out and touch someone 30ft away, for
+example, it means something along the lines of your character is able to shoot
+web, it has a tentacle arm, or it has a shoulder mounted harpoon.  Whatever it
+is, the GM must sign off on it.
 
 Your Trait is bound by its Properties and Aesthetics. The Properties inform the
 Aesthetics which inform the Narrative. In other words, Traits won't be able to
@@ -95,7 +95,7 @@ NATURAL WEAPONS
     projectiles. 
 
     When you go to purchase Range, you may designate it as Dextrous. This incurs
-    a 5 EXO cost immediately, and also doubles the cost to 10 EXO / 10ft of
+    a 5 EXO cost immediately, and also doubles the cost to 10 EXO per 10ft of
     Range for this Trait. Dextrous Range is capable of wielding weapons,
     interacting with objects and activating items just as adeptly as the owner's
     natural hands. When you spend the initial 5 EXO to designate Range as
@@ -121,8 +121,8 @@ NATURAL WEAPONS
     owner if that is desired, however this would cause the Trait's owner to
     contend with the effects of the Trait whenever it is activated.  
 
-### CAPACITY DAMAGE (CD) 
-#### COST: 10 EXO / 1 CD
+### CORE DAMAGE (CD) 
+#### COST: 5 EXO / 1 CD
     
     This value is used to determine the penalty applied to a Capacity of a target
     Creature once it interacts with the Trait/its products. Core Damage must be
@@ -166,12 +166,12 @@ NATURAL WEAPONS
     While the Trait is being activated/used, it loses the benefit of
     Concealment. 
 
-### INTEGRITY (ITG)
-#### COST: 10 EXO / 1 ITG
+### INTEGRITY 
+#### COST: 10 EXO per 1 Integrity
     
     All properties of a Trait (Damage, Core Damage, Core Boost) will be
-    reapplied to the Target(s) at the beginning of every Round until the Trait's
-    products are reduced to an Integrity of 0.
+    reapplied to the Target(s)/AoE at the beginning of every Round until the
+    Trait's products are reduced to an Integrity of 0.
 
     If a Trait has even 1 point of Integrity, it implies that it produces some
     tangible material that persists in the Game World until it is
@@ -195,8 +195,8 @@ NATURAL WEAPONS
     Something with Integrity has Momentum equivalent to its Integrity unless it
     is a gas, in which case the Momentum is capped at 0. 
 
-    If the Trait is reapplied to Squares occupied by its products before their
-    Integrity is depleted, the Integrity is refreshed, not added to. Traits with
+    If the Trait is reapplied to space occupied by its products before their
+    Integrity is depleted, the Integrity is refreshed not added to. Traits with
     Integrity may be set as traps in ways that make sense for its given Form.
     Traps laid in this way require a Sense Challenge equivalent to Activation
     Challenge preformed by the owner in order to detect it. 
@@ -204,23 +204,25 @@ NATURAL WEAPONS
 ### EFFECT CHALLENGE (EC)
 #### COST: 10 EXO / 3 EC
 
-    In addition to the primary effects of the Trait (i.e. Damage or Core
+    In addition to the other primary effects of the Trait (i.e. Damage or Core
     Damage), you are able to assign the product of your Trait an Effect. This
     Effect is any Challenge your Character would normally be able to preform,
     but instead, it is treated as if it produced the Attempt score equivalent to
     the assigned Effect Challenge. You must designate exactly what the Effect
-    entails, however the Effect cannot directly influence the Statistics of a
-    Creature. 
+    entails, however the Effect cannot directly Damage or Injure the Target.
 
     For example, a Character may have a Trait that allows it to shoot a string
     of web of Integrity 2 out by 30ft. If this Trait was also given a Brawn
-    Effect Challenge of 4 that's intended to allow the web to latch onto any
+    Effect Challenge of 4 that's intended to allow the web to "grab" onto any
     surface it touches, the web would be treated as if it just completed a Brawn
-    Challenge with an Attempt of 4 whenever it does encounter a surface.  The
-    aesthetics of a Trait are taken into account by the GM when they decide if
-    the Effect is applied successfully. Effect Challenges do not reduce the
-    Integrity of a Trait's products when it activates.
+    Challenge with an Attempt of 4 whenever it does encounter a surface. This
+    same Trait could potentially be used as tool to Trip fleeing Creatures, or
+    snatch weapons out of the hands of assailants.
 
+    The aesthetics of a Trait are taken into account by the GM when they decide
+    the Challenge required for the Effect to succeed, just as they do when they
+    determine Challenge Difficulty for Characters. Effect Challenges do not
+    reduce the Integrity of a Trait's products when it activates.
 
 ### HEALTH REPLENISHMENT (HR)
 #### COST: 10 EXO / 1 HR
@@ -228,31 +230,39 @@ NATURAL WEAPONS
     This value represents how many Hits of a Target may be replenished if the
     Effect of the Trait is applied. You normally will not have to overcome a
     Challenge in order to apply Health Replenishment, but in certain
-    circumstances (e.g. the Character you want to heal is currently grappled an
-    enemy) the GM may ask you to perform a Core Check to see if you apply the
-    replenishment to the correct Creature. Hit Replenishments may also be used
-    to replenish expended Stamina instead.
+    circumstances (e.g. the Character you want to heal is currently grappled by
+    an enemy) the GM may ask you to perform a Challenge to see if you apply the
+    replenishment to the correct Creature.
 
+    If a Character has Injuries of level 2 or lower (Injury II and Injury I
+    respectively), receiving Health Replenishment either partially or completely
+    removes them. An Injury II requires 2 HR to be completely healed, but can be
+    downgraded to a Injury I with 1 HR. Likewise, a Injury I is completely
+    healed with 1 HR. Injuries are healed in the order that the Healer chooses.
+    Health Replenishments may also be ueed to replenish expended Stamina
+    instead. 
+ 
     Buying HR implies you are adding to a HR Pool with which you may dole out at
     your discretion. 1 Point of HR is replenished per hour of Break Time
     assuming that a Creature has met its nutritional requirements. 
 
 ANATOMY MUTATIONS
-=================
+-----------------
 
-### BONUS HANDS(BH)
-#### COST: 10 EXO / BH
+### BONUS HANDS
+#### COST: 10 EXO each 
     
-    Typically, Creatures have two "hands" that they can wield items with. All
-    Creatures are considered ambidextrous for all Challenges. Gaining an extra
-    Hand allows you to simultaneously wield 3 Weapons at a time (or some
-    combination of 2-Handed Weapons and 1-Handed Weapons). Gaining more than 1
-    EH allows for a larger variety of weapon combinations you can utilize.
-    Despite there name, Hands do not have to be actual hands. Like all Traits,
-    the details of their aesthetics is between you and your table-mates.
+    Typically Creatures have two "hands" that they can wield items with in a
+    Combat Scenario. All Creatures are considered ambidextrous for all
+    Challenges. Gaining an extra Hand allows you to simultaneously wield 3
+    1-Handed Weapons at a time (or some combination of 2-Handed Weapons and
+    1-Handed Weapons). Gaining more than 1 Hand allows for a larger variety of
+    weapon combinations. Despite there name, Hands do not have to be actual
+    hands. Like all Traits, the details of their aesthetics is between you and
+    your table-mates.
 
-### REACH (RCH)
-#### COST: 15 EXO / +5ft OF RCH
+### REACH
+#### COST: 15 EXO per +5ft of Reach 
     
     Reach refers to how far away from something a Creature can be and still
     adeptly interact with it. Typically, a Creature is able to interact with
@@ -262,10 +272,11 @@ ANATOMY MUTATIONS
     items will have Reach requirements, meaning that unless you possess a Trait
     with the specified amount of Reach, you will not be able to use it. 
 
-### RESIZE (RZ)
-#### COST: 15 EXO / SIZE CATEGORY  
+### RESIZE 
+#### COST: 15 EXO per Size Category  
     
-    There are 7 Size Categories. From smallest to largest they are:
+    There are 7 Size Categories that Player Characters can be created under.
+    From smallest to largest they are:
 
                     Minute
                     Tiny
@@ -282,12 +293,12 @@ ANATOMY MUTATIONS
     explained in detail in the Physiology section.
 
 
-### STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
-=====================================================
+STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
+=================================================
 
 Anatomy Mutations are alternations that fundamentally alter the foundation of
-your Anatomy. On the other hand, Natural Mutations build off of pre-existing
-Anatomy, and almost always involve creating additional material in order to
+your Anatomy. On the other hand, Anatomy Mutations build off of pre-existing
+physiology, and almost always involve creating additional material in order to
 apply effects or otherwise utilizing specialized limbs. 
 
 There are additional costs associated with using Natural Weapons. Natural
@@ -298,3 +309,4 @@ to discard 1 additional Card per Power Level.
 This means if you used 20 EXO to build a Trait, using that Trait forces you to
 discard a total of 3 Cards every time it is used; 1 for the Action itself, and 2
 because of the Traits Power Level.
+

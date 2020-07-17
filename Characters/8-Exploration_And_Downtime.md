@@ -12,16 +12,11 @@
     Chakra, unable to be used, until the Chakra is emptied by expending Stamina.
     
     You may either expend 1 point of Stamina or take a -1 penalty to a
-    Core in order to move the cards in the Upper Chakra into the Play Deck, then
-    shuffle the newly replenished Play Deck. 
-    
-    Additionally, you may expend 2 points of Stamina, take a -2 penalty to a Core, or a
-    combination of both in order to place the Upper Chakra on the top of your Play Deck,
-    then resume play *WITHOUT* shuffling the replenished Play Deck.
+    Capacity in order to move the cards in the Upper Chakra into the Play Deck, then
+    shuffle the newly replenished Play Deck. Taking a Penalty to a Capacity `
     
     You may expend Stamina At Will. This means you can do it during your Turn or
-    anyone else's Turn during combat. You may choose to not expend Stamina, even in
-    instances where it would lead to death for your Character.
+    anyone else's Turn during combat. 
     
     Some items, spells, narrative events, and environmental hazards Exhaust the
     Character. When Exhausted, before the Creature Attempts another Challenge, all
