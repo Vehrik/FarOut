@@ -14,99 +14,22 @@ anyone, but makes skulking around unnoticed almost natural.
 
 The Size Categories are as followings, all with different benefits, penalties and dimensions:
 
-Gigantic -  Real World Analogue (African Forest Elephant) 
----------------------------------------------------------
-
-    Primary Effects:
-        + 3 Brawn
-        + 2 Natural Bulk
-        + 3 Natural Stride
-        + 5 Body Capacity
-        + 12 Natural Defense
-
-    You get ...
-    +3 Brawn
-        That causes ...
-        | +3 Health
-        | +3 Momentum
-        | -3 Speed
-            That causes ...
-            | -3 Stride
-            | -3 Defense
-            | -3 Stamina
-
-
-    +2 Bonus Health
-    +2 Reach  
-    +3 Natural Stride
-    +5 Body Capacity
-    +12 Natural Defense
-
-    Momentum
-        Base: 12
-        Total: 15
-
-    You may move through the Occupied Space of Creatures that are Medium or
-    smaller unhindered
-
-    Creatures that are Big or smaller are able to freely move through your Occupied
-    Space.
-
-    General Dimensions    
-    |   Height:   12ft ~ 
-    |   Weight:   6000lb ~
-    
-    Occupied Space: 8 x 5ft^3 Squares
-
-Huge   - Real World Analogue (Polar Bear)
------------------------------------------
-
-    +2 Brawn
-    | +2 Health
-    | +2 Momentum
-    | -2 Speed
-        | -2 Stride
-        | -2 Defense
-        | -2 Stamina
-
-    +1 Bonus Health
-    +1 Reach  
-    +2 Natural Stride
-    +2 Body Capacity
-    +7 Natural Defense
-
-    Momentum:
-        Base: 8
-        Total: 10
-
-    Dimensions    
-    |   Height:  9ft ~ 
-    |   Weight:  1200lb ~
-
-    Occupied Space: 4 x 5ft^3 Squares
-
-Big    - Real World Analogue (NFL Defensive Lineman)
+Big    - Real World Analogue (Polar Bear)
 -------------------------------------------------------------------------------
 
-    +1 Brawn
-    | +1 Health
-    | +1 Momentum
-    | -1 Speed
-        | -1 Stride
-        | -1 Defense
-        | -1 Stamina
+    +1 Reach
+    +2 Unarmed Attack Damage
+    +3 Natural Defense
 
-    +1 Body Capacity
+    +3 Brawn Capacity
+    -3 Speed Capacity
 
-    Dimensions    
-        Height:        6ft ~ 
-        Weight:        300lb ~
-
-    Momentum:         
-        Base: 5 
-        Total: 6
-
-    Occupied Space:    1 x 5ft^3 Square
+    General Dimensions    
+    |   Height:   8 -> 10ft ~ 
+    |   Weight:   800 -> 1200lbs ~
+    
+    Momentum: 8
+    Occupied Space: 4 x 5^3ft
 
 Medium - Real World Analogue (Adult Male Human)
 -------------------------------------------------------
@@ -116,112 +39,44 @@ Medium - Real World Analogue (Adult Male Human)
     |   Weight:   160lb ~
 
     Momentum: 5
-    Occupied Space:    1 x 5ft^3 Square
+    Occupied Space:   1 x 5ft^3 Square
 
 Small - Real World Analogue (Adolescent Human)
 ------------------------------------------------------
-
-    +1 Speed
-    |   +1 Stamina
-    |   -1 Brawn
-        | -1 Momentum
-        | -1 Health
-        
-    +1 Body Capacity
-
-    Dimensions    
-    |   Height:     4ft ~ 
-    |   Weight:     100lb ~
-
-    Momentum:       4
-
-    Occupied Space: 1 x 5ft^3 Square
-
-Tiny - Real World Analogue (House Cat)
-----------------------------------------------
-
-    +2 Speed
-    |   +2 Stamina
-    |   +2 Defense
-    |   +2 Stride
-    |   -2 Brawn
-        | -2 Health
-        | -2 Momentum
-    +2 Natural Defense
-    +2 Body Capacity
-    -2 Natural Stride
-    -5ft Reach
-
-
-    ~ Dodge Attempts made for attacks from larger creatures are made with a Bang
-
-    ~ You may make 1 additional Dodge per Round, for a total of 3 potential
-      Dodges per Round.
-
-    ~ You may move through the Occupied Space of Creatures that are Small or
-      larger unhindered.
-
-    ~ Creatures that are Small or larger may move through or be in your Occupied
-      Space unhindered.
-
-    Dimensions:
-    |   Height:   1.5ft ~ 
-    |   Weight:   20lb ~
-    
-    Momentum:      2
-
-    Occupied Space:   <1 x 5ft^3 Square
-
-Minute - Real World Analogue (White Footed Mouse)
---------------------------------------------------------
      
-    +3 Speed
-    |   +3 Stamina
-    |   +3 Defense
-    |   +3 Stride
-    |   -3 Brawn
-        | -3 Health
-        | -3 Momentum
+    You make Dodges with a Bang when you are dodging attacks coming from
+    Creatures that are larger than you.
+
+    You may occupy the same space as Creatures larger than you, but any
+    Challenges that are made by you are made with a Bust while you are doing so.
+    If the Creature you are occupying the space of is friendly to you, you
+    do not incur this penalty. This effect is also nullified if the Creature
+    whom's space you are occupying is unaware of you.
 
     +3 Natural Defense
-    +5 Body Capacity
+    +3 Speed Capacity
 
-    -3 Natural Stride
-    -5ft Reach
-
-    ~ Dodge Attempts made for attacks from larger creatures are made with a Bang
-
-    ~ You may make 2 additional Dodge per Round, for a total of 4 potential
-      Dodges per Round.
-
-    ~ You may move through/be in the Occupied Space of other Creatures unhindered.
+    -1 Reach
+    -3 Unarmed Attack Damage
+    -3 Brawn Capacity
 
     Dimensions    
-    |   Height:   6in ~ 
-    |   Weight:   0.05lb ~
+    |   Height:   2 -> 4ft~ 
+    |   Weight:   40 -> 120lb~ 
 
-    Brawn Maximum: 1
-    Speed Maximum: 10
-    Momentum:     -3
-    Occupied Space:   <1 x 5ft^3 Square
+    Momentum: 2
 
-When you create your Character, before you expend any EXO Points, you may set your
-Character's Size to either Small, Medium or Big. If you wish to take on the
-characteristics of the more extreme Size Categories, you must purchase a Resize as
-outlined in the Traits section.
+    Occupied Space:  1 x 5ft^3 Square
 
 Each category offers variations on the following:
 
-    Bonus Body Capacity
-
-    Natural Stride
+    +/- Brawn/Speed Capacity 
     Natural Defense
-
     Reach
-    Occupied Space
     Momentum
+    Occupied Space
 
-### BONUS BODY CAPACITY
+### BONUS CAPACITY / CAPACITY PENALTY
 
     As mentioned in the Core Stats section, you are typically able to possess a
     Core Value that is between -5 and +5 before you factor in specialized
@@ -233,8 +88,10 @@ Each category offers variations on the following:
     naturally inclined to be agile, whereas larger Characters inherently have
     more muscle mass, and thus can exert more force. 
 
-    A bonus to your Body Capacity raises the maximum value that either the Brawn
-    or Speed Core can be by an amount equivalent to the bonus.
+    A bonus to a Capacity raises the maximum value that either the Brawn
+    or Speed Core can be by an amount equivalent to the bonus. If one side Capacity
+    is expanded, it is explicitely coupled with a retraction by the other side
+    of the same Capacity.
 
 ### MOMENTUM
 
@@ -243,6 +100,7 @@ Each category offers variations on the following:
     influenced by other things like their environment and how much equipment they
     have equipped, but the main factor is their Size. Momentum is used to determine
     the difficulty of Challenges that are meant to involuntarily move your Character.
+
     There are certain movement forcing Challenges you'd want to fail, like being
     lifted up an elevator, using a jet-pack, or being moved out of harm's way.
     It is a double edged sword. When your Character is already Falling, or is
@@ -375,7 +233,7 @@ SIGHT
             all objects around you at any light level, but details are
             inperceptable by this sight in the absense of adequate light.
             Objects/Creatures that have a temperature equivalent to the average
-            ambient temperature are harder to see with Thermal Vision. 
+    j       ambient temperature are harder to see with Thermal Vision. 
 
         Telescopic Vision
         -----------------

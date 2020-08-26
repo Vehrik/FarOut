@@ -2,29 +2,37 @@ Every Character has the following Vitals, which are derived from the Core Stats:
 
 HEALTH            
 ------
-1 || [5] + Brawn + Heart | Armor  
---------------------------------
+1 || [5] + Brawn + Heart 
+------------------------
 
-    Health is of comprised of a number of discrete units known as Hits. Your
-    Character has an amount of Health equal to 5 plus its Brawn and Heart Cores.
-    When initially set, regardless of the Brawn or Heart Cores, a Character
-    cannot be created with less than 1 Health.  
+    Health is is a measure of how much physical damage your Character can
+    sustain before they lose consciousness. Your Character has an amount of
+    Health equal to 5 plus its Brawn and Heart Cores. When initially set,
+    regardless of the Brawn or Heart Cores, a Character cannot be created with
+    less than 1 Health.  
     
-    Once you encounter a source of Damage higher than your Creature's Dodge,
-    it counts as a Hit and your Character will incur an Injury. Armor provides a
-    layer of Bonus Health that does not incur Injury when it is lost. 
-
-    Damage can be categorized as True Damage, meaning that it does not have to
-    contend with your Armor at all. This means that 1 point of True Damage
-    counts as a single Hit, and the victim immediately incurs incurs Injury.
-    Certain objects, environmental effects, vehicles and very high level Spells
-    deal in True Damage.
+    Once you encounter a source of Damage with a Challenge higher than your
+    Creature's Dodge / Dodge Attempt, it counts as a Hit and your Character will
+    incur an Injury if their Health drops below certain thresholds. 
 
     If a Character is reduced to 0 Health, they are considered to be Flirting
     With Death. Characters that are Flirting With Death are unable to act
-    willingly, meaning they cannot make Action or Reactions. The mechanics
+    willingly, meaning they cannot make Actions or Reactions. The mechanics
     associated with Death and Dying will be explained in detail in the Combat
     section of this document.
+
+    Armor generally provides a layer of what is effectively bonus Health that
+    does not incur Injury when it is lost. Not all armor is created equal, some
+    are crude and merely act as additional points of Health, whereas others only
+    break if they encounter significant damage over a short period of time.
+
+    Damage can be categorized as True Damage, meaning that it does not have to
+    contend with your Armor at all. This means that 1 point of True Damage
+    counts as a single Hit, and the victim immediately incurs Injury if their
+    Health is within a Threshold. Additionally, the True Damage is still
+    applied to the Armor, but it is not dependent on breaking the Armor to
+    subtract from the Target's Hits. Some types of Armor break immediately if it
+    contacts any True Damage at all.
 
     Mutations, Elixirs and other items within the game can grant Health beyond
     what is given by Brawn and Heart Cores. 
@@ -32,15 +40,18 @@ HEALTH
 
 DODGE
 -----
-0 || Natural Dodge [1] + Speed + Brain
+0 || Natural Defense [5] + Speed + Brain
 ----------------------------------------
     
     Health is closely tied with Dodge. When a Creature encounters a source of
-    Damage, if the Accuracy value is less than or equal to the Creature's Dodge,
-    it does not count as a Hit. Dodge is equivalent to a Creature's Natural
-    Dodge (1 by default), plus the totals of its Speed and Brain Cores. A
-    Creature's Dodge cannot be lower than 0.
+    Damage, if the Difficulty of the damage source is less than or equal to the
+    Creature's Dodge it does not count as a Hit. Dodge is equivalent to a
+    Creature's Natural Defense (1 by default), plus the totals of its Speed and
+    Brain Cores. A Creature's Dodge cannot be lower than 0.
 
+    A Creature is able to use a Reaction in order to perform an "Active Dodge",
+    in which case it makes a Speed Challenge and uses the Attempt Score
+    generated in place of its Dodge Vital. 
 
 STRIDE 
 ------
@@ -94,12 +105,12 @@ MOMENTUM
     
     If your Burden is higher than your Character's base Momentum but lower than
     double their Momentum, your Character's Stride is reduced to 1 and they may
-    only make one Action per round of Combat. This condition is known as Burden
-    I. 
+    only make one Action per round of Combat, and all actions are made with a
+    Bust. This condition is known as Burden I. 
     
     If your Burden is equal to twice your Character's Momentum Score, your
     Character's Stride is reduced to 0 and may not preform any other Actions
-    than Deburdening. This is known as Burden III.
+    than Deburdening. This is known as Burden II.
 
     Attempting to lift a Burden that is higher than your Momentum is
     automatically failed, but one should keep in mind that the Momentum of

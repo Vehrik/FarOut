@@ -21,7 +21,6 @@ CORE STATS
 BRAWN
 -----
 
-
     Brawn is a measure of your character's physical hardiness, physique and raw
     brute strength. Having a higher Brawn score allows your Character to dish
     out hard punches, take harder hits, and lift heavy burdens. Brawn also
@@ -35,7 +34,6 @@ SPEED
     character is fast moving, acrobatic and in possession of quick reflexes.
     Speed also determines your accuracy with Ranged and Technical weapons.
 
-
 BRAIN
 -----
 
@@ -47,15 +45,15 @@ BRAIN
     Attacks.
 
 HEART
------
+=====
 
     Heart is a measure of your character's discipline, will, instinct, and
     confidence. Your ability to resist and impose mental effects, ignore
     exhaustion and tolerate pain is determined by your Heart Core.
 
 
-CORE VALUES
------------
+CAPACITIES
+----------
 
     You have two Capacities, Body and Soul. Brawn and Speed belong to the Body
     Capacity and Brain and Heart belong to the Soul Capacity.
@@ -83,9 +81,11 @@ CORE VALUES
 
                 -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
                  |    |     |     |     |     |     |     |     |     |    |
-                 ----------------------------->----------------------------- BRAWN
+                 ------------------------------------------------------------ BRAWN
+                                              X
                     Flexibility, Accuracy << BODY >> Strength, Durability
-           SPEED -----------------------------<-----------------------------      
+                                              X
+           SPEED ------------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
 
@@ -93,9 +93,11 @@ CORE VALUES
 
                 -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
                  |    |     |     |     |     |     |     |     |     |    |
-                 ----------------------------->----------------------------- BRAIN
+                 ----------------------------------------------------------- BRAIN
+                                              X
                      Intuition, Willpower << SOUL >> Knowledge, Perception
-           HEART -----------------------------<-----------------------------      
+                                              X
+           HEART -----------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
 

@@ -13,45 +13,93 @@ INJURIES
 ========
 
 In instances where a Creature's Armor has failed them, and they've failed to
-avoid Damage, they take a direct hit to their body. o
+avoid Damage, they take a direct hit to their body. Most Injuries incur either
+Wincing or Flinching. To understand these two things you must understand Action
+Debt.
 
-INJURIES I (3+ Health Remaining)
---------------------------------
+Every Creature is able to perform 2 Actions/Reactions per each of their Turns.
+Action Debt is needs to be settled before any Action is performed. Action Debt
+is repaid by discarding Actions. Action Debt persists between Rounds.
+
+So for example, if a Character is starts a Round with an Action Debt of 3, they
+must nullify both their Actions/Reactions for that round, and also carry over 1
+additional point of Action Debt over to their next turn, meaning for THAT round
+they'll also have to nullify 1 of their Actions/Reactions.
+
+Injuries are categorized by both their intensity(I, II, III), and by which body
+part becomes Injured. When resolving Injuries, there are two ways to determine
+which body part become is damaged
+
+INJURIES I - Hard Hits
+----------------------
 
 General Effect: 
 
-Immediately when the Injury is received the Character WINCES, meaning they may
-only take 1 Action this round instead of 2. If the Character has already used
-both its Actions for this round, the WINCE subtracts an Action from the next
-round instead.
+Immediately when the Injury is received the Character WINCES, incurring an
+Action Debt of 1.
 
-### CLUB - TORSO & UPPER LIMBS
+In addition, depending on which Body Part was considered to be Injured, you take
+one of the following effects:
 
-#### Laceration (Slashing) / Burn I (Fire)
+#### HEAD
+    
+    Your Character becomes dazed, meaning they will Bust whenever completing a
+    Mind-based Challenge until they receive healing or take a Break of at least
+    3 Hours.
 
-    You receive a deep cut across either your Charater's body or the upper
-    portion on one or several of its limbs that bleeds profusely. For the next
-    five rounds, or until the Injury is healed, all Body related Challenges are
-    made with a Bust.
+#### TORSO
 
-#### Through and Through (Piercing / Stabbing) / Chilled To The Bone (Frost)
+    Your Character gets hit in the mid-section, but did not take any direct
+    damage to an organs. They incur an additional point of Action Debt.
 
-    You either got winged by a lazer or you got lucky and a blade missed all
-    your organs. The Stride of the Creature is immediately reduced by an amount
-    equivalent to the Damage of the attack. Then for the next five rounds, or
-    until the wound is treated, the Creature's Stride is reduced to its Natural
-    Stride or 3, whichever is lower.
+#### ARM
 
-#### Blunt Force Trauma (Blunt) / Shocked (Electric)
+    Your Character drops whatever it was holding with the Hand associated with
+    the Injured arm.
 
-    You got hit squarely by something with a lot of mass. Your Character
-    immediately FLINCHES instead of WINCING due to the General Effect of Level I
-    Injuries. In addition, you must preform a Heart Challenge equivalent to the
-    Damage of the attack. Failing this Challenge causes your Character to drop
-    anything that they were Holding.
+#### LEG
 
-#### Toxic Shock (Poison)
+    Your Character falls Prone if it was standing, and also has its Stride reduced by 2. 
 
-### SPADE - LOWER LIMBS
+#### TRAIT
 
-The Damaged Creature draws a Card and reads its value
+    Your Character Busts when utilizing whatever Trait becomes Injured.
+
+INJURIES II - Disabling Blows
+-----------------------------
+
+General Effect: 
+
+Immediately when the Injury is received the Character FLINCHES, incurring an
+Action Debt of 2.
+
+In addition, depending on which Body Part was Injured, you take one of the
+following effects:
+
+#### HEAD
+    
+    Your Character becomes dangerously close to unconsciousness. They Bust
+    whenever preforming any Action until they receive healing. Characters with a
+    Head Injury II do not benefit from Breaks, and falling asleep drops your
+    Health to 0, but you are considered Comatose as opposed to Flirting With
+    Death if this occurs.
+
+
+#### TORSO
+
+    Your Character gets hit in the mid-section, but did not take any direct
+    damage to an organ. They incur an additional point of Action Debt.
+
+#### ARM
+
+    Your Character drops whatever it was holding with the Hand associated with
+    the Injured arm.
+
+#### LEG
+
+    Your Character falls Prone if it was standing, and also has its Stride reduced by 2. 
+
+#### TRAIT
+
+    Your Character becomes unable to utilize the Trait that has been struck by a
+    disabling blow.

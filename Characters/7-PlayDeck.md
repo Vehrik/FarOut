@@ -1,7 +1,7 @@
 Challenges
 ==========
 
-Everytime your Character attempts do something outside the realm of mundane
+Every time your Character attempts to do something outside the realm of mundane
 life, be it climbing a ladder, diving over moving vehicles, or feinting a
 sword swipe, your GM will ask you to beat a Challenge of proportional
 Difficulty based on what it is depending what you're doing.
@@ -20,33 +20,38 @@ Half the Suits are Red (Hearts and Diamonds) and half are Black (Clubs and
 Spades). Each Card Suit corresponds with one of the 4 Character Cores. Each player and
 the GM needs their own personal Play Deck. 
 
-Ideally, they are high-quality, durable playing cards with Suits
-distinguished by colour, but low-budget decks can be made out of readily
+Ideally, they are high-quality, durable playing cards with the Suits
+distinguished by colour and symbol, but low-budget decks can be made out of readily
 available materials in a pinch.
 
 When you attempt a Challenge, you draw the top card from your Play Deck. The value
 on the card (2, 3, 4, 5, 6, 7, 8, 9, 10, Jack(11), Queen(12), King(13), Ace(11//1),
 Joker(15//0)) is added to the value of the corresponding Core of your Character.
 
+Jacks, Queens and Kings are worth 11, 12, and 13 respectively. 
+
 If you draw an Ace, if it is of the correct colour, it is equivalent to 14, but if
-it is the wrong colour, it is equivalent to a 1. If you draw a Joker, if it is the
-wrong colour, it is worth 0, and you automatically Bust during your next turn, but
-if it is the right colour, it is worth 15, and you automatically Bang during your
-next turn. A colour is "correct" if you are using the colour of its associated
-Core (Black for Speed and Brawn, Red for Brain and Heart)
+it is the wrong colour, it is equivalent to a 1. 
+
+If you draw a Joker, if it is the wrong colour, it is worth 0, and you
+automatically Bust during your next Turn, but if it is the correct colour, it is
+worth 15, and you automatically Bang during your next Turn. A colour is
+"correct" if you are using the colour of its associated Core (Black for Speed
+and Brawn, Red for Brain and Heart).
 
 As discussed in the Core Section, when your Character is faced with a Challenge,
 you combine the Card's face value with the Challenges associated Core.
 
-This number is your Attempt Score. The having an Attempt be greater than or equal
+This number is your Attempt Score. Having an Attempt Score greater than or equal
 to the Challenge's Difficulty results in an increasing degree of success. Falling
-short results in failure, with increasesingly severe punishments the more points
+short results in failure, with increasingly severe punishments the more points
 you fail by.
 
 The GM is at sole discretion to determine the value of a Challenge's Difficulty,
-but the following chart should guide their decisions:
+but the following chart should loosely guide their decisions:
 
-   <5  -> Mundane
+
+  <5  -> Mundane
 
            These are actions that most humans encounter at least once or twice a day
            that are still easily failed if you aren't paying attention. They would
@@ -74,12 +79,12 @@ but the following chart should guide their decisions:
            capable of doing consistently, but that are still able to be
            completed by average humans with a good deal of luck, preperation
            and/or stubborness. This includes walking across a thin wooden beam
-           in a storm, fighting off a shark, or successfully completing a PhD.
+           in a storm, fighting off a shark, or acing a college midterm.
 
    20   -> Hero
 
            These actions are extremely impressive ones that are beyond the realm
-           of the human anatomy is physically capable of. This includes things
+           of what the human anatomy is physically capable of. This includes things
            like bench-pressing cars, running across water like it were solid
            ground, or cracking an encrypted computer cypher. 
 
@@ -90,7 +95,6 @@ but the following chart should guide their decisions:
            throwing cars like they're stones, running through buildings like they aren't
            even there, or cracking out massive turn-night-into-day lightning bolts across
            the sky.
-
 
 BANGS, BUSTS, & BOONS
 =====================
@@ -106,13 +110,12 @@ drawing 1 Card from the Play Deck, you draw 2 cards and choose the card with the
 higher value for your given Challenge. After picking your Card, you place the
 unchosen card at the bottom of the Play Deck, and the used card into the Open
 Chakra. This type of situation is called a Bang. The GM alone has the permission
-to grant a Bang, but some mechanics explicitely grant one.
+to grant a Bang, but some mechanics explicitly grant one.
 
 If you are in an disadvantageous position when Attempting a Challenge, instead
 of drawing 1 Card from the play deck, you draw 2 cards and choose the worse
-card, placing the unchosen card at the bottom of the Play Deck, and placing the
-chosen card into your Open Chakra. This type of situation is called a Bust. The
-GM alone has the permission to hand down a Bust, but some mechanics explicitely
+card, placing the unchosen card at the bottom of the Play Deck, and placing the chosen card into your Open Chakra. This type of situation is called a Bust. The
+GM alone has the permission to hand down a Bust, but some mechanics explicitly
 incur one.
 
 Finally, as a reward for playing the game well, a GM may grant you a Boon. A
@@ -127,6 +130,6 @@ Boon can do one of three things:
 
 What is meant by playing the game "well" is really up to the GM, but typically
 it would include things like playing your Character compellingly, remaining in
-Character consistently or otherwise avoiding "Table Talk", abiding by the
-Virtues and Flaws of your Character, or otherwise improving the play experience
-for everyone (including the GM!).
+Character consistently, abiding by the Virtues and Vices of your Character, or
+otherwise improving the play experience for everyone (including the GM!).
+
