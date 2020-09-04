@@ -39,17 +39,16 @@ SLAM
     AoE. 
 
     The Damage Property of the weapon used to perform the Slam is applied to every
-    Creature that is caught in the AoE unless they use a Reaction to Dodge the Slam
-    and expend enough Stride to exit the AoE. 
+    Creature that is caught in the AoE unless they succesfully Dodge the Slam
+    (either passively or actively), and also exit the AoE of the Slam.
 
-    Alternatively, the Creature may use two Reactions, one to attempt a Dodge,
-    and the other to activate a Trait, Spell, etc. to exit the Slam's AoE. If
-    for whatever reason the target(s) are unable to exit the Slam's AoE, the
-    Dodge is failed. Unarmed Slams have damage equivalent to their owner's Brawn
-    Score plus their Natural Defense. 
-    
+    Alternatively, the Creature may use a Reaction to activate a Trait, Spell,
+    etc. to exit the Slam's AoE. If for whatever reason the target(s) are unable
+    to exit the Slam's AoE, the Dodge is failed. 
+
     Slams are performed with Crude weapons and by Unarmed Creatures mainly, but
-    may be performed with Technical Weapons with a Bust.
+    may be performed with Technical Weapons with a Bust. Unarmed Slams have
+    damage equivalent to their owner's Brawn Score plus their Natural Defense. 
     
     Attempt:        0       5       10      15      20   ...
     Slam AoE:       5ft     10ft    15ft    20ft    25ft ...
@@ -112,7 +111,7 @@ GRAPPLE
 --------
 
     Your Character may attempt to grab onto and hold a Creature that is their
-    Size or smaller as a Brawn Challenge. If you are more than 4 Size Categories
+    Size or smaller as a Brawn Challenge. If you are more than 2 Size Categories
     larger than the target, you make the Grapple attempt with a Bang. Dodge
     Attempts made against your Grapple Attempt are made with a Bang as well.
 
@@ -120,29 +119,27 @@ GRAPPLE
     to grapple. If your Attempt Score was higher than theirs, your Character
     forces the target into their Occupied Space.
 
+    While Grappled, a Creature is unable to perform any Action or Reaction that
+    requires free movement of their body. A Grappled Creature is unable to move
+    their arms or legs willingly, and cannot turn their head.
+
 TACKLE
 ------
 
     Your Character may quickly move forward and throw their entire body at a
-    Target. You may perform a Brawn Challenge as an Action, and for every point
-    generated, you may move 5ft as if Dashing. If you contact a Creature, you
-    may apply your Momentum and the result of the Brawn Challenge against their
-    Momentum and also their own Brawn Challenge if they saw you coming. If you
-    win this duel, you may then move both yourself and the Creature in the
-    direction you were intitially moving as if you were both Dashing, up to the
-    range of the Tackle.
-    
-    Colliding with a solid surface incurs Fall damage as if the
-    tackled Creature has a Momentum Score equivalent to the Tackler's
-    Momentum plus their Momentum. This damage is only applied to the
-    tackled Character. 
+    Target. 
 
-    If the Tackle ends without a collision against a vertical surface, both
-    Creatures Trip, but the Tackled Creature had a Momentum score equivalent to
-    that of the both Creature's Momentums combined.
-        
+    To iniate a Tackle, the Tackler adds their Momentum to a Brawn Attempt to
+    determine the Tackle's Difficulty. The Tackled Creature then adds the result
+    of their Attempt (typically either Speed or Brawn) to their Momentum. For
+    every point the Tackler beats the target's resistance by, they may move both
+    Creatures 5ft in the direction the Tackler was initially moving when they
+    initiated the Tackle. This movement is treated as if it were a Dash.
+
+    The 
+
     Any Natural Defense possessed by either Creature is transfered as Damage to
-    the other Creature once throughout the duration of the Tackle.  
+    the other Creature once at the end 
 
 THROW
 -----
@@ -246,14 +243,19 @@ SPECIAL MANEUVERS
         move in addition to overcoming the active resistance of the Creature.
         The Effect itself is not capable of creating Damage, but certain
         mechanics like Tripping and Falling, as well as environmental hazards
-        could potentially generate Damage.
+        could potentially generate Damage as an indirect result of the Effect.
 
-        ####BONUS SWING     :   1
-        ####BLITZ           :   6
+        ####BONUS SLAM      :   1
+        ####BLITZ           :   10
 
-        Bonus Swing --> You are able to Stride in between seperate Swings of a
-        Slam, up to your maximum Stride. Each Swing must have at least 5ft of
-        AoE. Damage and Effects reapply on each Swing.
+        Bonus Swing --> After you resolve whether or not this Manuever
+        sucesffully Damaged/Effected any Creatures, you may immediately perform
+        an additional Slam. Bonus Slams do not inherit other properties from the
+        Maneuver that generated them _unless_ a specific Bonus Slam was given a
+        certain property. For example, it is perfectly acceptable for a single
+        Maneuver to generate 2 Slams where the first has +20ft AoE and no bonus
+        Damage, but then have the second Slam generate +5 Bonus Damage and 0
+        AoE.
 
     ###STRIKE
     

@@ -1,22 +1,22 @@
 CORE STATS
 ==========
 
-    Your Cores are the ranking of your Character's mental and physical
-    attributes.  They influence every Action your Character takes and helps the
-    GM decide whether your Character will succeed or fail Challenges and to what
-    extent. Choose your stats wisely, there are plenty of items/environmental
-    hazards that impart a "minimum requirement" for a certain Core. 
-    
-    You can't be amazing at everything. Often times, achieving a higher Core
-    Value means making sacrifices, sometimes that could literally be an arm and
-    a leg. In a society where all but the most destitute and far-flung have been
-    genetically engineered so they are at the peak of what the human physiology
-    is capable of, the only way to gain meaningful advantanges is to specialize.
-    
-    Below each Stat is described for what facets of a creature it represents.
-    These descriptions are not meant to be exhaustive, and with clever
-    role-playing you can 'force' your GM to allow you to utilize a Core for
-    something it wouldn't normally be used for.
+Your Cores are the ranking of your Character's mental and physical
+attributes. They influence every Action your Character takes and helps the
+GM decide whether your Character will succeed or fail Challenges and to what
+extent. Choose your stats wisely, there are plenty of items/environmental
+hazards that impart a "minimum requirement" for a certain Core. 
+
+You can't be amazing at everything. Often times, achieving a higher Core
+Value means making sacrifices, sometimes that could literally be an arm and
+a leg. In a society where all but the most destitute and far-flung have been
+genetically engineered so they are at the peak of what the human physiology
+is capable of, the only way to gain meaningful advantanges is to specialize.
+
+Below each Stat is described for what facets of a creature it represents.
+These descriptions are not meant to be exhaustive, and with clever
+role-playing you can 'force' your GM to allow you to utilize a Core for
+something it wouldn't normally be used for.
 
 BRAWN
 -----
@@ -45,7 +45,7 @@ BRAIN
     Attacks.
 
 HEART
-=====
+-----
 
     Heart is a measure of your character's discipline, will, instinct, and
     confidence. Your ability to resist and impose mental effects, ignore
@@ -53,7 +53,7 @@ HEART
 
 
 CAPACITIES
-----------
+==========
 
     You have two Capacities, Body and Soul. Brawn and Speed belong to the Body
     Capacity and Brain and Heart belong to the Soul Capacity.

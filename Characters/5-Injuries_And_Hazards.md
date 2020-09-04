@@ -17,14 +17,13 @@ avoid Damage, they take a direct hit to their body. Most Injuries incur either
 Wincing or Flinching. To understand these two things you must understand Action
 Debt.
 
-Every Creature is able to perform 2 Actions/Reactions per each of their Turns.
-Action Debt is needs to be settled before any Action is performed. Action Debt
-is repaid by discarding Actions. Action Debt persists between Rounds.
+Every Creature is able to perform 3 or 4 Actions/Reactions per each Round.
+Action Debt needs to be settled before any Action/Reaction is performed. Action
+Debt is repaid by discarding Actions. Action Debt persists between Rounds until
+it is paid off.
 
-So for example, if a Character is starts a Round with an Action Debt of 3, they
-must nullify both their Actions/Reactions for that round, and also carry over 1
-additional point of Action Debt over to their next turn, meaning for THAT round
-they'll also have to nullify 1 of their Actions/Reactions.
+Wincing incurs an Action Debt of 2, whereas Flinching incurs an Action Debt of
+3.
 
 Injuries are categorized by both their intensity(I, II, III), and by which body
 part becomes Injured. When resolving Injuries, there are two ways to determine
@@ -36,21 +35,22 @@ INJURIES I - Hard Hits
 General Effect: 
 
 Immediately when the Injury is received the Character WINCES, incurring an
-Action Debt of 1.
+Action Debt of 2.
 
 In addition, depending on which Body Part was considered to be Injured, you take
 one of the following effects:
 
 #### HEAD
     
-    Your Character becomes dazed, meaning they will Bust whenever completing a
-    Mind-based Challenge until they receive healing or take a Break of at least
-    3 Hours.
+    Your Character becomes dazed, incurring an additional point of Action Debt.
+    Additionally, any Action made by the dazed Creature is made with a Bust. A
+    Creature automatically snaps out of a daze at the end of the Round in which
+    they initially became dazed.
 
 #### TORSO
 
     Your Character gets hit in the mid-section, but did not take any direct
-    damage to an organs. They incur an additional point of Action Debt.
+    damage to any organs. This incurs an additional point of Action Debt.
 
 #### ARM
 
@@ -59,11 +59,9 @@ one of the following effects:
 
 #### LEG
 
-    Your Character falls Prone if it was standing, and also has its Stride reduced by 2. 
+    Your Character falls Prone if it was standing. The next Attempt to move
+    between Zones is made with a Bust.
 
-#### TRAIT
-
-    Your Character Busts when utilizing whatever Trait becomes Injured.
 
 INJURIES II - Disabling Blows
 -----------------------------

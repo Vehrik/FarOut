@@ -61,56 +61,18 @@ NATURAL WEAPONS
 ---------------
 
 ### DAMAGE(D)
-#### COST: 1 EXO / 2 D
+#### COST: 1 EXO / 1 D
     
     This value is used to determine the Damage dealt by this Trait whenever it
     contacts a Creature. This Damage can only be applied through use of the
     Trait directly. It may either be Force, Fire, Frost, Poison, or Electric.
     Damage automatically becomes Ranged Damage if the Trait also has Range, but
     otherwise you must specifiy it as Crude or Technical.
-    
-    When the first point of Damage is bought, you may designate the Trait as
-    Synergizing. Doing so implies that all Damage purchased for the Trait is
-    Synergistic Damage, meaning that it can either be used as normal, or have it
-    combine with the Damage from one other source such as a Weapon, or another
-    existing Trait. Synergizing Damage can only be combined with Damage with the
-    same type. Synergistic Damage costs 1 EXO per 2 points of it instead of 5.
 
-    You may also designate Damage as Simple when the first point is bought.
-    Doing so incurs an additional cost of 5 EXO, and disqualifies the Trait from
-    having any other properties except Range and Core Damage, but this allows
-    you to utilize the Trait as if it was a normal Weapon. Traits with Simple
-    Damage can also benefit from Reach only if an extra Hand is bought as well.
 
 ### RANGE
 #### COST: 1 EXO per 10ft of Range
 
-    You may trigger a Challenge against any one Creature within the Range of the
-    Trait. You may split Range into several different pools, allowing you to
-    apply the other associated Properties of a Trait to multiple Creatures
-    within its designated Range. Damage must be split between each projectile
-    equally, with no partial values allowed. Range begins counting from space
-    adjascent to the Trait's maximum Reach (5ft by default). 
-
-    On your Creature's Turn, assuming the projectile produced by the Trait was
-    designated as Slow (i.e. not bullets or lazers) you may attempt a
-    Long Shot, where you temporarily double the Range of an Trait, but you Bust
-    while making the Challenge with the Trait. Fast Projectiles gain 20ft of
-    bonus Range, but may not perform Long Shots. 
-
-    When you buy the first 10ft of Range of a Trait, you may also designate the
-    Trait as "Heavy", which permanently adds +2 Damage to it and doubles the
-    Range, but always incurs a Bust when using it. Heavy Traits cannot have Slow
-    projectiles. 
-
-    When you go to purchase Range, you may designate it as Dextrous. This incurs
-    a 5 EXO cost immediately, and also doubles the cost to 10 EXO per 10ft of
-    Range for this Trait. Dextrous Range is capable of wielding weapons,
-    interacting with objects and activating items just as adeptly as the owner's
-    natural hands. When you spend the initial 5 EXO to designate Range as
-    Dextrous Range, you automatically gain an additional Hand to wield weapons
-    and items with.  If the Trait has Damage, it is added to the new Hand's
-    Unarmed Strike Damage, Synergistic Damage applies as normal.
 
 ### AREA OF EFFECT (AoE)
 #### COST: 1 EXO per 15ft OF AoE
@@ -341,8 +303,8 @@ ANATOMY MUTATIONS
 STEP 3) WHAT IS THE ACTIVATION COST OF THE TRAIT?
 =================================================
 
-Anatomy Mutations are alternations that fundamentally alter the foundation of
-your Anatomy. On the other hand, Natural Weapons build off of pre-existing
+Anatomy Mutations are alternations that fundamentally alter the anatomy of a
+Creature. On the other hand, Natural Weapons build off of pre-existing
 physiology, and almost always involve creating additional material in order to
 apply effects or otherwise utilizing specialized limbs. 
 

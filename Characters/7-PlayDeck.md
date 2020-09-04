@@ -6,13 +6,19 @@ life, be it climbing a ladder, diving over moving vehicles, or feinting a
 sword swipe, your GM will ask you to beat a Challenge of proportional
 Difficulty based on what it is depending what you're doing.
 
-In order to complete a Challenge, you must become familiar with three things:
+This is known as a Challenge, and the Player/Character response to it is
+referred to as an Attempt. In order to Attempt a Challenge, the GM first
+determines which Core of the Character is being challenged. Almost always this
+is easily decided, but occasionally 
 
-    The Play Deck
+In order to properly utilize the Play Deck, you must grasp the following
+concepts:
+
     Cores & Challenges
+    Doubling Down, Tripling Down and Flopping.
     Bangs, Busts, and Boons
 
-The Play Deck is a physical deck of of playing cards. It contains 54 Cards in
+The Play Deck is a standard deck of playing cards. It contains 54 Cards in
 total, 2 Jokers (1 Red and 1 Black) plus 13 each of 4 Suits (Clubs, Spades,
 Hearts, Diamonds). 
 
@@ -21,8 +27,8 @@ Spades). Each Card Suit corresponds with one of the 4 Character Cores. Each play
 the GM needs their own personal Play Deck. 
 
 Ideally, they are high-quality, durable playing cards with the Suits
-distinguished by colour and symbol, but low-budget decks can be made out of readily
-available materials in a pinch.
+distinguished by both colour and symbol, but low-budget decks can be made out of
+readily available materials in a pinch.
 
 When you attempt a Challenge, you draw the top card from your Play Deck. The value
 on the card (2, 3, 4, 5, 6, 7, 8, 9, 10, Jack(11), Queen(12), King(13), Ace(11//1),
@@ -34,70 +40,73 @@ If you draw an Ace, if it is of the correct colour, it is equivalent to 14, but 
 it is the wrong colour, it is equivalent to a 1. 
 
 If you draw a Joker, if it is the wrong colour, it is worth 0, and you
-automatically Bust during your next Turn, but if it is the correct colour, it is
-worth 15, and you automatically Bang during your next Turn. A colour is
+automatically Bust for your next Action, but if it is the correct colour, it is
+worth 15, and you automatically Bang during your next Action. A colour is
 "correct" if you are using the colour of its associated Core (Black for Speed
 and Brawn, Red for Brain and Heart).
 
-As discussed in the Core Section, when your Character is faced with a Challenge,
-you combine the Card's face value with the Challenges associated Core.
+As discussed in the Cores and Capacities Section, when your Character is faced
+with a Challenge, you combine the Card's face value with the Challenges
+associated Core.
 
 This number is your Attempt Score. Having an Attempt Score greater than or equal
 to the Challenge's Difficulty results in an increasing degree of success. Falling
 short results in failure, with increasingly severe punishments the more points
 you fail by.
 
+Exactly what happens when resolving a Challenge is up to your GM's
+interpretation of the Context and what your Attempt Score ends up being.
+
 The GM is at sole discretion to determine the value of a Challenge's Difficulty,
 but the following chart should loosely guide their decisions:
 
 
-  <5  -> Mundane
+1>>5 -> Mundane
 
-           These are actions that most humans encounter at least once or twice a day
-           that are still easily failed if you aren't paying attention. They would
-           include running up a staircase, driving to work, or cooking a decent meal.
+        These are actions that most humans encounter at least once or twice a day
+        that are still easily failed if you aren't paying attention. They would
+        include running up a staircase, driving to work, or cooking a decent meal.
 
-   5   -> Average
+5>>9 -> Average
 
-           These actions refer to those that average humans are capable of,
-           especially if properly motivated. This includes doing your taxes,
-           beginner level skateboard tricks, or putting together an impressive
-           slideshow. 
+        These actions refer to those that average humans are capable of,
+        especially if properly motivated. This includes doing your taxes,
+        beginner level skateboard tricks, or putting together an impressive
+        slideshow. 
 
-   10   -> Above Average
+10>>14 -> Above Average
 
-           These actions refer to those that humans can only typically do
-           consistently if they've practiced them. These actions aren't record
-           setting, but most humans are not automatically capable of them
-           without at least some effort.  This includes ramming down a wooden
-           door, climbing a mountain, or participating in a varsity chess
-           tournament.
+        These actions refer to those that humans can only typically do
+        consistently if they've practiced them. These actions aren't record
+        setting, but most humans are not automatically capable of them
+        without at least some effort.  This includes ramming down a wooden
+        door, climbing a mountain, or participating in a varsity chess
+        tournament.
 
-   15   -> Champion
-           
-           These actions refer to those that only highly talented humans are
-           capable of doing consistently, but that are still able to be
-           completed by average humans with a good deal of luck, preperation
-           and/or stubborness. This includes walking across a thin wooden beam
-           in a storm, fighting off a shark, or acing a college midterm.
+15>>19 -> Champion
+        
+        These actions refer to those that only highly talented humans are
+        capable of doing consistently, but that are still able to be
+        completed by average humans with a good deal of luck, preperation
+        and/or stubborness. This includes walking across a thin wooden beam
+        in a storm, fighting off a shark, or acing a college midterm.
 
-   20   -> Hero
+20>>24 -> Hero
 
-           These actions are extremely impressive ones that are beyond the realm
-           of what the human anatomy is physically capable of. This includes things
-           like bench-pressing cars, running across water like it were solid
-           ground, or cracking an encrypted computer cypher. 
+        These actions are extremely impressive ones that are beyond the realm
+        of what the human anatomy is physically capable of. This includes things
+        like bench-pressing cars, running across water like it were solid
+        ground, or cracking an encrypted computer cypher. 
 
-   25   -> Super Hero 
+25 -> Super Hero 
 
-           This is the very highest ability Characters are intended to reach without the
-           assistance of sophisticated military hardware. Actions of this type include
-           throwing cars like they're stones, running through buildings like they aren't
-           even there, or cracking out massive turn-night-into-day lightning bolts across
-           the sky.
+        This is the very highest ability Characters are intended to reach without the
+        assistance of sophisticated military hardware. Actions of this type include
+        throwing cars like they're stones, running through buildings like they aren't
+        even there, or cracking out massive turn-night-into-day lightning bolts.
 
-BANGS, BUSTS, & BOONS
-=====================
+BANGS & BUSTS
+-------------
 
 Multiple things are able to increase your Cores and enable you to overcome
 harder and harder challenges. One of these things are Narrative components of
@@ -107,18 +116,20 @@ Challenges.
 
 If you are in an advantageous position when Attempting a Challenge, instead of
 drawing 1 Card from the Play Deck, you draw 2 cards and choose the card with the
-higher value for your given Challenge. After picking your Card, you place the
-unchosen card at the bottom of the Play Deck, and the used card into the Open
-Chakra. This type of situation is called a Bang. The GM alone has the permission
-to grant a Bang, but some mechanics explicitly grant one.
+higher value for your given Challenge. The GM alone has the permission to grant
+a Bang, but some mechanics explicitly grant one.
 
 If you are in an disadvantageous position when Attempting a Challenge, instead
 of drawing 1 Card from the play deck, you draw 2 cards and choose the worse
-card, placing the unchosen card at the bottom of the Play Deck, and placing the chosen card into your Open Chakra. This type of situation is called a Bust. The
+card, placing the unchosen card at the bottom of the Play Deck, and placing the
+chosen card into your Open Chakra. This type of situation is called a Bust. The
 GM alone has the permission to hand down a Bust, but some mechanics explicitly
 incur one.
 
-Finally, as a reward for playing the game well, a GM may grant you a Boon. A
+BOONS
+-----
+
+As a reward for playing the game well, a GM may grant you a Boon. A
 Boon can do one of three things:
 
             1. Grant your Character a Bang on their next Action.
@@ -128,8 +139,12 @@ Boon can do one of three things:
             3. Be gifted to another player. Doing so costs an Action from the
                Character who is gifting the Boon.
 
-What is meant by playing the game "well" is really up to the GM, but typically
-it would include things like playing your Character compellingly, remaining in
+What is meant by "playing the game well" is really up to the GM, but typically
+it would include things like reacting compellingly to situations, remaining in
 Character consistently, abiding by the Virtues and Vices of your Character, or
-otherwise improving the play experience for everyone (including the GM!).
+otherwise improving the play experience for everyone (including the GM!). This
+list is by no means exhaustive, and a GM is free to hand out Boons as they see
+fit.
+
+A Player can only be in possession of a single Boon at a time.
 

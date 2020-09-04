@@ -4,7 +4,7 @@ your SIZE, SECONDARY MOVEMENT, & PERCEPTION.
 SIZE
 ====
 
-Being a 12ft 6000lb giant is great when you're in the thick of battle or trying to
+Being a 10ft 1200lb giant is great when you're in the thick of battle or trying to
 make a guard piss his pants out of fear, but it may render you physically incapable
 of entering certain areas. You should also carefully consider the logistics of keeping
 your Character fed. 
@@ -12,44 +12,41 @@ your Character fed.
 Similarly, being the size of a mouse would make it extremely difficult to intimidate
 anyone, but makes skulking around unnoticed almost natural.
 
-The Size Categories are as followings, all with different benefits, penalties and dimensions:
+The Size Categories that Characters are able to take on are as followings:
 
-Big    - Real World Analogue (Polar Bear)
--------------------------------------------------------------------------------
+Big - Real World Analogue (Polar Bear)
+--------------------------------------
 
     +1 Reach
     +2 Unarmed Attack Damage
-    +3 Natural Defense
+    +2 Natural Defense
 
-    +3 Brawn Capacity
     -3 Speed Capacity
+    +3 Brawn Capacity
 
     General Dimensions    
     |   Height:   8 -> 10ft ~ 
     |   Weight:   800 -> 1200lbs ~
     
     Momentum: 8
-    Occupied Space: 4 x 5^3ft
+    Occupied Space: 1/2 a Zone 
 
-Medium - Real World Analogue (Adult Male Human)
--------------------------------------------------------
+Medium - Real World Analogue (Average Adult Human)
+-----------------------------------------------
 
     Dimensions    
-    |   Height:   5ft ~ 
-    |   Weight:   160lb ~
+    |   Height:   5-6ft ~ 
+    |   Weight:   150-230lb ~
 
     Momentum: 5
-    Occupied Space:   1 x 5ft^3 Square
+    Occupied Space:  1/4 of a Zone 
 
 Small - Real World Analogue (Adolescent Human)
-------------------------------------------------------
+==============================================
      
     You make Dodges with a Bang when you are dodging attacks coming from
     Creatures that are larger than you.
 
-    You may occupy the same space as Creatures larger than you, but any
-    Challenges that are made by you are made with a Bust while you are doing so.
-    If the Creature you are occupying the space of is friendly to you, you
     do not incur this penalty. This effect is also nullified if the Creature
     whom's space you are occupying is unaware of you.
 
@@ -66,7 +63,7 @@ Small - Real World Analogue (Adolescent Human)
 
     Momentum: 2
 
-    Occupied Space:  1 x 5ft^3 Square
+    Occupied Space:  <1 x 5ft^3 Square
 
 Each category offers variations on the following:
 
@@ -88,8 +85,8 @@ Each category offers variations on the following:
     naturally inclined to be agile, whereas larger Characters inherently have
     more muscle mass, and thus can exert more force. 
 
-    A bonus to a Capacity raises the maximum value that either the Brawn
-    or Speed Core can be by an amount equivalent to the bonus. If one side Capacity
+    A bonus to a Capacity raises the maximum value that either the Brawn or
+    Speed Core can be by an amount equivalent to the bonus. If one side Capacity
     is expanded, it is explicitely coupled with a retraction by the other side
     of the same Capacity.
 
@@ -233,7 +230,7 @@ SIGHT
             all objects around you at any light level, but details are
             inperceptable by this sight in the absense of adequate light.
             Objects/Creatures that have a temperature equivalent to the average
-    j       ambient temperature are harder to see with Thermal Vision. 
+            ambient temperature are harder to see with Thermal Vision. 
 
         Telescopic Vision
         -----------------
@@ -280,7 +277,7 @@ SMELL/TASTE
 
             1 SP per +3 to Brain Challenges where you are trying to determine
             another Creature's mood/emotions. Creatures emit certain chemicals
-            that invoke a certain response from members of its own species.
+            that invoke a certain neurological response from members of its own species.
             Assuming your Character is aware of what message a certain pheremone
             conveys, you are given the specified bonus to Challenges. If the
             Creature is a member of your Character's Species, you automatically
