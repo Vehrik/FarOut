@@ -19,10 +19,10 @@ Big - Real World Analogue (Polar Bear)
 
     +1 Reach
     +2 Unarmed Attack Damage
-    +2 Natural Defense
+    +2 Stamina
+    +3 Brawn Capacity
 
     -3 Speed Capacity
-    +3 Brawn Capacity
 
     General Dimensions    
     |   Height:   8 -> 10ft ~ 
@@ -44,26 +44,34 @@ Medium - Real World Analogue (Average Adult Human)
 Small - Real World Analogue (Adolescent Human)
 ==============================================
      
-    You make Dodges with a Bang when you are dodging attacks coming from
+    Features
+    --------
+
+    Small Target: You make Active Dodges with a Bang when you are dodging attacks coming from
     Creatures that are larger than you.
 
-    do not incur this penalty. This effect is also nullified if the Creature
-    whom's space you are occupying is unaware of you.
+    You may occupy the same space as Creatures that are larger than you
+    Surefooted.
+
+    The Momentum you gain from Traits are quartered to the nearest natural
+    number.
 
     +3 Natural Defense
     +3 Speed Capacity
 
     -1 Reach
+    -2 Stamina
+    -3 Momentum
     -3 Unarmed Attack Damage
     -3 Brawn Capacity
 
     Dimensions    
     |   Height:   2 -> 4ft~ 
-    |   Weight:   40 -> 120lb~ 
+    |   Weight:   40 -> 100lb~ 
 
     Momentum: 2
 
-    Occupied Space:  <1 x 5ft^3 Square
+    Occupied Space: 1/8th of a Zone 
 
 Each category offers variations on the following:
 

@@ -70,18 +70,16 @@ but the following chart should loosely guide their decisions:
 5>>9 -> Average
 
         These actions refer to those that average humans are capable of,
-        especially if properly motivated. This includes doing your taxes,
-        beginner level skateboard tricks, or putting together an impressive
-        slideshow. 
+        especially if properly motivated. This includes doing your taxes, riding
+        a bike, or putting together an impressive slideshow. 
 
 10>>14 -> Above Average
 
         These actions refer to those that humans can only typically do
         consistently if they've practiced them. These actions aren't record
-        setting, but most humans are not automatically capable of them
-        without at least some effort.  This includes ramming down a wooden
-        door, climbing a mountain, or participating in a varsity chess
-        tournament.
+        setting, but most humans are not automatically capable of them without
+        at least some effort. This includes ramming down a thick wooden door,
+        climbing a mountain, or participating in a varsity chess tournament.
 
 15>>19 -> Champion
         
@@ -104,6 +102,48 @@ but the following chart should loosely guide their decisions:
         assistance of sophisticated military hardware. Actions of this type include
         throwing cars like they're stones, running through buildings like they aren't
         even there, or cracking out massive turn-night-into-day lightning bolts.
+
+DOUBLING DOWN, TRIPLING DOWN, & FLOPPING
+----------------------------------------
+
+There will be times where you just can't afford to fail a particular Challenge,
+but the card you draw is not the one you think you need. In an instance like this, you can
+do one of two things:
+
+    1. Pray that the GM will take mercy on you.
+
+    2. Double Down
+    
+Doubling Down means that you can draw one more Card and add its value to
+whatever your Attempt Score was initially. So for example, you want your
+Character to catch the arm of a falling comrade, but you draw an 8, but you have
+a -1 Speed Core. You're fairly positive that an Attempt of 7 isn't going to be
+enough, so you declare you're Doubling Down. You then draw another Card, a 6 in
+this case, which brings the Attempt up to 13, which *should* be enough. Doubling
+Down consumes an Action when you declare that you're doing it.
+
+Tripling Down is just Doubling Down on a Double Down. So in the previous
+example, you drew a 2 instead of a 6. You want something higher than a 9, so you
+take the risk and Triple Down. You then draw another Card and add that value to
+the card drawn when you Doubled Down AND the card you initially drew when you
+took the first Action as well as your relevant Core. Say you drew a 4 when you
+Doubled Down, then a 3 when you Tripled Down, you would end up with a total
+Attempt of 14. Tripling Down consumes another Action when you declare you're
+doing so.
+
+You must decide to Double Down or Triple Down *before* your GM reveals whether
+or not your Attempt succeeded or not.
+
+Be careful, because in addition to the lost Actions, you can Flop. If the total
+of the 3 Cards you drew is higher than 15, your Attempt Score is set to 1 + the
+relevant Core. In other words, you are treated as if you *only* drew an Ace of
+the wrong colour for your Action. 
+
+If you draw a Joker that's the wrong Colour when you Double or Triple Down, you
+automatically Flop in addition to incurring the normal effects of drawing a bad
+Joker.
+
+
 
 BANGS & BUSTS
 -------------

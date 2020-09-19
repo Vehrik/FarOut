@@ -11,7 +11,7 @@ You can't be amazing at everything. Often times, achieving a higher Core
 Value means making sacrifices, sometimes that could literally be an arm and
 a leg. In a society where all but the most destitute and far-flung have been
 genetically engineered so they are at the peak of what the human physiology
-is capable of, the only way to gain meaningful advantanges is to specialize.
+is capable of, the only way to gain meaningful advantages is to specialize.
 
 Below each Stat is described for what facets of a creature it represents.
 These descriptions are not meant to be exhaustive, and with clever
@@ -23,7 +23,7 @@ BRAWN
 
     Brawn is a measure of your character's physical hardiness, physique and raw
     brute strength. Having a higher Brawn score allows your Character to dish
-    out hard punches, take harder hits, and lift heavy burdens. Brawn also
+    out hard punches, take harder hits, and shoulder heavy burdens. Brawn also
     determines your Accuracy and Damage with Crude Weapons and Unarmed Attacks.
 
 SPEED
@@ -47,9 +47,10 @@ BRAIN
 HEART
 -----
 
-    Heart is a measure of your character's discipline, will, instinct, and
-    confidence. Your ability to resist and impose mental effects, ignore
-    exhaustion and tolerate pain is determined by your Heart Core.
+    Heart is a measure of your character's strength of character, will,
+    instinct, emotion, and confidence. Your ability to resist and impose mental
+    effects, ignore exhaustion and tolerate pain is determined by your Heart
+    Core.
 
 
 CAPACITIES
@@ -71,7 +72,8 @@ CAPACITIES
     For example, if you had a +3 Brawn Core, it would implicitely cause your
     Speed Core to be set at -3. Having a negative score in a Core is not
     automatically "bad", it merely means that the Creature has a anatomy that is
-    highly specialized.
+    highly specialized. A Creature wouldn't be able to be called "inept" at
+    certain tasks until the Associated Core dipped below -3.
     
     With this in mind, you are given 3 Slant at Character Creation, which you
     may apply to your Cores in one of two directions. Using Slant for Core
