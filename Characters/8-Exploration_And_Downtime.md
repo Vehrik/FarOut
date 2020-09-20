@@ -46,6 +46,21 @@ when approaching it from one direction, but remove Difficulty when approaching
 it from another. It's also likely that approaching a Path or Border from
 different directions will cause the Difficulty they add/remove to fluctuate.
 
+MOVING WITHIN ZONES
+-------------------
+
+As every Zone is at most 20ft long and 20ft wide, moving between two points
+directly often represents a trivial amount of distance to cover within 3 seconds
+(the length of a Round in combat). As such, moving between two points within a
+Zone does not require an Action, but is instead done as a part of an Action or
+Reaction. 
+
+Doing this repeatably, however, begins to test the agility of the Character.
+When a Player wants to reposition a Character within a Zone more than once, it
+requires another Action/Reaction it needs to be taken. This Action can either
+*just* move your Character within the Zone it already occupies, or it can
+perform a separate task, *and* reposition the Character.
+
 MOVING BETWEEN ZONES
 --------------------
 
