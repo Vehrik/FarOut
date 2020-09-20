@@ -58,11 +58,11 @@ TRAITS
 
                         Biomass - As long as the Trait is not a Crux, the Player
                         may choose to have the Trait to be Concealed with no
-                        additional Splice Point Cost. Disabled Traits may be
+                        additional Splice Point Cost. Damaged Traits may be
                         forced to work as normal by expending 2 Stamina for a
                         single use. You may also expend 2 Stamina in order to
-                        force a disabled Biomass Trait to work for a single use
-                        as if it were Disabled. 
+                        force a Disabled Biomass Trait to work for a single use
+                        as if it were merely Damaged. 
 
                         Energy - The Trait gains a Range of 1 and 1 Point of
                         Damage for no additional cost. If you give the Trait

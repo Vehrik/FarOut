@@ -1,5 +1,5 @@
-ZONES, BORDERS, & PATHS
-=======================
+ZONES & BORDERS
+===============
 
 Every Scenario has one or more Zones. Zones are intuitive divisions of space
 within a given moment of play. Each Character a certain amount of space within a
@@ -34,17 +34,14 @@ horizontally, Zones are considered to have height as well as width, though by no
 means do these two measurements have to be proportional to each-other.
 
 Features that divide the Scenario into its composite Zones are referred to as
-Borders, whereas the features that connect two or more Zones (often bypassing or
-circumventing Borders) are referred to as Paths.
-
-Both Paths and Borders add or remove Difficulty to any Challenge that is
-completed while crossing them. Different Paths and Borders will invoke different
+Borders.  Borders add or remove Difficulty to any Challenge that is completed
+while crossing them. Different Paths and Borders will invoke different
 Challenges. 
 
-It's very possible for a singular Path or Border to add Difficulty
-when approaching it from one direction, but remove Difficulty when approaching
-it from another. It's also likely that approaching a Path or Border from
-different directions will cause the Difficulty they add/remove to fluctuate.
+It's very possible for a singular Border to add Difficulty when approaching it
+from one direction, but remove Difficulty when approaching it from another. It's
+also likely that approaching a Path or Border from different directions will
+cause the Difficulty they add/remove to fluctuate.
 
 MOVING WITHIN ZONES
 -------------------
@@ -53,13 +50,18 @@ As every Zone is at most 20ft long and 20ft wide, moving between two points
 directly often represents a trivial amount of distance to cover within 3 seconds
 (the length of a Round in combat). As such, moving between two points within a
 Zone does not require an Action, but is instead done as a part of an Action or
-Reaction. 
+Reaction. It can either be done before or after the Action resolves, but you
+can't 'hold' the reposition for use later in the round.
 
 Doing this repeatably, however, begins to test the agility of the Character.
 When a Player wants to reposition a Character within a Zone more than once, it
-requires another Action/Reaction it needs to be taken. This Action can either
-*just* move your Character within the Zone it already occupies, or it can
-perform a separate task, *and* reposition the Character.
+requires another Action/Reaction to be taken. This Action can either *just* move
+your Character within the Zone it already occupies, or it can perform a separate
+task *and* reposition the Character.
+
+If your Character has 3 Speed or higher, it is able to reposition twice per each
+Action taken instead of once, however, you may only reposition once before the
+Action resolves, and only once after.
 
 MOVING BETWEEN ZONES
 --------------------
@@ -75,7 +77,7 @@ will allow you to move to the Zone you designated through the Path who's
 Challenge you completed. 
 
 A Zone is no more than 20sq ft, but often it will be less than that due to
-Borders and Paths.
+Borders and Paths. 
 
 In situations where you fail the Move Challenge, instead of moving the maximum
 intended distance, you move a shorter distance that was along the path you were
@@ -93,10 +95,10 @@ you can be asked to Attempt any type of Challenge. For example, moving through a
 large, meandering crowd of people is often more of a question of body language
 (Heart) or how pushy you can be (Brawn). Moving between non-adjacent Zones will
 always involve at least 1 Speed Challenge, but often invoke additional
-Challenges.
+Challenges along the way.
 
-SPACE, THREAT, AND REACH
-------------------------
+BEING SCARY IN SPACE AND TAKING NAMES 
+-------------------------------------
 
 Space refers to any discernible, unoccupied area within the Game World. Due to
 the nature of the game, the exact square-footage of a certain Space is best left
@@ -107,18 +109,33 @@ as landmarks when describing the shape, size and position of less explicitly
 defined features. 
 
 Your Character is considered to Threaten a certain amount of Space within a
-Scenario. To Threaten something means that should a creature, object, or item take
-an Action/Reaction, your Character is able to invoke a Reaction of your own
-assuming you haven't used up all your Actions for a Round. Creatures Threaten
-everything that occupies the same Zone as them, but can potentially Threaten
-Creatures that are multiple Zones away if they have enough Reach.
+Scenario. To Threaten something means that should a creature, object, or item
+take an Action/Reaction, your Character is able to invoke a Reaction of your own
+assuming you haven't used up all your Actions for a Round. 
 
-Some weapons and mutations give your Character Reach. Reach is similar to Range
-in that it allows you to attack things that are multiple Zones away. The key
-difference is that having Reach increases the amount of Space you Threaten,
-whereas Range does not. While not without exception, Reach is often only make
-you capable of targeting something that's 1 or 2 Zones away, where as Range
-typically allows you to target Creatures that are 3 or more Zones away.
+Creatures Threaten everything that occupies the same Zone as them, but can
+potentially Threaten Creatures that are multiple Zones away if they have some
+item or ability that supplies Threat. 
+
+Threat is not the same thing as Range. Range means you *can* Threaten something,
+whereas Threat implies you *are* Threatening something. Your Threat describes a
+radial distance around your Character where you Threaten anything within it.
+Range, on the other hand, describes how far away a singular target can be and
+that you can still try to attack it.
+
+If you have the ability to make a Ranged Attack, you may as part of an Action or
+Reaction, designate a single Creature to Track. To Track a Creature means that
+you can immediately React to any Action/Reaction that Creature takes, as if you
+were Threatening them. For each point of Speed your Character has, you can Track
+one additional Creature at once, but all Creatures you are Tracking must be in
+the same Zone. If the Creature you're Tracking is aware of you and your
+position, it knows when you are Tracking it.
+
+If two or more Creatures are Threatening another Creature, their Reactions
+resolve in the order of highest Speed Core to the lowest. As always, you may
+expend a point of Stamina to Grunt, pushing your Action to the front of the
+Queue, meaning it will resolve before even the Creature whose Turn it
+currently is.
 
 SHAKING THINGS UP
 -----------------
