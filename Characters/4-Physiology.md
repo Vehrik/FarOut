@@ -17,6 +17,9 @@ The Size Categories that Characters are able to take on are as followings:
 Big - Real World Analogue (Polar Bear)
 --------------------------------------
 
+    High Metabolism: Food is treated as if it has -2 Satiation for your
+    Character.
+
     +1 Threat
     +2 Unarmed Strike Damage
     +3 Stamina
@@ -55,6 +58,8 @@ Small - Real World Analogue (Adolescent Human)
 
     Square Cube Law: The Momentum you gain from Traits is quartered to the nearest natural
     number.
+
+    Tiny Stomach: Food is treated as if it has +2 Satiation for your Character.
 
     -1 Threat
     -2 Stamina

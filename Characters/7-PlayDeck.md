@@ -55,7 +55,35 @@ short results in failure, with increasingly severe punishments the more points
 you fail by.
 
 Exactly what happens when resolving a Challenge is up to your GM's
-interpretation of the Context and what your Attempt Score ends up being.
+interpretation of the Context and what your Attempt Score ends up being. However
+the results of a Challenge will most likely fall into one of the following
+categories:
+
+Yes, And!
+
+    Your Character succeeded at whatever it was they were trying to do, and they
+    did it so well that they also gained an unforseen benefit. This benefit will
+    normally manifest as a slight advantage for your next Action, but could
+    potentially trigger positive narrative effects.
+
+Yes!
+    
+    Your Character succeeded at what they were doing, but it wasn't particularly
+    impressive.
+
+Yes, but...
+
+    Your Character succeeded at whatever they were doing, but it also results in
+    unforseen misfortune. This misfortune will normally manifest as a Bust for
+    your next Action, but could potentially trigger negative narrative effects.
+
+Eh...
+
+No, but!
+
+No!
+
+No, and...
 
 The GM is at sole discretion to determine the value of a Challenge's Difficulty,
 but the following chart should loosely guide their decisions:
@@ -186,7 +214,7 @@ effects:
        take 1 Action with a Bang. You must utilize this empowered Action
        immediately after you expend the Stamina.
 
-    4. Swing By The Bootstraps - 2 Stamina - After you fail a Challenge, you may
+    4. Knuckle Down - 2 Stamina - After you fail a Challenge, you may
        decide to expend 2 points of Stamina in order to retry the Challenge. If
        you succeed this time, you were treated as you succeeded for the initial
        Attempt.

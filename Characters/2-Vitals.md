@@ -52,9 +52,8 @@ STAMINA
 3 + BRAWN
 ---------
     
-    You have a number of Stamina points equivalent to 3 plus your Brawn Core,
-    however this value cannot be lower than 0 in the event that your Brawn Core
-    has a negative value.
+    You have a number of Stamina points equivalent to 3 plus your Brawn Core.
+    Stamina can be negative, which has serious implications on your Character.
 
     You recover 1 Stamina per hour of Break, and you automatically gain 1 bonus
     Stamina when you finish a Rest. You may not have more than 1 point of bonus
@@ -71,6 +70,16 @@ STAMINA
 
     Mutations, Elixirs and other items within the game can grant bonus Stamina
     beyond what is available from a Brawn Core.
+
+    Your Stamina also doubles as a Hunger and Thirst Meter. For every 2 days you
+    go without food or 3 hours you go without water (or an equivalent for your
+    Creature) you lose 1 point of Stamina. These times are halved if you spend
+    more than an hour in a High Stress Scenario in a day. 
+
+    If you Creature has -3 Stamina, they Bust on Move Challenges. If they have
+    -4 Stamina, they Bust on ALL actions. If they have -5 Stamina, they fall
+    unconscious and continue to lose Stamina. If a Creature reaches -10 Stamina,
+    they die.
 
 
 

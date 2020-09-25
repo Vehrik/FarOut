@@ -34,13 +34,23 @@ TRAITS
     details:
 
             1. The location of the Trait. You may designate the Trait as being
-               anchored to or embedded in either your Torso, Head, or one of
-               your Limbs. Multiple Traits may be anchored to/embedded in the
-               same portion of your body. Traits may become less effective or
-               even unuseable if the body part the Trait is associated with
-               becomes Injured. You may optionally designate the Trait as a
-               Crux, giving your 3 additional Splice Points points to use on the
-               Crux, but if the Crux is damaged, it could Fail Catastrophically.
+               anchored to, projected from or embedded in either your Torso,
+               Head, or one of your Limbs. 
+
+               Multiple Traits may be anchored to/embedded in the same portion
+               of your body. Traits may become less effective or even unuseable
+               if the body part the Trait is associated with becomes Injured. 
+
+               If the limb you place the Trait on also houses a Hand (by default
+               this is your arms), the Trait will consume the Hand unless you
+               expend 1 additional Splice Point in order to conserve the Hand.
+               If a Trait's Form allows for it and the Hand is conserved, you
+               may potentially combine the properties of your Trait and a Weapon
+               held in the augmented Hand.
+
+               You may optionally designate the Trait as a Crux, giving you 3
+               additional Splice Points points to use on the Crux, but if the
+               Crux is damaged, it could Fail Catastrophically.
 
             2. The material the Trait is made of. A Trait may be comprised of
                either Metal, Biomass or Energy or some combination thereof. It
@@ -49,7 +59,7 @@ TRAITS
                following bonuses based on which material the Trait is *mostly*
                comprised of:
                     
-                        Metal - You gain +1 point of Natural Defense and the
+                        Metal - You gain +2 point of Natural Defense and the
                         limb automatically qualifies as a Crude Weapon with a
                         Damage of 2 and a Range of 0. You may expand upon this
                         Damage if you make the Trait Crude as well, but you may
@@ -62,12 +72,10 @@ TRAITS
                         forced to work as normal by expending 2 Stamina for a
                         single use. You may also expend 2 Stamina in order to
                         force a Disabled Biomass Trait to work for a single use
-                        as if it were merely Damaged. 
+                        as if it were merely Malfunctioning. 
 
-                        Energy - The Trait gains a Range of 1 and 1 Point of
-                        Damage for no additional cost. If you give the Trait
-                        Volume, it automatically gains +5v3 on the first 5v3
-                        bought.
+                        Energy - The Trait gains a Range of 1 Zone, 1 Point of
+                        Damage and 5v3 for no additional cost.
 
             3. The general dimensions of the Trait. You don't need to have the
                measurements down to the inch, but you need a solid concept of
@@ -106,7 +114,7 @@ NATURAL WEAPONS
 ---------------
 
 ### DAMAGE(D)
-#### COST: 1 Splice Points / 1 D
+#### COST: 2 Splice Points / 1 D
     
     This value is used to determine the Damage dealt by this Trait OR its
     products whenever it contacts a Creature. You must decide on the first point
@@ -132,6 +140,12 @@ NATURAL WEAPONS
     costs 1 Splice Point, however, this Range is treated as Threat for all
     purposes.
 
+    If you do not purchase Volume or Integrity for a Trait, it implies that the
+    Trait does not produce a projectile, but rather that you are flinging out a
+    limb (or pseduolimb) that is vunerable to attacks all along the length of
+    its Range. This pseudolimb has roughly the same diameter as the rest of the
+    Character's limbs.
+
 ### VOLUME (V)
 #### COST: 1 Splice Points / 5 Cubic Feet (v3)
 
@@ -147,9 +161,10 @@ NATURAL WEAPONS
     purchase and store Volume to integrate into the Trait at a later time, but
     you need to get Spliced to do so. 
 
-    You may split the Volume between multiple projectiles, but the Damage and
-    Range of the Trait must be split such that each projectile has at least 1
-    point of Damage/Capacity Damage. Each projectiles implies a single object
+    You may split the Volume between multiple projectiles, but each projectile
+    must have at least 1 point of Damage, Core Boost, Capacity Damage or Effect
+    and Range of the Trait must be split such that each projectile has at least
+    1 point of Damage/Capacity Damage. Each projectiles implies a single object
     with which the Damage or Capacity Damage properties will apply to whatever
     it touches and be rendered unusable on impact.
 
@@ -165,8 +180,9 @@ NATURAL WEAPONS
 ### INTEGRITY 
 #### COST: 1 Splice Points per 1 Integrity
     
-    All properties of a Trait (Damage, Capacity Damage, Core Boost) will be
-    reapplied to the Target(s)/Volume at the beginning of every Round until the
+    All destructive and/or consctructive properties of a Trait (Damage, Capacity
+    Damage, Core Boost, Effect Challenege) will be reapplied to the anything
+    touching the Trait's products at the beginning of every Round until the
     Trait's products are reduced to an Integrity of 0.
 
     If a Trait has even 1 point of Integrity, it implies that it produces some
@@ -176,11 +192,11 @@ NATURAL WEAPONS
     after it applies its effects
 
     The Integrity of a Trait's products are reduced by 1 whenever they are
-    Challenged, but the Integrity is reduced to 0 if they are overcome by an
-    oppossing Challenge. The Trait's products are destroyed and rendered useless
-    if its Integrity is reduced to 0. Traits with constructive properties like
-    Core Boost automatically lose 1 point of Integrity at the beginning of every
-    round. 
+    Challenged, but the Integrity is reduced to 0 if they met with a Challenge
+    higher than their Integrity. The Trait's products are destroyed and rendered
+    useless if its Integrity is reduced to 0. Traits with constructive
+    properties like Core Boost automatically lose 1 point of Integrity at the
+    beginning of every round. 
 
     You must designate the product's Form as either gas, liquid, or
     solid. Creatures are able to interact with any substances with Integrity in
@@ -190,23 +206,25 @@ NATURAL WEAPONS
     Challenge, and in these cases the Integrity is reduced by 1 whenever they
     are used. The shape, texture, hardness, and size of a Trait's products are
     set at Trait Creation, and cannot be changed at will. If a Trait is used to
-    complete a Challenge higher than its Integrity, it breaks.
+    complete a Challenge higher than its Integrity, it breaks and the Challenge
+    is automatically failed.
 
     Something with Integrity has Momentum equivalent to its Integrity unless it
     is a gas, in which case the Momentum is capped at 0. Reducing Intergrity
-    does not reduce the Momentum of the products.
+    reduces the Momentum of the generated product.
 
+    A Trait with Integrity and no Volume can only produce small objects, meaning
+    that it cannot be large than a basketball in size (~3ft). Otherwise,
+    the Trait produces an amount of material equivalent to its Volume each time
+    it is activated.
+    
     If the Trait is reapplied to space occupied by its products before their
-    Integrity is depleted, the Integrity is added to and stacks up to a value of
-    15. Products and the mode by which they are produced are treated as
-    reasonably as the GM is prepared to honor. The products nor the mode of
-    production cannot cause stat damage at all unless you have decided that it
-    is explicitely what causes damage as far as Aesthetics are concerned.
+    Integrity is depleted, the Integrity is compounded up to a maximum value of
+    15. 
 
     Traits with Integrity may be set as traps in ways that make sense for its
-    given Form. Traps laid in this way require a Sense Challenge equivalent to
-    the Brain Challenge performed by the trapper when they set the trap to
-    detect it. 
+    given Form. Traps laid in this way have a Detection Challenge equivalent to
+    the Set Trap Challenge Attempted by the trapper.
 
 ### CAPACITY DAMAGE 
 #### COST: 2 Splice Points per 1 point of Capacity Damage
@@ -242,20 +260,24 @@ NATURAL WEAPONS
     if possible, but with the nearest Creature receiving any remainder, up to a
     maximum of +5. 
 
-    That is, if you possess a Trait that has +1 Core Boost and has a 20ft Volume,
-    only the Creature nearest to the Point of Origin will receive the Core
-    Boost. Core Boost lasts for a number of rounds equivalent to the Traits
-    Integrity (or at least until the end of the boosted Creature's Turn) after
-    which it must be reapplied with an Action. Core Boost is not generic, you
-    must specify which Core it boosts when you purchase it.
+    That is, if you possess a Trait that has +1 Core Boost and has a 20ft
+    Volume, only the Creature nearest to the Point of Origin will receive the
+    Core Boost. Core Boost lasts until its products are destroyed or at least
+    until the end of the boosted Creature's Turn if it has no Integrity.  Core
+    Boost is not generic, you must specify which Core it boosts when you
+    purchase it.
 
     Core Boost does not penalize the associated Core of the one you're boosting.
     In other words, if you Boosted your Brawn by +2, your Speed would not be
     drained by -2. Reapplying Core Boost from the same source only refreshes the
     duration as opposed to adding to the Boost.
 
-    Multiple sources of Core Boost do add together, but a single Core cannot not
-    receive more than +5 Boost at a time.
+    Multiple sources of Core Boost do add to eachother, but they must come from
+    different Creatures, items or similar; it is not enough that you have two
+    Traits that boost the same Core. A single Core may not be Boosted by more
+    than 5.
+
+    For every 5 points of Boost a Creature receives, the gain 1 point of Burden.
 
 ### CONCEALMENT (~)
 #### COST: 1 Splice Points
@@ -277,38 +299,25 @@ NATURAL WEAPONS
     The Cost of concealing a Crux is double.
 
 ### EFFECT CHALLENGE (EC)
-#### COST: 2 Splice Points / 3 EC
+#### COST: 1 Splice Points / 1 EC
 
-    In addition to the other primary effects of the Trait (i.e. Damage or Core
-    Damage), you are able to assign the product of your Trait an Effect. This
-    Effect is any Challenge your Character would normally be able to preform,
-    but instead, it is treated as if it produced the Attempt score equivalent to
-    the assigned Effect Challenge. You must designate exactly what the Effect
-    entails, however the Effect cannot directly Damage or Injure the Target by
-    virtue of itself.
+    In addition to the other primary effects of the Trait (i.e. Damage or
+    Capacity Damage), you are able to assign the product of your Trait an
+    Effect. 
 
-    For example, a Character may have a Trait that allows it to shoot a string
-    of web of Integrity 2 out by 6 Zones. If this Trait was also given a
-    Brawn-based Effect Challenge of 6 that's intended to allow the web to grab
-    onto any surface it touches, the web would be treated as if it just
-    completed a Brawn Challenge with an Attempt of 6 whenever it does encounter
-    a surface. This same Trait could potentially be used as tool to Trip fleeing
-    Creatures, or snatch weapons out of the hands of assailants if they are
-    unaware.
+    This Effect can be any Challenge your Character would normally be able to
+    preform either empty-handed or with a simple tool of some kind, but instead,
+    it is treated as if it produced the Attempt score equivalent to the assigned
+    Effect Challenge. 
 
-    The Form of a Trait are taken into account by the GM when they decide
-    the Challenge required for the Effect to succeed, just as they do when they
-    determine Challenge Difficulty for Characters in possession of tools. Effect
-    Challenges do not reduce the Integrity of a Trait's products when it
-    activates.
+    You must designate exactly what the Effect entails, however the Effect
+    cannot directly Damage or Injure the Target by virtue of itself. In other
+    words, while you could potentially *cause* damage by Tripping a Creature,
+    causing them to Fall, or by causing them to touch a hazard with an Effect,
+    the Effect itself cannot generate Damage.
 
-    There are Forms that are considered "too good" to be allowed. Where this
-    line is almost entirely up to the GM as they have the final say regardless
-    of the text in this document. That said, as a rule of thumb it shouldn't
-    physically morph the environment passively, nor should it be potent enough
-    to cause Injury passively. Additionally, a Trait's *Form* shouldn't be any
-    more useful than a consumer-grade tool, or something that could be
-    reasonably fashioned out of common materials.
+    While there are many possibilities, a Trait with an Effect can be used to
+    move things at a distance, generate 
 
 ### STAMINA REPLENISHMENT (SR)
 #### COST: 2 Splice Points / 1 SR
@@ -357,12 +366,18 @@ ANATOMY MUTATIONS
     Typically Creatures have two "hands" that they can wield items with in a
     Combat Scenario. All Creatures are considered ambidextrous for all
     Challenges. Gaining an extra Hand allows you to simultaneously wield 3
-    1-Handed Weapons at a time (or some combination of 2-Handed Weapons and
-    1-Handed Weapons). Gaining more than 1 Hand allows for a larger variety of
-    weapon combinations. Despite there name, Hands do not have to be actual
-    hands. Like all Traits, the details of their aesthetics is between you and
-    your table-mates. As always, the Creature needs to account for the Momentum
-    of the Weapons he is holding with any Hand.
+    1-Handed Weapons at a time, or some combination of 2-Handed Weapons and
+    1-Handed Weapons. 
+
+    Gaining more than 1 Hand allows for a larger variety of weapon combinations.
+    Despite there name, Hands do not have to be actual hands. Like all Traits,
+    the details of their aesthetics is between you and your table-mates. As
+    always, the Creature needs to account for the Momentum of the Weapons he is
+    holding with any Hand.
+
+    Purchased Hands may be placed on any limb, generate another limb that's the
+    same size as the Creature's other limbs, or be placed on a pseudo-limb
+    generated by a mutation.
 
 ### SENSE ENHANCEMENT
 #### COST: 2 Splice Points per 3 Sense Points
@@ -404,3 +419,15 @@ Damaged Trait can be either Malfunctioning or Disabled.
 
 Using a Malfunctioning Trait incurs a Bust whenever you are using it. A Disabled
 Trait cannot be used at all.
+
+Crux can Catastrophically Fail if they become Damaged. When a Crux
+Catastrophically Fails, it imparts all its negative effects on its owner as if
+it was activated with an Attempt of 15. The owner is unable to Attempt any
+Challenges generated from this.
+
+If the Trait is a Anatomy Mutation, half of all of the Splice Points placed into
+it are treated as Damage that applies to its owner.
+
+Core Boost is treated as Capacity Damage in these instances. If the Trait has
+Range or Volume, the GM has free reign to direct the Trait's involuntary
+activation to maximize casualties.
