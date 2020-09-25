@@ -7,11 +7,12 @@ STRIKES
 
     In a world of plasma rifles, nanobot swarms and rogue A.I.'s, it doesn't
     really matter how much soft, squishy flesh you have wrapped around your
-    soft, squishy organs, if you have a 4-inch round hole burned into your neck,
-    you're going down. Strikes are best thought of equal parts luck and survival
+    soft, squishy organs. If you have a 4-inch round hole burned into your neck,
+    you're going down, and in the Silk, almost every gun can tear through metal
+    like it's paper. Strikes are best thought of equal parts luck and survival
     instinct with anatomy playing in *sometimes*. Every time you lose Strike,
     think of it as a "close call". Whether that's a few singed hairs or a broken
-    ankle depends on how Strikes you have left-over after receiving Damage.
+    ankle depends on how many Strikes you have left-over after receiving Damage.
 
     When initially set, regardless of the Heart Core, a Character cannot be
     created with less than 1 Health.  
@@ -19,12 +20,12 @@ STRIKES
     Strikes are also used to Pray, a mechanic that can save you in a
     pinch.
 
-    If a Character is reduced to 0 Strikes, they are considered to be Flirting
-    With Death. While a Character at 0 Strikes is more than likely in very bad
-    shape, they're still able to take Actions/Reactions unless Injuries prevent
-    them from doing so. Flirting With Death means that your Character is
-    vulnerable to both KOs and Death Blows, which render your Character
-    unconscious and dead respectively.
+    When you take Damage, you lose an equal amount of Strikes. If a Character is
+    reduced to 0 Strikes, they are considered to be Flirting With Death. While a
+    Character at 0 Strikes is more than likely in very bad shape, they're still
+    able to take Actions/Reactions unless Injuries prevent them from doing so.
+    Flirting With Death means that your Character is vulnerable to both KOs and
+    Death Blows, which render your Character unconscious and dead respectively.
 
 
 DODGE
@@ -57,12 +58,12 @@ STAMINA
 
     You recover 1 Stamina per hour of Break, and you automatically gain 1 bonus
     Stamina when you finish a Rest. You may not have more than 1 point of bonus
-    Stamina at a time. Food and other items supply Stamina upon consumption.
+    Stamina at a time. Food and other items supply Stamina upon consumption. You
 
     Stamina is also used to Grunt, a very powerful mechanic that allows you to
-    retry Challenges in an instant.
+    empower your Actions, or even allow you to retry failed Challenges.
 
-    You may also reduce damage received by expending Stamina at a 1:1 ratio.
+    You may also reduce Damage received by expending Stamina at a 1:1 ratio.
     This means that if you were to take, say, 5 Damage, you can reduce it to 2
     Damage by expending 3 Stamina at the instant you take Damage. When this is
     done, the Damage is treated as if it were its reduced amount for purposes of

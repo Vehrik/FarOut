@@ -26,7 +26,7 @@ TRAITS
 
     Your Trait is bound by its Properties and Aesthetics. The Properties inform the
     Aesthetics which inform the Narrative. In other words, Traits won't be able to
-    influence the "Meta Game" (creature statistics like Health, Stride, Reach, etc)
+    influence the "Meta Game" (creature statistics like Health, Stamina, Threat, etc)
     more than is defined by their Properties, but the resulting Aesthetics may allow
     for creative applications or unforeseen consequences within the Narrative.
 
@@ -50,14 +50,14 @@ TRAITS
                comprised of:
                     
                         Metal - You gain +1 point of Natural Defense and the
-                        limb automatically qualifies as a Crude Weapon as a
-                        Damage of 1 and a Range of 0. You may expand upon this
+                        limb automatically qualifies as a Crude Weapon with a
+                        Damage of 2 and a Range of 0. You may expand upon this
                         Damage if you make the Trait Crude as well, but you may
                         also create a Technical Trait and have it double as a
                         improvised Crude Weapon.
 
                         Biomass - As long as the Trait is not a Crux, the Player
-                        may choose to have the Trait to be Concealed with no
+                        may choose to have the Trait Concealed with no
                         additional Splice Point Cost. Damaged Traits may be
                         forced to work as normal by expending 2 Stamina for a
                         single use. You may also expend 2 Stamina in order to
@@ -93,7 +93,7 @@ STEP 1) HOW MANY TRAITS?
     Character's Stamina decreases by 1. At every odd level of Prestige (3, 5, 7,
     and 9), this threshold is increased by 2 point. 
 
-    Every 5 Splice Point spent adds 1 point of Burden to your Character.
+    Every 3 Splice Point spent adds 1 point of Burden to your Character.
     
     You may have more than one Trait at once.
 
@@ -116,7 +116,7 @@ NATURAL WEAPONS
     Frost, Poison, or Electric. Damage automatically becomes Ranged Damage if
     the Trait also has Range, but otherwise you must specifiy it as Crude or
     Technical. As with all Crude items, it cannot benefit from more than 1 Zone
-    of Range.
+    of Range, but the Range given is treated as Threat instead.
 
 ### RANGE (R)
 #### COST: 1 Splice Points / 3 Zones
@@ -129,15 +129,17 @@ NATURAL WEAPONS
     use of the Trait in order to double the Range for that use.
 
     Purchasing Range for Crude Traits only grants 1 Zone of Range but still
-    costs 1 Splice Point.
+    costs 1 Splice Point, however, this Range is treated as Threat for all
+    purposes.
 
 ### VOLUME (V)
 #### COST: 1 Splice Points / 5 Cubic Feet (v3)
 
-    Products of this Trait are formed at any point adjascent to or on
-    the Character that possess this Trait. Once this point is chosen, it is
-    fixed unless Spliced. The length up to which the product may Travel is
-    equivalent to the Range property of the Trait. 
+    Products of this Trait are formed at any point adjascent to or on the
+    Character that possess this Trait and may be fired up to the Range of the
+    Trait. Once this point is chosen, it is fixed unless Spliced. The length up
+    to which the product may Travel is equivalent to the Range property of the
+    Trait. 
 
     When 5 Cubic Feet are bought, you are free to shape the Volume is a way that
     makes most sense for you intentions, but the length, width and volume will
@@ -145,17 +147,16 @@ NATURAL WEAPONS
     purchase and store Volume to integrate into the Trait at a later time, but
     you need to get Spliced to do so. 
 
-    You may split the Volume between multiple projectiles, but the Damage of the
-    Trait must be split such that each projectile has at least 1 point of
-    Damage/Capacity Damage. Each projectiles implies a single object with which
-    the Damage or Capacity Damage properties will apply to whatever it touches
-    and be rendered unusable on impact.
+    You may split the Volume between multiple projectiles, but the Damage and
+    Range of the Trait must be split such that each projectile has at least 1
+    point of Damage/Capacity Damage. Each projectiles implies a single object
+    with which the Damage or Capacity Damage properties will apply to whatever
+    it touches and be rendered unusable on impact.
 
     Having an Integrity property leads to the missile being left whole on impact
     unless it is intentionally destroyed. The Trait's Products have an Momentum
-    equivalent to that of the Integrity, but additional Momentum can be bought
-    as well. The Product's Break Difficulty is equivalent to its Integrity +
-    Momentum of the Trait.
+    equivalent to that of the Integrity, but this does not factor into how much
+    Damage is dealt by the Trait directly. 
 
     There will always be sufficient forensic information leftover to determine
     the type of weapon used and to match the damage to your Trait if they were
@@ -191,9 +192,9 @@ NATURAL WEAPONS
     set at Trait Creation, and cannot be changed at will. If a Trait is used to
     complete a Challenge higher than its Integrity, it breaks.
 
-    Something with Integrity has Momentum equivalent to its Integrity + Trait
-    Momentum unless it is a gas, in which case the Momentum is capped at 0.
-    Reducing Intergrity does not reduce the Momentum of the products.
+    Something with Integrity has Momentum equivalent to its Integrity unless it
+    is a gas, in which case the Momentum is capped at 0. Reducing Intergrity
+    does not reduce the Momentum of the products.
 
     If the Trait is reapplied to space occupied by its products before their
     Integrity is depleted, the Integrity is added to and stacks up to a value of
@@ -239,8 +240,7 @@ NATURAL WEAPONS
     Boost must be shared amongst Creatures within the Traits Volume if it has Volume.
     Core Boost radiates outward from the Point of Origin, being divided equally
     if possible, but with the nearest Creature receiving any remainder, up to a
-    maximum of +5. Creatures may not have a Core boosted beyond what is allowed
-    by its Capacity (5 by default). 
+    maximum of +5. 
 
     That is, if you possess a Trait that has +1 Core Boost and has a 20ft Volume,
     only the Creature nearest to the Point of Origin will receive the Core
@@ -254,8 +254,8 @@ NATURAL WEAPONS
     drained by -2. Reapplying Core Boost from the same source only refreshes the
     duration as opposed to adding to the Boost.
 
-    Multiple sources of Core Boost do add together, but they cannot be Boosted
-    to have a Core that's greater than +5.
+    Multiple sources of Core Boost do add together, but a single Core cannot not
+    receive more than +5 Boost at a time.
 
 ### CONCEALMENT (~)
 #### COST: 1 Splice Points
@@ -306,28 +306,30 @@ NATURAL WEAPONS
     line is almost entirely up to the GM as they have the final say regardless
     of the text in this document. That said, as a rule of thumb it shouldn't
     physically morph the environment passively, nor should it be potent enough
-    to cause Injury passively. Additionally, 
+    to cause Injury passively. Additionally, a Trait's *Form* shouldn't be any
+    more useful than a consumer-grade tool, or something that could be
+    reasonably fashioned out of common materials.
 
-### HEALTH REPLENISHMENT (HR)
-#### COST: 2 Splice Points / 1 HR
+### STAMINA REPLENISHMENT (SR)
+#### COST: 2 Splice Points / 1 SR
     
     This value represents how much Health of a Target may be replenished if the
     Effect of the Trait is applied. You normally will not have to overcome a
-    Challenge in order to apply Health Replenishment, but in certain
+    Challenge in order to apply Stamina Replenishment, but in certain
     circumstances (e.g. the Character you want to heal is currently grappled by
     an enemy) the GM may ask you to perform a Challenge to see if you apply the
     replenishment to the correct Creature.
 
     If a Character has Injuries of level 2 or lower (Injury II and Injury I
-    respectively), receiving Health Replenishment either partially or completely
-    removes them. An Injury II requires 2 HR to be completely healed, but can be
-    downgraded to a Injury I with 1 HR. Likewise, a Injury I is completely
-    healed with 1 HR. Injuries are healed in the order that the Healer chooses.
-    Health Replenishments may also be ueed to replenish expended Stamina
-    instead. 
+    respectively), receiving Stamina Replenishment either partially or completely
+    removes them. An Injury II requires 2 SR to be completely healed, but can be
+    downgraded to a Injury I with 1 SR. Likewise, a Injury I is completely
+    healed with 1 SR. Injuries are healed in the order that the Healer chooses.
+
+    Injuries will be healed before a Creature's Stamina is replenished.
  
-    Buying HR implies you are adding to a HR Pool with which you may dole out at
-    your discretion. 1 Point of HR is replenished per hour of Break Time
+    Buying SR implies you are adding to a SR Pool with which you may dole out at
+    your discretion. 1 Point of SR is replenished per hour of Break Time
     assuming that a Creature has met its nutritional requirements. 
 
 ANATOMY MUTATIONS
@@ -346,7 +348,7 @@ ANATOMY MUTATIONS
 #### COST: 1 Splice Points per 1 Bonus Natural Defense 
 
     You Creature's Natural Dodge Attempts are increased by the amount
-    of Bonus Dodge a Trait has, but other effects of increased Natural Defense
+    of Bonus Dodge a Trait has. Other effects of increased Natural Defense
     (higher Fall Damage and stronger Unarmed Strikes) also apply. 
 
 ### BONUS HANDS

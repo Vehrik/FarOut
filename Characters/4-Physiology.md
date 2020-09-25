@@ -17,12 +17,13 @@ The Size Categories that Characters are able to take on are as followings:
 Big - Real World Analogue (Polar Bear)
 --------------------------------------
 
-    +1 Reach
-    +2 Unarmed Attack Damage
-    +2 Stamina
-    +3 Brawn Capacity
+    +1 Threat
+    +2 Unarmed Strike Damage
+    +3 Stamina
 
-    -3 Speed Capacity
+    Tilt 
+        +2 Brawn Capacity Max
+        -2 Speed Capacity Max
 
     General Dimensions    
     |   Height:   8 -> 10ft ~ 
@@ -50,20 +51,20 @@ Small - Real World Analogue (Adolescent Human)
     Small Target: You make Active Dodges with a Bang when you are dodging attacks coming from
     Creatures that are larger than you.
 
-    You may occupy the same space as Creatures that are larger than you
-    Surefooted.
+    Short Gait: You Bust when making Move Action.
 
-    The Momentum you gain from Traits are quartered to the nearest natural
+    Square Cube Law: The Momentum you gain from Traits is quartered to the nearest natural
     number.
 
-    +3 Natural Defense
-    +3 Speed Capacity
-
-    -1 Reach
+    -1 Threat
     -2 Stamina
-    -3 Momentum
-    -3 Unarmed Attack Damage
-    -3 Brawn Capacity
+    -2 Unarmed Strike Damage
+
+    +3 Natural Defense
+
+    Tilt
+        +2 Speed Capacity
+        -2 Brawn Capacity
 
     Dimensions    
     |   Height:   2 -> 4ft~ 
@@ -75,13 +76,13 @@ Small - Real World Analogue (Adolescent Human)
 
 Each category offers variations on the following:
 
-    +/- Brawn/Speed Capacity 
+    Tilt
     Natural Defense
     Reach
     Momentum
     Occupied Space
 
-### BONUS CAPACITY / CAPACITY PENALTY
+### TILT
 
     As mentioned in the Core Stats section, you are typically able to possess a
     Core Value that is between -5 and +5 before you factor in specialized

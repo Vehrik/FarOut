@@ -144,7 +144,6 @@ automatically Flop in addition to incurring the normal effects of drawing a bad
 Joker.
 
 
-
 BANGS & BUSTS
 -------------
 
@@ -161,10 +160,56 @@ a Bang, but some mechanics explicitly grant one.
 
 If you are in an disadvantageous position when Attempting a Challenge, instead
 of drawing 1 Card from the play deck, you draw 2 cards and choose the worse
-card, placing the unchosen card at the bottom of the Play Deck, and placing the
-chosen card into your Open Chakra. This type of situation is called a Bust. The
-GM alone has the permission to hand down a Bust, but some mechanics explicitly
-incur one.
+card, placing the better card at the bottom of the Play Deck. This type of
+situation is called a Bust. The GM alone has the permission to hand down a Bust,
+but some mechanics explicitly incur one.
+
+GRUNTING
+--------
+
+Grunting means that your Character pushed their body to its limits for a
+short amount of time in order to gain the upper-hand in a situation.
+Grunting costs Stamina, and can be used to generate one of the following
+effects:
+
+    1. Reach For It - 1 Stamina - You were Busted for this Action, but you
+       nullify the effects of it at the cost of 1 Stamina, treating the Action
+       as if it were normal.
+
+    2. Fast Reaction - 1 Stamina - Reactions are usually resolved in the time
+       between the gun firing and the bullet hitting, but a Fast Reaction is
+       resolved before the gun even fires. When you declare that you are
+       Reacting to something, you may also declare that you are performing a
+       Fast Reaction and expend the 1 point of Stamina.
+
+    3. Heartseeker - 2 Stamina - You may expend 2 points of Stamina in order to
+       take 1 Action with a Bang. You must utilize this empowered Action
+       immediately after you expend the Stamina.
+
+    4. Swing By The Bootstraps - 2 Stamina - After you fail a Challenge, you may
+       decide to expend 2 points of Stamina in order to retry the Challenge. If
+       you succeed this time, you were treated as you succeeded for the initial
+       Attempt.
+       
+    5. Frenzy - 2 Stamina - After you have used up all 3 Actions for a Round,
+       you may expend Stamina in order to gain 1 additional Action for the
+       Round. You may only do this once per Round.
+
+GETTING STAGGERED
+-----------------
+
+It's often tempting to throw all your Actions out at once to make something go
+splat, but you need to be judicious with your Actions. During High Stress
+Scenarios (usually this means a combat scenario, but can include things chasing
+a bounty across rooftops, or zipping between buildings at Mach V), you have 3
+Actions per round. These Actions can be triggered proactively in response to the
+Actions of other Creatures, and when this is the case they are called Reactions.
+Both Reactions and Actions count as one of your 3 Actions. 
+
+Being on the receiving end of a hostile Action can force you to Attempt a
+Challenge, and in cases where you have used up all 3 Actions for the Round, you
+are considered to be Staggered. When Staggered, all Challenge that you are
+forced to complete you make are made with a Bust. 
 
 BOONS
 -----
