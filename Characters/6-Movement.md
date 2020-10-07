@@ -260,25 +260,24 @@ Pray -
 
 Cover is considered to be between the Attacker and the Target if the GM can draw
 a straight line between the Attacker and the Target and the line intersect some
-part of the Cover
-Flanking on the other hand, is a way to flip the tables on your entrenched
-opponent and turn the blessing of cover into a curse. A flank happens when the
-GM draw a straight line through the Attacker, the Target and the cover that the
-Creature is Hovering or Squeezing behind and the Target is between the Attacker
-and the Cover.
+part of the Cover.
+
+Flanking is a way to flip the tables on your entrenched opponent and turn the
+blessing of cover into a curse. A flank happens when the GM draw a straight line
+through the Attacker, the Target and the cover that the Creature is Hovering or
+Squeezing behind and the Target is between the Attacker and the Cover.
 
 If the Target was Hovering, the Attacker gets Bang I, and if the Target is Squeezing,
 the Attacker gets Bang II.
 
-Attacking Creatures that are unaware of you Bang III when they are attack you.
+Attacking Creatures that are unaware of you gives you a Triple Bang.
 
 MOMENTUM & BURDEN
 =================
 
 Your Momentum is used to determine the damage you take from Falls, Trips and
 collisions as well as how easy it is to propel your Character by means other
-than Stride. In addition, it is used to determine how hard it is to catch
-yourself mid-fall or Trip. 
+than Move Actions.
 
 Momentum is 5 by default, but has a boundless range. Your Character can lift
 at maximum twice their Momentum. Your own personal Momentum is not counted
