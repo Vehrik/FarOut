@@ -62,19 +62,19 @@ STAMINA
     Stamina is also used to Grunt, a very powerful mechanic that allows you to
     empower your Actions, or even allow you to retry failed Challenges.
 
-    You may also reduce Damage received by expending Stamina at a 1:1 ratio.
-    This means that if you were to take, say, 5 Damage, you can reduce it to 2
-    Damage by expending 3 Stamina at the instant you take Damage. When this is
-    done, the Damage is treated as if it were its reduced amount for purposes of
-    applying Injury. Damage cannot be reduced to less than 1.
+    You may also reduce Damage from a single source by half rounded up by
+    expending 1 Stamina. You are able to do this as many time as you wish, but
+    you may not reduce damage to less than 1.  This means that if you were to
+    take, say, 5 Damage, you can reduce it to 3 Damage by expending 1 Stamina at
+    the instant you take Damage. When this is done, the Damage is treated as if
+    it were its reduced amount for purposes of applying Injury. 
 
     Mutations, Elixirs and other items within the game can grant bonus Stamina
     beyond what is available from a Brawn Core.
 
-    Your Stamina also doubles as a Hunger and Thirst Meter. For every 2 days you
-    go without food or 3 hours you go without water (or an equivalent for your
-    Creature) you lose 1 point of Stamina. These times are halved if you spend
-    more than an hour in a High Stress Scenario in a day. 
+    Your Stamina also doubles as a Hunger Meter. The exact mechanics around
+    starvation and exhaustion are discussed in the Rest & Relaxation section of
+    this book.
 
     If you Creature has -3 Stamina, they Bust on Move Challenges. If they have
     -4 Stamina, they Bust on ALL actions. If they have -5 Stamina, they fall

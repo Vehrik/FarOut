@@ -53,16 +53,16 @@ HEART
     Core.
 
 
-CAPACITIES
-==========
+CAPACITIES & STRESS
+===================
 
     You have two Capacities, Body and Soul. Brawn and Speed belong to the Body
     Capacity and Brain and Heart belong to the Soul Capacity.
 
-    Every Core can have a score from -5 to 5 without the help of items, mutations,
-    or technology. However, raising one Core implicitely lowers another. A score
-    of 0 indicates that your Character is in possession of skills that are at
-    the biological peak of humanity.
+    Every Core can have a score from -5 to +5 without the help of items,
+    mutations, or technology. However, raising one Core implicitely lowers
+    another. A score of 0 indicates that your Character is in possession of
+    skills that are at the biological peak of humanity.
 
     Because of this, your Capacities are best thought of as a finite resource
     that you must dole out amongst the Cores, favouring one Core means harming the
@@ -80,13 +80,13 @@ CAPACITIES
     Enhancement is not required. Your Cores and Capacities are represented
     visually below:
 
-
+                                             [X]
                 -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
                  |    |     |     |     |     |     |     |     |     |    |
                  ------------------------------------------------------------ BRAWN
-                                              X
+                                               
                     Flexibility, Accuracy << BODY >> Strength, Durability
-                                              X
+                                               
            SPEED ------------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
@@ -96,10 +96,25 @@ CAPACITIES
                 -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
                  |    |     |     |     |     |     |     |     |     |    |
                  ----------------------------------------------------------- BRAIN
-                                              X
+                                               
                      Intuition, Willpower << SOUL >> Knowledge, Perception
-                                              X
+                                               
            HEART -----------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
+                                             [Y]
+      
+      Each Capacity is also subject to a penalty called Stress. Stress ranges
+      from 0 to 10. You accumulate Stress by sustaining injuries, suffering from
+      intense psychological effects, certain environmental Hazards or from your
+      Character pushing themselves briefly beyond their limits. Your Body and
+      Soul Capacities have seperate Stress counters.
 
+      Stress is relieved by having your Character take a Break, eating food, and
+      by tending to minor damages that occur during adventures. Sometimes, the
+      Stress becomes semi-permenant, such as when you take severe Injury.
+
+      When a Capacity accumulates Stress, it lowers the effective score of the
+      Capacity, and can even make a Core unusuable. If a Capacity accumulates 10
+      Stress, your Character falls unconscious and becomes vulnerable to
+      Execution.

@@ -17,8 +17,9 @@ The Size Categories that Characters are able to take on are as followings:
 Big - Real World Analogue (Polar Bear)
 --------------------------------------
 
-    High Metabolism: Food is treated as if it has -2 Satiation for your
-    Character.
+    High Metabolism
+
+        Your Character needs 6 Rations per day to prevent Starvation.
 
     +1 Threat
     +2 Unarmed Strike Damage
@@ -33,7 +34,7 @@ Big - Real World Analogue (Polar Bear)
     |   Weight:   800 -> 1200lbs ~
     
     Momentum: 8
-    Occupied Space: 1/2 a Zone 
+    Occupied Space: 10ft 
 
 Medium - Real World Analogue (Average Adult Human)
 -----------------------------------------------
@@ -43,7 +44,7 @@ Medium - Real World Analogue (Average Adult Human)
     |   Weight:   150-230lb ~
 
     Momentum: 5
-    Occupied Space:  1/4 of a Zone 
+    Occupied Space: 5ft 
 
 Small - Real World Analogue (Adolescent Human)
 ==============================================
@@ -51,19 +52,27 @@ Small - Real World Analogue (Adolescent Human)
     Features
     --------
 
-    Small Target: You make Active Dodges with a Bang when you are dodging attacks coming from
-    Creatures that are larger than you.
+    Small Target
 
-    Short Gait: You Bust when making Move Action.
+        You make Active Dodges with a Bang when you are dodging attacks coming
+        from Creatures that are larger than you.
 
-    Square Cube Law: The Momentum you gain from Traits is quartered to the nearest natural
-    number.
+    Short Gait
 
-    Tiny Stomach: Food is treated as if it has +2 Satiation for your Character.
+        You Bust when making Move Actions to Zones that are not adjascent to the
+        one they are currently occupying.
 
-    -1 Threat
+    Square Cube Law
+
+        The Momentum you gain from Traits is quartered to the nearest natural
+        number.
+
+    Tiny Stomach 
+        
+       Your Character only needs 1 Ration per day. 
+
     -2 Stamina
-    -2 Unarmed Strike Damage
+    -5 Unarmed Strike Damage
 
     +3 Natural Defense
 
@@ -77,7 +86,7 @@ Small - Real World Analogue (Adolescent Human)
 
     Momentum: 2
 
-    Occupied Space: 1/8th of a Zone 
+    Occupied Space: 2.5ft 
 
 Each category offers variations on the following:
 
@@ -192,14 +201,6 @@ Each category offers variations on the following:
     and what isn't. In any event, the only tangible number that must be refered
     during this discussion is your Character's Occupied Space. 
 
-    That all said, Occupied Space must be laid out such that every Square has
-    4 of its edges touching 4 edges of at least one other Square.
-
-    This space is seperate from (but influenced by) the natural mental image players
-    are meant to develope of their Characters. Your GM is at liberty to decide that
-    because of your porportions (or Traits for that matter) that you are not able to
-    enter a defined space within the Game World. 
-
 
 PERCEPTION
 ==========
@@ -291,12 +292,12 @@ SMELL/TASTE
 
             1 SP per +3 to Brain Challenges where you are trying to determine
             another Creature's mood/emotions. Creatures emit certain chemicals
-            that invoke a certain neurological response from members of its own species.
-            Assuming your Character is aware of what message a certain pheremone
-            conveys, you are given the specified bonus to Challenges. If the
-            Creature is a member of your Character's Species, you automatically
-            know what all pheremone messages emitted by them mean without having
-            to study the Creature.
+            that invoke a certain neurological response from members of its own
+            species. Assuming your Character is aware of what message a certain
+            pheremone conveys, you are given the specified bonus to Brain
+            Challenges. If the Creature is a member of your Character's species,
+            you automatically know what all pheremone messages emitted by them
+            mean without having to study the Creature.
 
 HEARING
 -------
@@ -331,9 +332,10 @@ TOUCH
             1 SP per 30ft of range in which you can feel all movement and
             vibrations that touch any solid material your Character is also
             touching. Equipped items count as the Character for purposes of
-            deciding if two Creature are both touching the same surface. You
-            cannot distinguish details of things detected with Tremor Sense. The
-            more massive the Creature, the "louder" it appears to this sense.
+            deciding if two Creature are both touching the same surface. You are
+            treated as you saw whatever it is that produced the tremor for
+            purposed of determing the Creature's size and location, but nothing
+            else.
 
         Texture Sensitivty
         ------------------

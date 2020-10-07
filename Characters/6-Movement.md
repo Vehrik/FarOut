@@ -31,12 +31,18 @@ Zones that others cannot. Most likely, this will be due to some Creatures being
 able to move about the Game World in ways that others cannot, such as by flying.
 In such cases where Characters are able to move both vertically and
 horizontally, Zones are considered to have height as well as width, though by no
-means do these two measurements have to be proportional to each-other.
+means do these two measurements have to be equivalent to each-other.
+
+Climbing or jumping between vertically distant Zones is completed as normal, but
+the distance modifier will typically be doubled.
 
 Features that divide the Scenario into its composite Zones are referred to as
-Borders.  Borders add or remove Difficulty to any Challenge that is completed
+Borders. Borders add or remove Difficulty to any Challenge that is completed
 while crossing them. Different Paths and Borders will invoke different
 Challenges. 
+
+The most common type of border is a Space Border, and are what gives Zones their
+maximum size of 20ft wide and 20ft long.
 
 It's very possible for a singular Border to add Difficulty when approaching it
 from one direction, but remove Difficulty when approaching it from another. It's
@@ -53,12 +59,18 @@ Zone does not require an Action, but is instead done as a part of an Action or
 Reaction. It can either be done before or after the Action resolves, but you
 can't 'hold' the reposition for use later in the round.
 
-Doing this repeatably, however, begins to test the agility of the Character. You
-may reposition within a Zone a maximum of twice per round, plus an additional 
+Doing this repeatably begins to test the agility of the Character. You may
+reposition within a Zone a maximum of twice per round. You get the first
+reposition for free, but if you want to do it again, you must use an Action or
+Reaction *just* to reposition.
 
-If your Character has 3 Speed or higher, it is able to reposition twice per each
-Action taken instead of once, however, you may only reposition once before the
-Action resolves, and only once after.
+If your Character has 3 Speed or higher they may reposition within a Zone a
+maximum of 3 times per Round. They may reposition twice for free, and use an
+Action or Reaction to reposition a third time as an Action.
+
+When describing where you are within a Zone, you use relative distance to
+stationary objects within the Zone. You will tend to use words like "next to"
+and "10ft away from". 
 
 MOVING BETWEEN ZONES
 --------------------
@@ -70,7 +82,7 @@ Difficulty supplied by the distance between the Zones and the nature of their
 Borders. 
 
 You then complete the appropriate Challenge(s). Successfully beating the Challenge
-will allow you to move to the Zone you designated through the Path who's
+will allow you to move to the Zone you designated through the Path whose
 Challenge you completed. 
 
 In situations where you fail the Move Challenge, instead of moving the maximum
@@ -80,13 +92,18 @@ straight path, moving to the furthest Zone would invoke a Move Challenge of 5 or
 higher. If you only generate an Attempt of 4, you would instead only move to the
 2nd furthest Zone. You may decide to cease movement whenever you cross a Border.
 
-Failing a Challenge supplied by a Border causes you to stop at the Border, but
-depending on the nature of it, it can cause your Character to be displaced.
+You aren't able to fail moving Horizontally between two adjacent zones that are only
+separated by a Space Border. At worst, you'll Trip into the Zone you were moving
+into if you Critically Fail or Flop.
+
+Otherwise, failing a Challenge supplied by a Border causes you to stop at the
+Border, but depending on the nature of it, it can cause your Character to be
+displaced to either side of the Border. 
 
 As always, you may decide to Double or Triple Down on a single Move
-Action/Reaction, but Flopping while moving between Zones will result in your
-Character Tripping in addition to whatever effects failure has on your
-Situation.
+Action/Reaction, but as mentioned, Flopping while moving between Zones will
+result in your Character Tripping in addition to whatever effects failure has on
+your Situation.
 
 Movement is not done with just your Speed Core. Move Challenges will call for
 Speed the vast majority of the time, but as with all Challenges, it is an equal
@@ -99,9 +116,9 @@ Moving between non-adjacent Zones will always involve at least 1 Speed
 Challenge, but often invoke additional Challenges along the way. As always,
 these Challenges force the use of a Reaction.  Moving between two adjacent Zones
 is only ever able to invoke 1 Challenge. This means ramming through a door that
-separates two Zones only ever requires a single Brawn challenge, or vaulting
-over a waist-high fence that separates two Zones is only a single Speed
-Challenge.
+separates two Zones only ever requires a single Brawn or Brain challenge, or
+vaulting over a waist-high fence Border is only a single Speed Challenge or a
+pretty Difficult Brawn Challenge.
 
 BEING SCARY IN SPACE AND TAKING NAMES 
 -------------------------------------
@@ -138,10 +155,9 @@ the same Zone. If the Creature you're Tracking is aware of you and your
 position, it knows when you are Tracking it.
 
 If two or more Creatures are Threatening another Creature, their Reactions
-resolve in the order of highest Speed Core to the lowest. As always, you may
-expend a point of Stamina to Grunt, pushing your Action to the front of the
-Queue, meaning it will resolve before even the Creature whose Turn it
-currently is.
+resolve in the order of highest Speed Core to the lowest. You may
+expend a point of Stamina to Cut, pushing your Action to the front of the
+queue, meaning it will resolve before the Creature who would normally go first 
 
 SHAKING THINGS UP
 -----------------
@@ -189,19 +205,22 @@ Hover -
     Hovering is not an Action, but a status that your Creature gains while they
     are near appropriate cover.
 
+    If you attempt and succeed at an Active Dodge while you are Hovering, you
+    may immediately Squeeze into cover as part of the Action used to complete
+    the Active Dodge.
+
 Squeeze - 
 
-    This implies that your Character had to go into an awkward position
-    in order to utilize the cover. Whenever you Squeeze into Cover, Attacks made
-    against you are made with a Bust as long as the cover is at least partially
-    between your Character and the assailant. You also Bang on any Active Dodges
-    you take against Attacks made by assailants as long as the cover is at least
-    partially between you and them. 
+    This implies that your Character had to go into an awkward position or
+    otherwise crouch, bend, or contort in order to utilize the cover. Whenever
+    you Squeeze into Cover, Attacks made against you are made with a Bust as
+    long as the cover is at least partially between your Character and the
+    assailant. You also get Bang I on any Active Dodges you take against Attacks
+    made by assailants as long as the cover is between you and them. 
 
     You may make Attacks while Squeezing, but you will have Unsqueezed to do so
     as part of the Attack, meaning that if you want to get back into cover you
-    will have to use an Action to Squeeze again. As long as you are Squeezed,
-    you may only perform 2 Actions per Round. Unsqueezing during a Round does
+    will have to use an Action to Squeeze again. Unsqueezing during a Round does
     not restore the dropped Action for that Round.
 
     When Squeezing, your Character can be considered to have reduced their size
@@ -209,6 +228,8 @@ Squeeze -
 
     Squeezing must be done as an Action, but it still leaves you with 2 Actions
     to use for that Round if you Squeezed with your first Action for that Round.
+
+    If the cover only visually obscurs the Creature
 
 Pray - 
 
@@ -219,9 +240,10 @@ Pray -
     hand up out of reflex and having the knife bite into your wrist-watch
     instead of your face.
 
-    You Pray by sacrificing 2 Actions, or 1 Strike in lieu of 2 Actions. You can
-    Pray even if you exhausted all your Actions for a Round if you decide to
-    expend a Strike.
+    You Pray by sacrificing 2 Actions, 2 Stamina, 1 Action and 1 Stamina or 1
+    Strike in lieu of Actions or Stamina. You can Pray even if you exhausted all
+    your Actions for a Round if you decide to expend a Strike, even if you've
+    Frenzied.
     
     You and your assailant then draw 2 Cards each and compare colours. If all 4
     Cards match in colour, the Prayer is answered and circumstances will
@@ -229,7 +251,26 @@ Pray -
     normal. A single Joker present in any of the 4 Cards causes the Prayer to go
     unanswered.
 
-    You must be aware of the Attack that's coming in order to Pray.
+    You must be aware of the Attack that's coming in order to Pray. Your GM must
+    also believe you have SOMETHING available to you that would feasibly block
+    the attack you're Praying against. Unless your buck naked, you PROBABLY do
+    have something that could at least slow a bullet down. You're able to ask if
+    you can Pray and your GM is obliged to answer you, though they do have the
+    final say on the matter.
+
+Cover is considered to be between the Attacker and the Target if the GM can draw
+a straight line between the Attacker and the Target and the line intersect some
+part of the Cover
+Flanking on the other hand, is a way to flip the tables on your entrenched
+opponent and turn the blessing of cover into a curse. A flank happens when the
+GM draw a straight line through the Attacker, the Target and the cover that the
+Creature is Hovering or Squeezing behind and the Target is between the Attacker
+and the Cover.
+
+If the Target was Hovering, the Attacker gets Bang I, and if the Target is Squeezing,
+the Attacker gets Bang II.
+
+Attacking Creatures that are unaware of you Bang III when they are attack you.
 
 MOMENTUM & BURDEN
 =================
