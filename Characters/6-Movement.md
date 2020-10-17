@@ -17,7 +17,6 @@ different distance and Challenge Modifier to Zones depending on the Context.
 
         Distance Class       "Real" Distance                 Move Challenge Modifier
         --------------       ---------------                 -----------------------
-        Very Close           0->20ft (Same Zone)             +0 
         Close                20->40ft (~1-2 Zone Away)       +2
         Far                  40->60ft (~2-3 Zones Away)      +5
         Very Far             >60ft (3+ Zones Away)           +12
@@ -33,16 +32,14 @@ In such cases where Characters are able to move both vertically and
 horizontally, Zones are considered to have height as well as width, though by no
 means do these two measurements have to be equivalent to each-other.
 
-Climbing or jumping between vertically distant Zones is completed as normal, but
-the distance modifier will typically be doubled.
-
 Features that divide the Scenario into its composite Zones are referred to as
 Borders. Borders add or remove Difficulty to any Challenge that is completed
 while crossing them. Different Paths and Borders will invoke different
 Challenges. 
 
 The most common type of border is a Space Border, and are what gives Zones their
-maximum size of 20ft wide and 20ft long.
+maximum size of 20ft wide and 20ft long. A Space Border is simply the point at
+which two centers of a Zone are separated by 40ft of Space.
 
 It's very possible for a singular Border to add Difficulty when approaching it
 from one direction, but remove Difficulty when approaching it from another. It's
@@ -52,73 +49,22 @@ they add/remove to fluctuate.
 MOVING WITHIN ZONES
 -------------------
 
-As every Zone is at most 20ft long and 20ft wide, moving between two points
-directly often represents a trivial amount of distance to cover within 3 seconds
-(the length of a Round in combat). As such, moving between two points within a
-Zone does not require an Action, but is instead done as a part of an Action or
-Reaction. It can either be done before or after the Action resolves, but you
-can't 'hold' the reposition for use later in the round.
-
-Doing this repeatably begins to test the agility of the Character. You may
-reposition within a Zone a maximum of twice per round. You get the first
-reposition for free, but if you want to do it again, you must use an Action or
-Reaction *just* to reposition.
-
-If your Character has 3 Speed or higher they may reposition within a Zone a
-maximum of 3 times per Round. They may reposition twice for free, and use an
-Action or Reaction to reposition a third time as an Action.
 
 When describing where you are within a Zone, you use relative distance to
-stationary objects within the Zone. You will tend to use words like "next to"
-and "10ft away from". 
+stationary objects within the Zone. You will tend to use words like "right next
+to", "10ft away from", and "pressed up the wall in the center of the Zone". The
+specifics of where you are in the Zone are important only to the extent that you
+know where you are in the Zone relative to other things in it.
+
+It is often extremely useful to have a map and player tokens to help keep track
+of everyone's positions, but it's not necessary if the GM has a good memory (or
+good note taking skills!) or everyone at the table acts in Good Faith.
+
 
 MOVING BETWEEN ZONES
 --------------------
 
-In each Scenario, a Creature has 3 Actions/Reactions they can complete during
-each Round. Moving between Zones require either an Action or Reaction. In order
-to determine whether or not you move between two Zones, your GM will total the
-Difficulty supplied by the distance between the Zones and the nature of their
-Borders. 
 
-You then complete the appropriate Challenge(s). Successfully beating the Challenge
-will allow you to move to the Zone you designated through the Path whose
-Challenge you completed. 
-
-In situations where you fail the Move Challenge, instead of moving the maximum
-intended distance, you move a shorter distance that was along the path you were
-moving, as appropriate for the Attempt made. In other words, if 3 Zones lay in a
-straight path, moving to the furthest Zone would invoke a Move Challenge of 5 or
-higher. If you only generate an Attempt of 4, you would instead only move to the
-2nd furthest Zone. You may decide to cease movement whenever you cross a Border.
-
-You aren't able to fail moving Horizontally between two adjacent zones that are only
-separated by a Space Border. At worst, you'll Trip into the Zone you were moving
-into if you Critically Fail or Flop.
-
-Otherwise, failing a Challenge supplied by a Border causes you to stop at the
-Border, but depending on the nature of it, it can cause your Character to be
-displaced to either side of the Border. 
-
-As always, you may decide to Double or Triple Down on a single Move
-Action/Reaction, but as mentioned, Flopping while moving between Zones will
-result in your Character Tripping in addition to whatever effects failure has on
-your Situation.
-
-Movement is not done with just your Speed Core. Move Challenges will call for
-Speed the vast majority of the time, but as with all Challenges, it is an equal
-mixture of intuition and GM preference. In order to move between adjacent Zones,
-you can be asked to Attempt any type of Challenge. For example, moving through a
-large, meandering crowd of people is often more of a question of body language
-(Heart) or how pushy you can be (Brawn). 
-
-Moving between non-adjacent Zones will always involve at least 1 Speed
-Challenge, but often invoke additional Challenges along the way. As always,
-these Challenges force the use of a Reaction.  Moving between two adjacent Zones
-is only ever able to invoke 1 Challenge. This means ramming through a door that
-separates two Zones only ever requires a single Brawn or Brain challenge, or
-vaulting over a waist-high fence Border is only a single Speed Challenge or a
-pretty Difficult Brawn Challenge.
 
 BEING SCARY IN SPACE AND TAKING NAMES 
 -------------------------------------
@@ -138,7 +84,8 @@ assuming you haven't used up all your Actions for a Round.
 
 Creatures Threaten everything that occupies the same Zone as them, but can
 potentially Threaten Creatures that are multiple Zones away if they have some
-item or ability that supplies Threat. 
+item or ability that supplies Threat. While in Superposition between Zones, you
+do not Threaten anything until you make a decision on which Zone you are in. 
 
 Threat is not the same thing as Range. Range means you *can* Threaten something,
 whereas Threat implies you *are* Threatening something. Your Threat describes a
@@ -162,9 +109,9 @@ queue, meaning it will resolve before the Creature who would normally go first
 SHAKING THINGS UP
 -----------------
 
-Actions (and Reactions) have consequences on the Game World. Sometimes these
-consequences cascade and end up altering the Scenario significantly. When this
-happens the GM will have to re-describe the Scenario and reform the Zones.
+Actions have consequences on the Game World. Sometimes these consequences
+cascade and end up altering the Scenario significantly. When this happens the GM
+will have to re-describe the Scenario and reform the Zones.
 
 There are many reasons why a Zone would change its shape/size. Maybe a Thrasher
 just fired a ray from their Cryo-Cannon, causing a 15ft tall wall of ice to
@@ -183,16 +130,17 @@ TAKING COVER, APPLYING PRESSURE AND FLANKING
 ----------------------------------------------
 
 You won't survive long if you stand out in the open. Taking Cover is vital in
-order to minimize the amount of Attacks you have to Dodge each round. 
+order to minimize the amount of Attacks you have to contend with each round. 
 
 Taking Cover is different to just being behind a wall that's larger that your
-Character, this is referred to as being Out of Sight, meaning that your
-Character can't be targeted directly. Taking Cover implies that you Character
-has to stoop, bend, or even go prone in order to take advantage of the
-environment in order to make themselves a harder target.
+Character, or being around the corner from the enemy, this is referred to as
+being Out of Sight, meaning that your Character can't be targeted directly.
+Taking Cover implies that you Character has to stoop, bend, or even go prone in
+order to take advantage of the environment in order to make themselves a harder
+target.
 
 Whatever you are Taking Cover behind must be at least half the size of your
-Character. There are 3 different ways to Take Cover. 
+Character, and must be opaque. There are 3 different ways to Take Cover. 
 
 Hover - 
 
@@ -202,8 +150,8 @@ Hover -
     are made with a Bust as long as the cover is at least partially between your
     Character and the assailant.
 
-    Hovering is not an Action, but a status that your Creature gains while they
-    are near appropriate cover.
+    Hovering is not an Action that your Character takes, but a status that your
+    Creature gains while they are near appropriate cover.
 
     If you attempt and succeed at an Active Dodge while you are Hovering, you
     may immediately Squeeze into cover as part of the Action used to complete
@@ -215,26 +163,24 @@ Squeeze -
     otherwise crouch, bend, or contort in order to utilize the cover. Whenever
     you Squeeze into Cover, Attacks made against you are made with a Bust as
     long as the cover is at least partially between your Character and the
-    assailant. You also get Bang I on any Active Dodges you take against Attacks
+    assailant. You also get Bang I on any Focussed Dodges you take against Attacks
     made by assailants as long as the cover is between you and them. 
 
     You may make Attacks while Squeezing, but you will have Unsqueezed to do so
     as part of the Attack, meaning that if you want to get back into cover you
-    will have to use an Action to Squeeze again. Unsqueezing during a Round does
-    not restore the dropped Action for that Round.
+    will have to use another Action to Squeeze again. Unsqueezing during a Round
+    does not restore the dropped Action for that Round.
 
     When Squeezing, your Character can be considered to have reduced their size
     by up to half. This may enable to Creature to go Out of Sight.
 
-    Squeezing must be done as an Action, but it still leaves you with 2 Actions
+    Squeezing must be done as an Action, but it still leaves you with 1 Action
     to use for that Round if you Squeezed with your first Action for that Round.
-
-    If the cover only visually obscurs the Creature
 
 Pray - 
 
     This implies that your Character is using something that is charitably
-    called "non-convential" cover. Praying under Cover is darting behind a thin
+    called "non-convential cover". Praying under Cover is darting behind a thin
     lamp post and having it miraculously block the bullet, or having an elevator
     door close just in time to catch the angry end of a spear or pulling your
     hand up out of reflex and having the knife bite into your wrist-watch
@@ -242,16 +188,13 @@ Pray -
 
     You Pray by sacrificing 2 Actions, 2 Stamina, 1 Action and 1 Stamina or 1
     Strike in lieu of Actions or Stamina. You can Pray even if you exhausted all
-    your Actions for a Round if you decide to expend a Strike, even if you've
-    Frenzied.
+    your Actions for a Round if you decide to expend a Strike.
     
-    You and your assailant then draw 2 Cards each and compare colours. If all 4
-    Cards match in colour, the Prayer is answered and circumstances will
-    conspire to force the Attack to miss. Otherwise, the Attack proceeds as
-    normal. A single Joker present in any of the 4 Cards causes the Prayer to go
-    unanswered.
+    You and your assailant then draw 2 Cards each and total their value. If the
+    Praying Creature has the higher total, the Prayer is answered and the attack
+    misses.
 
-    You must be aware of the Attack that's coming in order to Pray. Your GM must
+    You must be aware of the attack that's coming in order to Pray. Your GM must
     also believe you have SOMETHING available to you that would feasibly block
     the attack you're Praying against. Unless your buck naked, you PROBABLY do
     have something that could at least slow a bullet down. You're able to ask if
@@ -267,10 +210,10 @@ blessing of cover into a curse. A flank happens when the GM draw a straight line
 through the Attacker, the Target and the cover that the Creature is Hovering or
 Squeezing behind and the Target is between the Attacker and the Cover.
 
-If the Target was Hovering, the Attacker gets Bang I, and if the Target is Squeezing,
+If the Target was Hovering, the Flanking Creature gets Bang I, and if the Target is Squeezing,
 the Attacker gets Bang II.
 
-Attacking Creatures that are unaware of you gives you a Triple Bang.
+Attacking Creatures that are unaware of you gives you a Bang III.
 
 MOMENTUM & BURDEN
 =================

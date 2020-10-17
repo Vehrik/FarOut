@@ -80,7 +80,6 @@ CAPACITIES & STRESS
     Enhancement is not required. Your Cores and Capacities are represented
     visually below:
 
-                                             [X]
                 -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
                  |    |     |     |     |     |     |     |     |     |    |
                  ------------------------------------------------------------ BRAWN
@@ -102,19 +101,19 @@ CAPACITIES & STRESS
            HEART -----------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
-                                             [Y]
       
       Each Capacity is also subject to a penalty called Stress. Stress ranges
-      from 0 to 10. You accumulate Stress by sustaining injuries, suffering from
-      intense psychological effects, certain environmental Hazards or from your
-      Character pushing themselves briefly beyond their limits. Your Body and
-      Soul Capacities have seperate Stress counters.
+      from 0 to 10. You accumulate Stress by sustaining injuries, starving,
+      suffering from intense psychological effects, or coming into contact with
+      certain environmental Hazards or from your Character pushing themselves
+      briefly beyond their limits. Stress applies to both your Body and Soul
+      simultaneously.
 
       Stress is relieved by having your Character take a Break, eating food, and
-      by tending to minor damages that occur during adventures. Sometimes, the
+      by tending to minor injuries that occur during adventures. Sometimes, the
       Stress becomes semi-permenant, such as when you take severe Injury.
 
-      When a Capacity accumulates Stress, it lowers the effective score of the
-      Capacity, and can even make a Core unusuable. If a Capacity accumulates 10
-      Stress, your Character falls unconscious and becomes vulnerable to
-      Execution.
+      When a Creature accumulates Stress, it lowers the effective score of the
+      Capacity, and can even make a Core unusuable. If a Creature accumulates 15
+      Stress, they fall unconscious and becomes vulnerable to Execution.
+

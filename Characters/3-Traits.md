@@ -1,4 +1,4 @@
-TRAITS
+MUTATIONS
 ======
 
     At Character Creation you are given 3 Splice Points points, however, applying them to
@@ -7,27 +7,27 @@ TRAITS
     Slant.
     
     At Level 1, you may optionally exchange 1 Slant in order to gain 2 Splice
-    Points Points.  You may make this exchange up to 3 times during Character
-    creation. After this time, you must have the appropriate amount of Prestige
-    and Credit in order to gain additional Splice Points points in the form of
-    Items, Equipment and Mutations.
+    Points. You may make this exchange up to 3 times during Character creation.
+    After this, you must have the appropriate amount of Prestige and Credit in
+    order to gain additional Splice Points points in the form of Items,
+    Equipment and Mutations.
     
     Splice Points may be exchanged for anything from to fangs, to AI-designed
     martial arts, to acid breath, to wrist mounted laser cannons.
     
-    Whatever your Trait is, it represents a change to your character's
+    Whatever your Mutation is, it represents a change to your character's
     appearance that is either mechanical, technological or biological that
     warrants the effect it grants you.
 
     If your character able to reach out and touch someone 30ft away, for
     example, it means something along the lines of your character is able to
     shoot web, it has a tentacle arm, or it has a shoulder mounted harpoon
-    launcher. The exact description of a Trait depends on the Character's
-    back-story, the 'function' of the Trait and the narrative context of the
+    launcher. The exact description of a Mutation depends on the Character's
+    back-story, the 'function' of the Mutation and the narrative context of the
     game you are playing.
 
-    Your Trait is bound by its Properties and Aesthetics. The Properties inform
-    the Aesthetics which inform the Narrative. In other words, Traits won't be
+    Your Mutation is bound by its Properties and Aesthetics. The Properties inform
+    the Aesthetics which inform the Narrative. In other words, Mutations won't be
     able to influence creature statistics like Strikes, Stamina, and Threat more
     than is defined by their Properties, but the resulting Aesthetics may allow
     for creative applications or unforeseen consequences within the Narrative.
@@ -36,90 +36,100 @@ TRAITS
     great way to make people respect your personal space, but makes finding a
     restaurant that's willing to seat you almost impossible.
 
-    Whatever your Trait ends up being you must decide on the following three
+    Whatever your Mutation ends up being you must decide on the following three
     details:
 
-            1. The location of the Trait. You may designate the Trait as being
+            1. The weakspot of the Mutation. You may designate the Mutation as being
                anchored to, projected from or embedded in either your Torso,
                Head, or one of your Limbs. 
 
-               Multiple Traits may be anchored to/embedded in the same portion
-               of your body. Traits may become less effective or even unuseable
-               if the body part the Trait is associated with becomes Injured or
+               Multiple Mutations may be anchored to/embedded in the same portion
+               of your body. Mutations may become less effective or even unuseable
+               if the body part the Mutation is associated with becomes Injured or
                Disabled. 
 
-               If the limb you place the Trait on also houses a Hand (by default
-               this is your arms), the Trait will consume the Hand unless you
-               expend 1 additional Splice Point in order to conserve the Hand.
-               If a Trait's Form allows for it and the Hand is conserved, you
-               may potentially combine the properties of your Trait and a Weapon
-               held in the augmented Hand.
+               You may expend 1 Splice Point in order to distribute a Mutation's
+               weakspot across one additional limb, and in this case, both body
+               sections must be damaged before it effects the Mutation's
+               effectiveness.
 
-               You may optionally designate the Trait as a Crux, giving you 3
-               additional Splice Points points to use on the Trait designated as
+               If the limb you place the Mutation's weakspot on also houses a Hand
+               (by default this is your arms), the Mutation will consume the Hand
+               unless you expend 1 additional Splice Point in order to conserve
+               the Hand. If a Mutation's Form allows for it and the Hand is
+               conserved, you may potentially combine some or all of the
+               properties of your Mutation and a Weapon held in the augmented Hand.
+
+               You may optionally designate the Mutation as a Crux, giving you 3
+               additional Splice Points points to use on the Mutation designated as
                a Crux, but if the Crux is damaged, it could Fail
-               Catastrophically.
+               Catastrophically. The more potent the Crux, the more dangerous it
+               becomes for its user.
 
-            2. The material the Trait is made of. A Trait may be comprised of
+            2. The material the Mutation is made of. A Mutation may be comprised of
                either Metal, Biomass or Energy or some combination thereof. It
                will influence to what degree certain hazards will effect your
                Character. Each category of material will also incur one of the
-               following bonuses based on which material the Trait is *mostly*
+               following bonuses based on which material the Mutation is *mostly*
                comprised of:
                     
                         Metal - You gain +2 point of Natural Defense and the
                         limb automatically qualifies as a Crude Weapon with a
                         Damage of 2 and a Range of 0. You may expand upon this
-                        Damage if you make the Trait Crude as well, but you may
-                        also create a Technical Trait and have it double as a
+                        Damage if you make the Mutation Crude as well, but you may
+                        also create a Technical Mutation and have it double as a
                         improvised Crude Weapon. 
 
-                        Biomass - As long as the Trait is not a Crux, the Player
-                        may choose to have the Trait Concealed with no
-                        additional Splice Point Cost. Damaged Traits may be
+                        Biomass - As long as the Mutation is not a Crux, the Player
+                        may choose to have the Mutation Concealed with no
+                        additional Splice Point Cost. Damaged Mutations may be
                         forced to work as normal by expending 1 Stamina for a
                         single use. You may also expend 2 Stamina in order to
-                        force a Disabled Biomass Trait to work for a single use
+                        force a Disabled Biomass Mutation to work for a single use
                         as if it were merely Malfunctioning.
 
-                        Energy - The Trait gains a Range of 1 Zone, 1 Point of
-                        Damage and 5v3 for no additional cost. 
+                        Energy - The Mutation gains a Range of 1 Zone, 1 Point of
+                        Damage and 5ft of AoE for no additional cost. 
 
-            3. The general dimensions of the Trait. You don't need to have the
+            3. The general dimensions of the Mutation. You don't need to have the
                measurements down to the inch, but you need a solid concept of
                whether the shoulder mounted flamethrower means you're adding 3
                seperate wine-bottle sized cynlinders onto your upper arm, or if
                you're carrying what amounts to a back-pack filled with jet fuel
-               on your back. This mass isn't anymore vulnerable than any other
-               part of the body unless the Trait is also a Crux, in which case
-               you need to carefully considered how to distribute the mass of
-               your Trait. While not meant to be exact, the general guideline
-               for a Splice Points to Volume relationship is 1 litre of
-               distilled water to 1 Splice Point spent.
+               on your back. 
 
-STEP 1) HOW MANY TRAITS?
+               This mass isn't anymore vulnerable than any other
+               part of the body unless the Mutation is also a Crux, in which case
+               you need to carefully considered how to distribute the mass of
+               your Mutation. While not meant to be exact, the general guideline
+               for a Splice Points to Volume relationship is 1 litre of
+               distilled water to 1 Splice Point spent. 
+
+
+STEP 1) HOW MANY MUTATIONS?
 ========================
 
-    Whether or not you take a Trait at all should be carefully considered. While they
-    are undoubtedly useful, Traits incur a financial and practical consideration for you
+    Whether or not you take a Mutation at all should be carefully considered. While they
+    are undoubtedly useful, Mutations incur a financial and practical consideration for you
     Character. 
     
     The bodies of Creatures can only handle so much Mutation before it starts to
     stress existing body systems. At level 1, for every 4 Splice Points used, their
-    Character's Stamina decreases by 1. At every odd level of Prestige (3, 5, 7,
-    and 9), this threshold is increased by 2 point. 
+    Character's Stamina decreases by 2. 
 
+    Beyond the intial Splice Points bought at Character Creation, you can
+    purchase specific Mutations/
     Every 3 Splice Point spent adds 1 point of Burden to your Character. As a
     default, you are able to gather and utilize as much as 24 Splice Points, but
     your GM may lower or raise this number depending on what type of game they
     are running.
     
-    You may have more than one Trait at once.
+    You may have more than one Mutation at once.
 
-STEP 2) WHAT PROPERTIES WILL THE TRAIT(S) HAVE?
+STEP 2) WHAT PROPERTIES WILL THE MUTATION(S) HAVE?
 ===============================================
 
-There are two types of Traits, Natural Weapons and Anatomy Mutations.
+There are two types of Mutations, Natural Weapons and Anatomy Mutations.
 
 NATURAL WEAPONS
 ---------------
@@ -127,9 +137,9 @@ NATURAL WEAPONS
 ### DAMAGE(D)
 #### COST: 2 Splice Points / 1 D
     
-    This value is used to determine the Damage dealt by this Trait OR its
+    This value is used to determine the Damage dealt by this Mutation OR its
     products whenever it contacts a Creature. You must decide on the first point
-    of Damage bought whether the Trait deals damage with projectiles or by
+    of Damage bought whether the Mutation deals damage with projectiles or by
     virtue of its form. This Damage may either be Force, Fire, Frost, Poison, or
     Electric Damage. 
 
@@ -137,12 +147,12 @@ NATURAL WEAPONS
     Technical. As with all Crude items, it cannot benefit from more than 1 Zone
     of Range, but the Range given is treated as Threat instead.
 
-    Any Trait that has Range is automatically a Technical weapon.
+    Any Mutation that has Range is automatically a Technical weapon.
 
     Damage reduces the Integrity of something whenever it contacts it by the
     amount of Damage it has. 
 
-    If the Trait utilizes projectiles to apply its Damage, the projectile
+    If the Mutation utilizes projectiles to apply its Damage, the projectile
     continues to travel along the same trajectory until it encounters a total
     amount of Integrity equivalent to its Damage. In other words, if a
     projectile with 4 Damage hits an Object with Integrity 2, it will fly throug
@@ -153,41 +163,41 @@ NATURAL WEAPONS
 ### RANGE (R)
 #### COST: 1 Splice Points / 3 Zones
 
-    This value determines how many Zones away your Trait's missiles are able to
-    feasibly apply the Trait's other properties. This is seperate from
+    This value determines how many Zones away your Mutation's missiles are able to
+    feasibly apply the Mutation's other properties. This is seperate from
     determining if you actually hit your Target, this value is used to determine
     if you can even try. Range rounds up, meaning that you can target a Creature
     even if it is positioned in the Zone such that they are as far away from
     your Character as they can be while still being within Range.
 
-    If your Trait has less than 6 Zones of Range, it implies it produces Slow
+    If your Mutation has less than 6 Zones of Range, it implies it produces Slow
     projectiles. If this is the case, you may intentionally Bust on your next
-    use of the Trait in order to double the Range for that use.
+    use of the Mutation in order to double the Range for that use.
 
-    Purchasing Range for Crude Traits only grants 1 Zone of Range but still
+    Purchasing Range for Crude Mutations only grants 1 Zone of Range but still
     costs 1 Splice Point, however, this Range is treated as Threat for all
     purposes.
 
-    If you do not purchase Volume or Integrity for a Trait, it implies that the
-    Trait does not produce a projectile, but rather that you are flinging out a
+    If you do not purchase Volume or Integrity for a Mutation, it implies that the
+    Mutation does not produce a projectile, but rather that you are flinging out a
     limb (or pseduolimb) that is vunerable to Quick Attacks all along the length
     of its Range. Pseudolimbs has roughly the same diameter as the rest of the
-    Character's limbs. This enables you to utilize the Trait without having to
+    Character's limbs. This enables you to utilize the Mutation without having to
     keep track of how much material your Creature is still able to output.
 
 ### VOLUME (V)
 #### COST: 1 Splice Points / 10 Cubic Feet (10v3)
 
-    Products of this Trait are formed at any point adjascent to or on the
-    Character that possess this Trait and may be fired up to the Range of the
-    Trait. Once this point is chosen, it is fixed unless the Trait gets Spliced.
+    Products of this Mutation are formed at any point adjascent to or on the
+    Character that possess this Mutation and may be fired up to the Range of the
+    Mutation. Once this point is chosen, it is fixed unless the Mutation gets Spliced.
     This won't matter much unless your Character's movement is restricted
     somehow.
 
     When 10 Cubic Feet (10v3) are bought, you are free to shape and destribute
-    the Volume of the Trait's products in a way that makes most sense for you
+    the Volume of the Mutation's products in a way that makes most sense for you
     intentions, but no matter how you arrange it, it cannot add Damage, Stress
-    or any other property to the Trait for free. 
+    or any other property to the Mutation for free. 
 
     You may only produce as much material as you buy Volume for. You recover 5 +
     Brawn Volume per hour of Break as long as your Character has Stamina. A
@@ -197,9 +207,9 @@ NATURAL WEAPONS
     5v3 of additional volume.
 
     You may split the Volume between multiple projectiles that are launched
-    simultaneously as part of the Trait activation, but each projectile must
+    simultaneously as part of the Mutation activation, but each projectile must
     have at least 1 point of Damage, Boost, Stress or Effect and
-    the Range of the Trait must be split such that each projectile has at least
+    the Range of the Mutation must be split such that each projectile has at least
     1 Zone of Range. The projectiles produced do not need to be equivalent in
     Volume.
 
@@ -207,12 +217,12 @@ NATURAL WEAPONS
 #### COST: 2 Splice Points per 1 point of Stress
     
     This value is used to determine the penalty applied to a Capacity of a
-    target Creature once it interacts with the Trait/its products. Stress must
+    target Creature once it interacts with the Mutation/its products. Stress must
     be accompanied by Damage or Integrity if you want it to apply through
     conscious resistance from the Target. 
 
     An afflicted Creature may not necessarily be aware they are affected by
-    Stress until they actively Attempt to use a Core if the Trait does
+    Stress until they actively Attempt to use a Core if the Mutation does
     not also cause Damage, unless the Player inflicting Stress has
     decided they have wanted it to cause sensory effects at all times.
 
@@ -229,38 +239,38 @@ NATURAL WEAPONS
 #### COST: 1 Splice Points per 1 Integrity
     
     All properties of a Natural Weapon (Damage, Stress, Boost, Effect
-    Challenege) will be reapplied to the anything touching the Trait's products
-    at the beginning of every Round until the Trait's products are reduced to an
-    Integrity of 0. The owner has implied immunity to the Trait's hazardous
-    properties, but they may waive this immunity to grant the Trait 1 additional
+    Challenege) will be reapplied to the anything touching the Mutation's products
+    at the beginning of every Round until the Mutation's products are reduced to an
+    Integrity of 0. The owner has implied immunity to the Mutation's hazardous
+    properties, but they may waive this immunity to grant the Mutation 1 additional
     point of Damage.
 
-    Trait Integrity implies that it produces tangible material that persists in
+    Mutation Integrity implies that it produces tangible material that persists in
     the Game World until it is destroyed/dispersed by oppossing forces. Volume
     implies the same, but without Integrity the products do not persist in the
     Game World after they apply their properties.
      
-    The Integrity of a Trait's products are reduced by 1 whenever they are
+    The Integrity of a Mutation's products are reduced by 1 whenever they are
     Challenged, but are destroyed immediately if they encounter a Challenge that
     is higher than their Integrity. The GM determines if the Integrity fails
     before they reduce it by 1.
 
     You must designate the product's Form as either gas, liquid, or solid. A
-    Trait's products may be used as Simple Tools to help complete a Challenge. 
+    Mutation's products may be used as Simple Tools to help complete a Challenge. 
 
-    Integrity implicitely grants the products of a Trait Momentum equivalent to
+    Integrity implicitely grants the products of a Mutation Momentum equivalent to
     the Integrity / 3 rounded down. If the products are gaseous, the Momentum is
     capped at 0. Reducing Intergrity reduces the Momentum of the generated
     product.
 
-    A Trait with Integrity and no Volume can only produce about a basketball
+    A Mutation with Integrity and no Volume can only produce about a basketball
     worth of material (~1/4 cubic feet).
     
-    If the Trait is reapplied to space occupied by its products before their
+    If the Mutation is reapplied to space occupied by its products before their
     Integrity is depleted, the Integrity is compounded up to a maximum value of
     15. 
 
-    Traits with Integrity may be set as traps in ways that make sense for its
+    Mutations with Integrity may be set as traps in ways that make sense for its
     given Form. Traps laid in this way have a Detection Challenge equivalent to
     the Set Trap Challenge Attempted by the trapper.
 
@@ -270,12 +280,12 @@ NATURAL WEAPONS
     
     This value represents by how many points you may Raise a Target's designated
     Core by. If this effect is applied, the Creature's Vitals are changed.
-    Boost must be shared amongst Creatures within the Traits Volume if it has Volume.
+    Boost must be shared amongst Creatures within the Mutations Volume if it has Volume.
     Boost radiates outward from the Point of Origin, being divided equally
     if possible, but with the nearest Creature receiving any remainder, up to a
     maximum of +5. 
 
-    That is, if you possess a Trait that has +1 Boost and has a 20ft
+    That is, if you possess a Mutation that has +1 Boost and has a 20ft
     Volume, only the Creature nearest to the Point of Origin will receive the
     Boost. Boost lasts until its products are destroyed or at least
     until the end of the boosted Creature's Turn if it has no Integrity.  Core
@@ -289,7 +299,7 @@ NATURAL WEAPONS
 
     Multiple sources of Boost do add to eachother, but they must come from
     different Creatures, items or similar; it is not enough that you have two
-    Traits that boost the same Core. A single Core may not be Boosted by more
+    Mutations that boost the same Core. A single Core may not be Boosted by more
     than 5.
 
     For every 5 points of Boost a Creature receives, the gain 1 point of Burden.
@@ -298,30 +308,30 @@ NATURAL WEAPONS
 ### CONCEALMENT (~)
 #### COST: 1 Splice Point
     
-    A Trait with this property is not discernible at a glance. In order to
-    discover a Concealed Trait, a Creature must either have a specialized tool
-    that explicitly detects the material the Concealed Trait is made of, or
+    A Mutation with this property is not discernible at a glance. In order to
+    discover a Concealed Mutation, a Creature must either have a specialized tool
+    that explicitly detects the material the Concealed Mutation is made of, or
     otherwise the inspecting Creature is able to freely touch and grope the
-    Creature, as if frisking them. This protects the Trait from detection if
-    neither of the above criteria are met. Activating the Trait makes it
-    vulnerable to analysis, and Creatures who saw the Trait activated do not
+    Creature, as if frisking them. This protects the Mutation from detection if
+    neither of the above criteria are met. Activating the Mutation makes it
+    vulnerable to analysis, and Creatures who saw the Mutation activated do not
     forget that you have it.
 
-    If one has multiple Traits, Concealment must be purchased for each seperate
-    Trait. While the Trait is being activated/used, it loses the benefit of
-    Concealment. Purchasing Concealment twice makes the Trait completely
+    If one has multiple Mutations, Concealment must be purchased for each seperate
+    Mutation. While the Mutation is being activated/used, it loses the benefit of
+    Concealment. Purchasing Concealment twice makes the Mutation completely
     inperceivable by the naked eye. A DNA Analysis would need to be performed to
-    determine the existence the of the Trait without otherwise having seen it
+    determine the existence the of the Mutation without otherwise having seen it
     being used.
 
-    The Cost of concealing a Crux is double unless the Trait is made of mostly
+    The Cost of concealing a Crux is double unless the Mutation is made of mostly
     Biomass.
 
 ### EFFECT CHALLENGE (EC)
 #### COST: 1 Splice Points / 1 EC
 
-    In addition to the other primary effects of the Trait (i.e. Damage or
-    Stress), you are able to assign the product of your Trait an
+    In addition to the other primary effects of the Mutation (i.e. Damage or
+    Stress), you are able to assign the product of your Mutation an
     Effect. 
 
     This Effect can be any Challenge your Character would normally be able to
@@ -334,7 +344,7 @@ NATURAL WEAPONS
     chemical reactions, non-simple machines or electronics to perform a task.
 
     The Effect is only as strong as you make it; you cannot artificially
-    multiply the potency of the Trait through its aesthetics.
+    multiply the potency of the Mutation through its aesthetics.
 
     You may "layer" Effects to make them more potent or perform more complex
     actions. A single Effect may not have a Difficulty of higher than 15.
@@ -342,20 +352,20 @@ NATURAL WEAPONS
 ### TELEPATHIC LINK
 #### COST: 1 Splice Point
 
-    Typically, any products of a Trait are mindless objects. You may give your
-    Trait either a Simple Telephatic Link for 1 Splice Point, or a Complex
+    Typically, any products of a Mutation are mindless objects. You may give your
+    Mutation either a Simple Telephatic Link for 1 Splice Point, or a Complex
     Telepathic Link for 2 Splice Points.
 
-    A Simple Telepathic Link(STL) allows information to flow from the Trait's
+    A Simple Telepathic Link(STL) allows information to flow from the Mutation's
     products to the Creature that created it. A STL allows you sense the
-    position of any intact products created by the Trait. You can give the
+    position of any intact products created by the Mutation. You can give the
     products 1 sense for 1 Splice Point. The 5 Senses are Sight, Touch, Smell,
-    Hearing, and Taste. If a Trait's products are given a sense, they are just
+    Hearing, and Taste. If a Mutation's products are given a sense, they are just
     as keen as the Creature's and retain all special senses, and use the owner's
     Brain Core to Attempt the Sense Challenge.
 
     A Complex Telepathic Link (CTL) carries all the same benefits of a STL, but
-    also allows you to issue commands to the product of the Trait, however you
+    also allows you to issue commands to the product of the Mutation, however you
     can only instruct it to do one of three things:
 
         1) Go inert. This perserves the link, but the product(s) will not output
@@ -374,14 +384,14 @@ NATURAL WEAPONS
 
     Telepathic Links have a range of 100ft, but this range may be doubled for 1
     Splice Point per doubling. If the range of a Telepathic Link is exceeded, it
-    breaks, but automatically reconnects if the Trait and its owner get within
+    breaks, but automatically reconnects if the Mutation and its owner get within
     the links max range of eachother.
 
 ### STAMINA REPLENISHMENT (SR)
 #### COST: 2 Splice Points / 1 SR
     
     This value represents how much Stamina of a Target may be replenished if the
-    Effect of the Trait is applied. 
+    Effect of the Mutation is applied. 
 
     If a Character has Injuries II and Injury I, receiving Stamina Replenishment
     either partially or completely removes them, and the Stress associated with
@@ -402,16 +412,17 @@ ANATOMY MUTATIONS
 #### COST: 2 Splice Points per 1.5 Bonus Natural Defense 
 
     You Creature's Natural Dodge Attempts are increased by the amount
-    of Bonus Dodge a Trait has. Other effects of increased Natural Defense
+    of Bonus Dodge a Mutation has. Other effects of increased Natural Defense
     (higher Fall Damage and stronger Unarmed Strikes) also apply. 
 
     Bonus Natural Defense is rounded down to to the nearest natural number.
 
 ### BONUS STAMINA
-#### COST: 2 Splice Points per 1.5 Bonus Natural Defense 
+#### COST: 2 Splice Points per 1 Bonus Stamina.
 
     Your Creature's Stamina is increased by 1 per point of Bonus Stamina
-    purchased.
+    purchased. Do keep in mind the Stamina penalty associated with using a high
+    amount of Splice Points.    
 
 ### BONUS HANDS
 #### COST: 2 Splice Points per Hand 
@@ -422,7 +433,7 @@ ANATOMY MUTATIONS
     and 1-Handed Weapons. 
 
     Gaining more than 1 Hand allows for a larger variety of weapon combinations.
-    Despite there name, Hands do not have to be actual hands. Like all Traits,
+    Despite there name, Hands do not have to be actual hands. Like all Mutations,
     the details of their aesthetics is between you and your table-mates. As
     always, the Creature needs to account for the Momentum of the Weapons he is
     holding with any Hand.
@@ -458,30 +469,30 @@ ANATOMY MUTATIONS
     physiology. These alternations are not all beneficial. Each Size Category is
     explained in detail in the Physiology section.
 
-DAMAGED TRAITS
-==============
+DAMAGED MUTATIONS
+=================
 
-Traits aren't just balls of numbers that you tap your finger on to make the bad
+Mutations aren't just balls of numbers that you tap your finger on to make the bad
 guys go away. They're relics of your Characters story AND features on your
-Character's anatomy. A Character more than likely sees there Trait as a part of
+Character's anatomy. A Character more than likely sees there Mutation as a part of
 their body or at least as a important item that deserves respect. Regardless,
-you will more than likely damage your Trait.
+you will more than likely damage your Mutation.
 
-Traits have a chance to become Damaged whenever the limb their attached
+Mutations have a chance to become Damaged whenever the limb their attached
 to/housed within become Damaged. It depends on how hard the hit was, but a
-Damaged Trait can be either Malfunctioning or Disabled.
+Damaged Mutation can be either Malfunctioning or Disabled.
 
-Using a Malfunctioning Trait incurs a Bust whenever you are using it. A Disabled
-Trait cannot be used at all.
+Using a Malfunctioning Mutation incurs a Bust whenever you are using it. A Disabled
+Mutation cannot be used at all.
 
 Crux can Catastrophically Fail if they become Damaged. When a Crux
 Catastrophically Fails, it imparts all its negative effects on its owner as if
 it was activated with an Attempt of 15. The owner automatically fails any
 Challenges applied to them due to a Catastrophically Failing Crux.
 
-If the Trait is a Anatomy Mutation, half of all of the Splice Points placed into
+If the Mutation is a Anatomy Mutation, half of all of the Splice Points placed into
 it are treated as Damage that applies to its owner.
 
-Boost is treated as Stress in these instances. If the Trait has Range or Volume,
-the GM has free reign to direct the Trait's involuntary activation as they see
+Boost is treated as Stress in these instances. If the Mutation has Range or Volume,
+the GM has free reign to direct the Mutation's involuntary activation as they see
 fit.
