@@ -1,69 +1,7 @@
-ZONES & BORDERS
-===============
+MOVEMENT AND PATHS
+------------------
 
-Every Scenario has one or more Zones. Zones are intuitive divisions of space
-within a given moment of play. Each Character a certain amount of space within a
-Zone (given in fractions of the Zones they take up). This does not mean that
-Characters are literally taking up 1/4 of a Zone as if they were a gaseous body.
-It merely refers to how much space someone in an active combat scenario
-generally takes.
-
-Zones are categorized by how far they are from other Zones, but keep in mind
-that Zones that are spatially adjacent may as well be considered further away if
-significant obstacles exist at the border of the two Zones in question. 
-
-The general distances are as follows, but keep in mind that your GM may assign a
-different distance and Challenge Modifier to Zones depending on the Context.
-
-        Distance Class       "Real" Distance                 Move Challenge Modifier
-        --------------       ---------------                 -----------------------
-        Close                20->40ft (~1-2 Zone Away)       +2
-        Far                  40->60ft (~2-3 Zones Away)      +5
-        Very Far             >60ft (3+ Zones Away)           +12
-
-The shape and sizes of Zones are not permanent. In fact, many Creatures
-possess abilities or have access to items that will either divide Zones into
-smaller ones, or completely remove them from the Scenario.
-
-In the same way, some participants of a Scenario will be able to reach some
-Zones that others cannot. Most likely, this will be due to some Creatures being
-able to move about the Game World in ways that others cannot, such as by flying.
-In such cases where Characters are able to move both vertically and
-horizontally, Zones are considered to have height as well as width, though by no
-means do these two measurements have to be equivalent to each-other.
-
-Features that divide the Scenario into its composite Zones are referred to as
-Borders. Borders add or remove Difficulty to any Challenge that is completed
-while crossing them. Different Paths and Borders will invoke different
-Challenges. 
-
-The most common type of border is a Space Border, and are what gives Zones their
-maximum size of 20ft wide and 20ft long. A Space Border is simply the point at
-which two centers of a Zone are separated by 40ft of Space.
-
-It's very possible for a singular Border to add Difficulty when approaching it
-from one direction, but remove Difficulty when approaching it from another. It's
-also likely that approaching a Border multiple times will cause the Difficulty
-they add/remove to fluctuate.
-
-MOVING WITHIN ZONES
--------------------
-
-
-When describing where you are within a Zone, you use relative distance to
-stationary objects within the Zone. You will tend to use words like "right next
-to", "10ft away from", and "pressed up the wall in the center of the Zone". The
-specifics of where you are in the Zone are important only to the extent that you
-know where you are in the Zone relative to other things in it.
-
-It is often extremely useful to have a map and player tokens to help keep track
-of everyone's positions, but it's not necessary if the GM has a good memory (or
-good note taking skills!) or everyone at the table acts in Good Faith.
-
-
-MOVING BETWEEN ZONES
---------------------
-
+Your Character qq
 
 
 BEING SCARY IN SPACE AND TAKING NAMES 
