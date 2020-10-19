@@ -264,31 +264,7 @@ NATURAL WEAPONS
 
 ### BOOST
 #### COST: 4 Splice Points per 1 Boost
-    
-    This value represents by how many points you may Raise a Target's designated
-    Core by. If this effect is applied, the Creature's Vitals are changed.
-    Boost must be shared amongst Creatures within the Mutations Volume if it has
-    Volume.  Boost radiates outward from the Point of Origin, being divided
-    equally if possible, but with the nearest Creature receiving any remainder,
-    up to a maximum of +5. 
 
-    That is, if you possess a Mutation that has +1 Boost and has a 20ft Volume,
-    only the Creature nearest to the Point of Origin will receive the Boost.
-    Boost lasts until its products are destroyed or at least until the end of
-    the boosted Creature's Turn if it has no Integrity.  Core Boost is not
-    generic, you must specify which Core it boosts when you purchase it.
-
-    Boost does not penalize the associated Core of the one you're boosting.  In
-    other words, if you Boosted your Brawn by +2, your Speed would not be
-    drained by -2. Reapplying Boost from the same source only refreshes the
-    duration as opposed to adding to the Boost.
-
-    Multiple sources of Boost do add to eachother, but they must come from
-    different Creatures, items or similar; it is not enough that you have two
-    Mutations that boost the same Core. A single Core may not be Boosted by more
-    than 5.
-
-    For every 5 points of Boost a Creature receives, the gain 1 point of Burden.
 
 
 ### CONCEALMENT (~)
@@ -327,6 +303,8 @@ NATURAL WEAPONS
     A simple tool is any object that *only* redirects and/or magnifies physical
     extertion supplied by its user(s). This rules out anything that requires
     chemical reactions, non-simple machines or electronics to perform a task.
+    You can make your Trait *look* like it uses these technologies, but it can't
+    actually be more useful than a simple tool.
 
     The Effect is only as strong as you make it; you cannot artificially
     multiply the potency of the Mutation through its aesthetics.

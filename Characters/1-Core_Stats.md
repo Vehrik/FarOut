@@ -41,8 +41,8 @@ BRAIN
     perception, and precise, methodical movements like lock-picking and
     stitching up wounds. A character with a high Brain score can retain more
     Protocols and are typically in possession of a large bank of trivial
-    knowledge. Brain also determines your Accuracy and Damage with Psionic
-    Attacks.
+    knowledge. Brain also determines your ability to Weave Silk
+    
 
 HEART
 -----
@@ -84,7 +84,7 @@ CAPACITIES & STRESS
                  |    |     |     |     |     |     |     |     |     |    |
                  ------------------------------------------------------------ BRAWN
                                                
-                    Flexibility, Accuracy << BODY >> Strength, Durability
+                    Flexibility, Agility << BODY >> Strength, Durability
                                                
            SPEED ------------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
@@ -96,12 +96,15 @@ CAPACITIES & STRESS
                  |    |     |     |     |     |     |     |     |     |    |
                  ----------------------------------------------------------- BRAIN
                                                
-                     Intuition, Willpower << SOUL >> Knowledge, Perception
+                     Intuition, Willpower << SOUL >> Expertise, Perception
                                                
            HEART -----------------------------------------------------------      
                  |    |     |     |     |     |     |     |     |     |    |
                 +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
       
+STRESS
+-----
+
       Each Capacity is also subject to a penalty called Stress. Stress ranges
       from 0 to 10. You accumulate Stress by sustaining injuries, starving,
       suffering from intense psychological effects, or coming into contact with
@@ -116,4 +119,96 @@ CAPACITIES & STRESS
       When a Creature accumulates Stress, it lowers the effective score of the
       Capacity, and can even make a Core unusuable. If a Creature accumulates 15
       Stress, they fall unconscious and becomes vulnerable to Execution.
+
+      Stress does not effect your vitals, but there are consequences associated
+      with Cores dropping to negative values. You accumulate these penalties
+      whether your Core is naturally below certain values, or is lowered by Stress
+
+      The consequences for having low Core Stats are as follows:
+
+        Brawn 
+
+            <= -3 Weakened
+
+                            Your Character is treated as if they had no Brawn
+                            for purposes of determing how much Burden they can
+                            bare. 
+
+            == -5 Enfeebled
+
+
+                            Your Character automatically fails all Brawn
+                            Challenges. It is also treated as if
+                            it only had 1 Momentum when determing how much
+                            Burden they can bare.
+
+        Speed
+
+            <= -3 Hobbled
+
+                            Your Character's is only able to Dash if they expend
+                            an Action. They also Busts when Attempting Movement
+                            and their Stride is also set to 1::1.
+
+            == -5 Crippled
+
+                            Your Character is unable to move more than 5ft per
+                            round, and doing so consumes both Actons they have.
+                            They also fail any Speed Challenges encountered.
+
+        Brain
+
+            <= -3 Foggy
+                            Your Creature loses all Talents other than those
+                            supplied by their Natural Talent until they stop
+                            being Foggy. In addition, all Brain related
+                            Challenges are made with a Bust.
+
+            == -5 Gobsmacked
+
+                            Your Character automatically fails all Brain related
+                            Challenges. They are also considered to be Busted
+                            for every other Action. 
+
+        Heart
+
+            <= -3 Disheartened  
+
+                            Your Character loses the ability to Grunt except for
+                            when they Grit Their Teeth. Breaks only restore 1
+                            Stamina per 2 Hours.
+
+            == -5 Enthralled
+
+                            The Character loses their free will, meaning they
+                            can't take Actions. Reactions may be taken as
+                            normal. 
+
+                            Other Creatures can make 2-worded commands that may
+                            or may not be paired with a gesture as an Action.
+                            The Enthralled Creature fulfills all commands given
+                            to them in good faith, but Enthralled Creatures
+                            cannot be made to directly cause Damage to
+                            themselves or their Friends, but can't be made to
+                            cause Damage the Creature they're Enthralled to or
+                            the Friends of that Creature either. 
+
+                            They obey the instructions of Friends over those
+                            issued by Strangers, and obey the instructions of
+                            Strangers over those issues by Foes. 
+
+                            If a Foe issues instructions in the presence of
+                            Friends, the Enthralled Creature will check for
+                            disapproval from their Friends before they carry out
+                            the instructions. Voicing disapproval costs 1
+                            Action. If no Friend voices disapproval, then the
+                            Creature follows the command if it satisfies the
+                            above criteria.
+
+                            Enthralled Creatures consider other Enthralled
+                            Creatures as Strangers. If no Friends are present,
+                            you treat Foes as if they were Friends.
+
+                            Enthralled Creatures snap out of it if their Heart
+                            Core is raised above -4.
 
