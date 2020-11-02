@@ -39,27 +39,23 @@ MUTATIONS
     Whatever your Mutation ends up being you must decide on the following three
     details:
 
-            1. The location of the weakspot of the Mutation. You may designate
-               the Mutation as being anchored to, projected from or embedded in
-               either your Torso, Head, or one of your Limbs. 
+            1. The location of the Mutation. You may designate the Mutation as
+               being anchored to, projected from or embedded in either your
+               Torso, Head, or one of your Limbs. 
 
                Multiple Mutations may be anchored to/embedded in the same
                portion of your body. Mutations may become less effective or even
                unuseable if the body part the Mutation is associated with
                becomes Injured or Disabled. 
 
-               You may expend 1 Splice Point in order to distribute a Mutation's
-               weakspot across one additional limb, and in this case, both body
-               sections must be damaged before it effects the Mutation's
-               effectiveness.
+               You may expend 1 Splice Point in order to distribute a Mutations
+               across one additional limb, and in this case, both body sections
+               must be Injured before it effects the Mutation's effectiveness.
 
-               If the limb you place the Mutation's weakspot on also houses a
-               Hand (by default this is your arms), the Mutation will consume
-               the Hand unless you expend 1 additional Splice Point in order to
-               conserve the Hand. You may expend 2 additional Splice Point in
-               order to make the Hand Synergizing, meaning that you can combine
-               the properties of the Trait with properties of the item
-               held in the Synergizing Hand.
+               If the limb you place the Mutation on also houses a Hand (by
+               default this is your arms), the Mutation will consume the Hand
+               unless you expend 1 additional Splice Point in order to conserve
+               the Hand. 
 
                You may optionally designate the Mutation as a Crux, giving you 3
                additional Splice Points points to use on the Mutation designated
@@ -89,8 +85,8 @@ MUTATIONS
                         force a Disabled Biomass Mutation to work for a single
                         use as if it were merely Malfunctioning.
 
-                        Energy - The Mutation gains a Range of 1 Zone, 1 Point
-                        of Damage and 5ft of AoE for no additional cost. 
+                        Energy - The Mutation gains a Range of 20ft, 1 Point of
+                        Damage and 5ft of Area for no additional cost. 
 
             3. The general dimensions of the Mutation. You don't need to have
                the measurements down to the inch, but you need a solid concept
@@ -138,121 +134,104 @@ NATURAL WEAPONS
 #### COST: 2 Splice Points / 1 D
     
     This value is used to determine the Damage dealt by this Mutation OR its
-    products whenever it contacts a Creature. You must decide on the first point
-    of Damage bought whether the Mutation deals damage with projectiles or by
-    virtue of its form. This Damage may either be Force, Fire, Frost, Poison, or
-    Electric Damage. 
+    products whenever it contacts a Creature. This Damage may either be Force,
+    Fire, Frost, Poison, or Electric Damage. 
 
-    When you buy the initial point of Damage, you must specifiy it as Crude or
-    Technical. As with all Crude items, it cannot benefit from more than 1 Zone
-    of Range, but the Range given is treated as Threat instead.
-
-    Any Mutation that has Range is automatically a Technical weapon.
-
-    Damage reduces the Integrity of something whenever it contacts it by the
-    amount of Damage it has. 
-
-    If the Mutation utilizes projectiles to apply its Damage, the projectile
-    continues to travel along the same trajectory until it encounters a total
-    amount of Integrity equivalent to its Damage. In other words, if a
-    projectile with 4 Damage hits an Object with Integrity 2, it will fly throug
-    the object, and continue flying until it encounters another object with
-    Integrity 2, or two objects with 1 Integrity each, OR until it reaches its
-    maximum Range, whichever comes first.
+    Any Mutation that has Range is automatically a Technical weapon and thus
+    must use Speed or Brain for its Attacks. Otherwise you may specify whether
+    it uses Heart or Brawn for its Attacks.
 
 ### RANGE (R)
 #### COST: 1 Splice Points per 20ft
 
-    This value determines how many Zones away your Mutation's missiles are able
-    to feasibly apply the Mutation's other properties. This is seperate from
+    This value determines how far away your Mutation's missiles are able to
+    feasibly apply the Mutation's other properties. This is seperate from
     determining if you actually hit your Target, this value is used to determine
-    if you can even try. Range rounds up, meaning that you can target a Creature
-    even if it is positioned in the Zone such that they are as far away from
-    your Character as they can be while still being within Range.
+    if you can even try. 
 
-    If your Mutation has less than 6 Zones of Range, it implies it produces Slow
-    projectiles. If this is the case, you may intentionally Bust on your next
-    use of the Mutation in order to double the Range for that use.
+    If you do not purchase Volume or Integrity for a Mutation that has Range, it
+    implies that the Mutation does not produce a projectile, but rather that you
+    are flinging out a limb (or pseduolimb) that is vunerable to Quick Attacks
+    all along the length of its Range. Pseudolimbs has roughly the same diameter
+    as the rest of the Character's limbs. This enables you to utilize the
+    Mutation without having to keep track of how much material your Creature is
+    still able to output.
 
-    Purchasing Range for Crude Mutations only grants 1 Zone of Range but still
-    costs 1 Splice Point, however, this Range is treated as Threat for all
-    purposes.
-
-    If you do not purchase Volume or Integrity for a Mutation, it implies that
-    the Mutation does not produce a projectile, but rather that you are flinging
-    out a limb (or pseduolimb) that is vunerable to Quick Attacks all along the
-    length of its Range. Pseudolimbs has roughly the same diameter as the rest
-    of the Character's limbs. This enables you to utilize the Mutation without
-    having to keep track of how much material your Creature is still able to
-    output.
+    Mutated limbs that also house a Hand can combine their properties with melee
+    weapons into a single attack. 
 
 ### AREA (A)
-#### COST: 1 Splice Points per 12ft
+#### COST: 1 Splice Points per 12ft of Area.
 
-    The Trait's Area refers to how much space an Effect fills when the Trait is
-    activated. It may be combined with Range in order to be projected away from
-    your Character. 
+    The Trait's Area refers to how much space the Trait's products effects when
+    the Trait is activated. It may be combined with Range in order to be
+    projected away from your Character. 
 
     When you purchase Area, each dimension (length/width/height) must be given
-    at-least 1ft. It doesn't need to "actually" fill the entire space of its
-    Area, but for purposes related determining if it touches a Creature, it will
-    be treated as if it has the dimensions equivalent to its Area.
+    at-least 1ft. It doesn't need to actually fill the entire space of its Area,
+    but for purposes related determining if it touches a Creature, it will be
+    treated as if it has the dimensions equivalent to its Area.
 
     The Area of a Trait also acts as an ammo counter. You can only produce so
     much material before your body needs to take time to replenish its stores.
     The smallest amount of Area a projectile can take up is 3, making its Area
     1x1x1ft. This means that you can produce up to 4 projectiles per 12ft of
-    Area bought at most.
+    Area bought.
 
     You replenish (3 + Brawn)ft of Area per hour assuming you have at least 1 Stamina.
     Each hour of Break restores 12ft of Area, regardless of their Stamina.
 
 ### STRESS
-#### COST: 2 Splice Points per 1 point of Stress
+#### COST: 3 Splice Points per 1 point of Stress
     
     This value is used to determine the penalty applied to a Capacity of a
-    target Creature once it interacts with the Mutation/its products. Stress
-    must be accompanied by Damage or Integrity if you want it to apply through
-    conscious resistance from the Target. 
+    target Creature once it comes in contact with the Mutation/its products.
+
+    Stress must be accompanied by Damage or Integrity. Stress lasts until the
+    end of the round in which it was applied, but can be immediately reapplied
+    at the beginning of the next round if the victim is still in contact with
+    the source of the Stress.
 
     An afflicted Creature may not necessarily be aware they are affected by
-    Stress until they actively Attempt to use a Core if the Mutation does not
-    also cause Damage, unless the Player inflicting Stress has decided they have
-    wanted it to cause sensory effects at all times.
+    Stress until they actually use a Core if the Mutation does not also cause
+    Damage, unless the Player inflicting Stress has decided they have wanted it
+    to cause sensory effects at all times.
+
+    You must designate whether the Stress your Trait applies is Mental or
+    Physical. If a Creature remains in contact with a Trait/its products, for
+    multiple rounds the Stress accumulates up to double the amount of Stress
+    that the Trait possesses.
 
 
 ### INTEGRITY
-#### COST: 1 Splice Points per 1 Integrity
+#### COST: 1 Splice Points per 3 Integrity
     
-    All properties of a Natural Weapon (Damage, Stress, Boost, Effect
-    Challenege) will be reapplied to the anything touching the Mutation's
-    products at the beginning of every Round until the Mutation's products are
-    reduced to an Integrity of 0. The owner has implied immunity to the
-    Mutation's hazardous properties, but they may waive this immunity to grant
-    the Mutation 1 additional point of Damage.
-
     Mutation Integrity implies that it produces tangible material that persists
-    in the Game World until it is destroyed/dispersed by oppossing forces.
-    Volume implies the same, but without Integrity the products do not persist
-    in the Game World after they apply their properties.
+    in the Game World until it is destroyed/dispersed by oppossing forces. You
+    must designate the product as either gas, liquid, or solid. A Mutation's
+    products may be used as Simple Tools to help complete a Challenge. 
+
+    All properties of a Natural Weapon (Damage, Stress, Boost, Effect
+    Challenege) will be reapplied to the anything touching the Trait's Area at
+    the beginning of every Round until the Trait's products are reduced to an
+    Integrity of 0. 
+
+    The owner has implied immunity to the Mutation's hazardous properties, but
+    they may waive this immunity to grant the Mutation 1 additional point of
+    Damage.
      
     The Integrity of a Mutation's products are reduced by 1 whenever they are
-    Challenged, but are destroyed immediately if they encounter a Challenge that
-    is higher than their Integrity. The GM determines if the Integrity fails
-    before they reduce it by 1.
-
-    You must designate the product's Form as either gas, liquid, or solid. A
-    Mutation's products may be used as Simple Tools to help complete a
-    Challenge. 
+    Challenged or used to complete a Challenge. They are destroyed immediately
+    if they encounter a Challenge that is 5 or more points higher than their
+    Integrity. If Damage is applied to something with Integrity, the Damage is
+    treated as if it were an Attempt Score in a Challenge against the material.
+    The GM will determine if the Integrity fails before they reduce it by 1.
 
     Integrity implicitely grants the products of a Mutation Momentum equivalent
-    to the Integrity / 3 rounded down. If the products are gaseous, the Momentum
+    to the Integrity / 3 (rounded down). If the products are gaseous, the Momentum
     is capped at 0. Reducing Intergrity reduces the Momentum of the generated
     product.
 
-    A Mutation with Integrity and no Volume can only produce about a basketball
-    worth of material (~1/4 cubic feet).
-    
     If the Mutation is reapplied to space occupied by its products before their
     Integrity is depleted, the Integrity is compounded up to a maximum value of
     15. 
@@ -263,9 +242,40 @@ NATURAL WEAPONS
 
 
 ### BOOST
-#### COST: 4 Splice Points per 1 Boost
+#### COST: 2 Splice Points per 1 Boost
 
+    Boost is a direct bonus added to a Creature's designated Core. Core Boost
+    cannot raise a single Core to a total higher than 5.
 
+    After Boost is removed from a Creature, the Capacities of the Boosted Cores
+    accumulate an amount of Stress equivalent to half the amount of Boost
+    received rounded down. This Stress can be cleansed with 2 Stamina, or by
+    taking a Break.
+
+    The products of a Trait may be imbued with Boost in order to give them
+    Effects. This Effect is a pre-defined Action that a Creature would normally
+    be able to complete empty handed or with a Simple Tool. Effects use their
+    creator's Play Deck and the Boost supplied in order to generate a
+    Difficulty. Effects apply whenever the contact something for the first time
+    in a round.
+
+    Products imbued with Brawn are treated as if they have a Momentum equivalent
+    with the amount of Brawn Boost it has for purposes of determining how much
+    Burden it can handle. This is seperate from their actual Momentum, which is
+    linked to their Integrity.
+
+    Boost can be used in tandem with Telepathic Links and Integrity in order to
+    develop Constructs. Constructs are friendly pseudo-Creatures that assume any
+    Boost given to them as Cores that are utilized identically to the way they
+    are used for Player Characters.
+
+    Constructs can have Empty Cores, meaning that they automatically fail any
+    Challenges that test these Empty Cores. Empty Cores don't cause the
+    Construct to accumulate the penalties associated with having a low Core, but
+    otherwise react to Stress as Normal. Stressing an Empty Core is dealt as
+    Damage to the Construct's Integrity instead.
+
+    Constructs are able to Double and Triple Down if they have no Empty Cores.
 
 ### CONCEALMENT (~)
 #### COST: 1 Splice Point
@@ -289,66 +299,19 @@ NATURAL WEAPONS
     The Cost of concealing a Crux is double unless the Mutation is made of
     mostly Biomass.
 
-### EFFECT CHALLENGE (EC)
-#### COST: 1 Splice Points / 1 EC
+### TELEPATHIC LINK (T)
+#### COST: 2 Splice Points
 
-    In addition to the other primary effects of the Mutation (i.e. Damage or
-    Stress), you are able to assign the product of your Mutation an Effect. 
+    Typically, products of a Mutation are mindless objects. You may give your
+    Mutation a Telepathic Link.
 
-    This Effect can be any Challenge your Character would normally be able to
-    preform either empty handed or with a simple tool, but instead, it is
-    treated as if it produced the Attempt score equivalent to the assigned
-    Effect Challenge.
-
-    A simple tool is any object that *only* redirects and/or magnifies physical
-    extertion supplied by its user(s). This rules out anything that requires
-    chemical reactions, non-simple machines or electronics to perform a task.
-    You can make your Trait *look* like it uses these technologies, but it can't
-    actually be more useful than a simple tool.
-
-    The Effect is only as strong as you make it; you cannot artificially
-    multiply the potency of the Mutation through its aesthetics.
-
-    You may "layer" Effects to make them more potent or perform more complex
-    actions. A single Effect may not have a Difficulty of higher than 15.
-
-### TELEPATHIC LINK
-#### COST: 1 Splice Point
-
-    Typically, any products of a Mutation are mindless objects. You may give
-    your Mutation either a Simple Telephatic Link for 1 Splice Point, or a
-    Complex Telepathic Link for 2 Splice Points.
-
-    A Simple Telepathic Link(STL) allows information to flow from the Mutation's
-    products to the Creature that created it. A STL allows you sense the
-    position of any intact products created by the Mutation. You can give the
-    products 1 sense for 1 Splice Point. The 5 Senses are Sight, Touch, Smell,
-    Hearing, and Taste. If a Mutation's products are given a sense, they are
-    just as keen as the Creature's and retain all special senses, and use the
-    owner's Brain Core to Attempt the Sense Challenge.
-
-    A Complex Telepathic Link (CTL) carries all the same benefits of a STL, but
-    also allows you to issue commands to the product of the Mutation, however
-    you can only instruct it to do one of three things:
-
-        1) Go inert. This perserves the link, but the product(s) will not output
-        any hazardous or beneficial effects until you command it to become
-        active again. If you possess the ability to do this, you may choose to
-        have the products to come out inert when they are intially produced.
-
-        2) Activate Effect. You may instruct the product(s) to activate any
-        Effect Challenge that it possesses. The product is considered to borrow
-        the Actions of its owner if the owner commands it to activate more than
-        once per round.
-
-        3) Become active. This causes an otherwise inert product to become
-        active and immediately emit its effects if it has not already done so
-        this round.
+    A Telepathic Link allows you sense the position of any intact products
+    created by the Mutation.
 
     Telepathic Links have a range of 100ft, but this range may be doubled for 1
     Splice Point per doubling. If the range of a Telepathic Link is exceeded, it
     breaks, but automatically reconnects if the Mutation and its owner get
-    within the links max range of eachother.
+    within the link's max range after decoupling.
 
 ### STAMINA REPLENISHMENT (SR)
 #### COST: 2 Splice Points / 1 SR
@@ -432,7 +395,9 @@ ANATOMY MUTATIONS
     There are 3 Size Categories that Player Characters can be created under.
     From smallest to largest they are:
 
-    Small   Medium  Big     
+         Small 
+         Medium
+         Big     
 
     Each size has various properties that alter your Character's baseline
     physiology. These alternations are not all beneficial. Each Size Category is
@@ -463,5 +428,5 @@ If the Mutation is a Anatomy Mutation, half of all of the Splice Points placed
 into it are treated as Damage that applies to its owner.
 
 Boost is treated as Stress in these instances. If the Mutation has Range or
-Volume, the GM has free reign to direct the Mutation's involuntary activation as
+Area, the GM has free reign to direct the Mutation's involuntary activation as
 they see fit.

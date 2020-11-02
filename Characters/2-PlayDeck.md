@@ -43,8 +43,8 @@ are special. If you draw an Ace, if it is of the correct colour, it is
 equivalent to 14, but if it is the wrong colour, it is equivalent to a 1. 
 
 If you draw a Joker, if it is the wrong colour, it is worth 0, and you
-automatically Bust for your next Turn, but if it is the correct colour, it is
-worth 15, and you automatically Bang II during your next Action. A colour is
+automatically Bust for your next Action, but if it is the correct colour, it is
+worth 15, and you automatically Bang during your next Action. A colour is
 "correct" if you are using the colour of its associated Core (Black for Speed
 and Brawn, Red for Brain and Heart).
 
@@ -76,28 +76,21 @@ either advantageous or disadvantageous positions. Instances like these are
 called Bangs and Busts. 
 
 When you are in an advantageous position for the Challenge you are Attempting,
-you are considered to have a Bang and to be "Banging". You can also be in positions
-that are *so* advantageous that you may have a Double or Triple Bang.
+you are considered to have a Bang and to be "Banging". 
 
-When you have a Bang, you may peek at the top card of the deck, revealing its
-value *before* it is used for a Challenge. If you have a Double Bang (Bang II),
-you reveal 2 cards instead, and if you have a Triple Bang (Bang III), you reveal
-3 cards instead.
-
-You must play these Cards in the order they appear, as you normally would,
-however knowing what cards are available to you gives you an immense upper-hand.
+When you're Banging, you may peek at the top 2 cards of the deck, revealing
+their value *before* it is used for a Challenge. You may play these Cards in
+whatever order is preferable to the player.
 
 Your GM is the only person at the table that can hand Bangs out, but there are
-some mechanics within the game that explicitly grant Bangs, and if these
-mechanics somehow overlap, you can potentially end up with a Double or Triple
-Bang without your GM having to explicitly give you one.
+some mechanics within the game that explicitly grant Bangs.
 
 When you are in a disadvantageous position for a Challenge you are Attempting,
-you get given a Bust, and are considered to be "Busted". If you are Busted, you
-are unable to Double or Triple Down. 
+you get given a Bust, and are considered to be "Busted".
 
-Unlike Bangs, there is no such thing as being Double or Triple Busted. You're
-Busted until you remove whatever factor is causing you to Bust. You
+If you are Busted, you are unable to Double or Triple Down. 
+
+You're Busted until you remove whatever factor is causing you to Bust. You
 automatically stop being Busted at the end of a Round, but nothing is stopping
 you from getting Busted immediately at the start of the next round should you
 still be in a disadvantageous position.
@@ -140,15 +133,14 @@ or not your Attempt succeeded or not.
 Be careful, because if you Double Down or Triple Down, but fail anyways, you'll
 end up Staggered or Flat Footed. 
 
-If you fail a Challenge you Doubled Down on, you get Staggered. When Staggered,
-you automatically Bust for your next Turn and in addition, any Creature that
-targets you automatically gets a Bang I for the Action taken against your
-Character. 
+If you fail a Challenge you Doubled Down on, you become Flat Footed. When Flat
+Footed, you automatically Bust for the rest of your current Turn and the next
+Turn.
 
-If you fail a Challenge you Triple Down on, you become Flat Footed, which means
-you automatically Bust for your next turn, and in addition, any Creature that
-targets you automatically gets a Bang II for the Action taken against your
-Character.
+If you fail a Challenge you Triple Down on, you become Staggered, which means
+you automatically Bust for the rest of your current Turn and the next turn, and
+in addition, any Creature that Declares an attack against you automatically gets
+a Bang.
 
 Being Staggered and Flat Footed happens in addition to whatever happens as a
 result of you failing the Challenge.
@@ -175,49 +167,39 @@ effects:
         If you are Busted, you may expend 1 Stamina to Double Down despite being
         Busted. You may Triple Down for 1 more additional Stamina.
 
-    2. Heartseeker 
-
-        1>>3 Stamina 
-
-        You may expend 1 point of Stamina in order to Bang. You may Double Bang
-        for 2 Stamina, and Triple Bang for 3.
-
-    3. Grit Your Teeth
+    2. Grit Your Teeth
 
         1>>? Stamina
 
         When you receive Damage, the moment before it is deducted from your
-        Strikes, you may may expend 1 Stamina to reduce it by half rounded down.
-        You may do this as many times as you like, but you may not reduce damage
-        to a value lower than 1.
+        Strikes, you may may expend 1 Stamina to reduce it by half__.  You may
+        do this as many times as you like, even to the point where you reduce
+        the Damage by 0.
 
-    4. Knuckle Down 
+    3. Heartseeker 
 
-        2 Stamina 
+        2 Stamina
 
-        After you fail a Challenge, you may decide to expend 2 points of Stamina
-        in order to retry the Challenge. If you succeed this time, you were
-        treated as you succeeded for the initial Attempt. If you Knuckle Down on
-        a Double or Triple Down, you may only retry for the last card drawn.
+        You may expend 1 point of Stamina in order to Bang. You may Double Bang
+        for 2 Stamina, and Triple Bang for 3.
 
-    5. Fast Reaction 
-
-        2 Stamina 
-
-        Reactions are usually resolved *after* the Action you are Reacting to.
-        Fast Reactions, on the other hand, resolve *while* the Action you're
-        Reacting to is resolving, meaning you can potentially interrupt Actions
-        before they have their effects applied. When you declare that you are
-        Reacting to something, you may also declare that you are performing a
-        Fast Reaction and expend the 2 points of Stamina.
-
-    6. Frenzy 
+    4. Frenzy 
 
         2 Stamina 
 
         After you have used up your Action for a Round, you may expend Stamina
         in order to gain 1 additional Action for the Round. You may only do this
         once per Round.
+
+    5. Knuckle Down 
+
+        3 Stamina 
+
+        After you fail a Challenge, you may decide to expend 2 points of Stamina
+        in order to retry the Challenge. If you succeed this time, you were
+        treated as you succeeded for the initial Attempt. If you Knuckle Down on
+        a Double or Triple Down, you may only retry for the last card drawn.
+
 
 BOONS
 -----

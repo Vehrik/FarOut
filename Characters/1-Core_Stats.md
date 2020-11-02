@@ -53,162 +53,207 @@ HEART
     Core.
 
 
-CAPACITIES & STRESS
+ASPECTS & STRESS
 ===================
 
-    You have two Capacities, Body and Soul. Brawn and Speed belong to the Body
-    Capacity and Brain and Heart belong to the Soul Capacity.
+    You have two Aspects, Body and Soul. Brawn and Speed belong to the Body
+    Aspect and Brain and Heart belong to the Soul Aspect.
 
     Every Core can have a score from -5 to +5 without the help of items,
-    mutations, or technology. However, raising one Core implicitely lowers
-    another. A score of 0 indicates that your Character is in possession of
-    skills that are at the biological peak of humanity.
+    mutations, or technology. A score of 0 indicates that your Character is in
+    possession of skills that are at the biological peak of humanity, whereas a
+    score of +5 indicates that a Creature has a body specifically engineered to
+    bring them to a level of ability more on par with modern industrial
+    equipment. Average, mundane humanity would be at around -3, with
+    incompetence or severe disability is indicated by a score of -5.
 
-    Because of this, your Capacities are best thought of as a finite resource
-    that you must dole out amongst the Cores, favouring one Core means harming the
-    other associated Core as it implies your Creature has made its anatomy more
-    specialized in some way.
+    Something that's very important to keep in mind that raising one's Natural
+    Cores implicitely lowers another. Because of this, your Aspects are best
+    thought of as a finite resource that you must dole out amongst the Cores,
+    favouring one Core means harming the other associated Core as it implies
+    your Creature has made its anatomy more specialized in some way.
 
     For example, if you had a +3 Brawn Core, it would implicitely cause your
     Speed Core to be set at -3. Having a negative score in a Core is not
     automatically "bad", it merely means that the Creature has a anatomy that is
     highly specialized. A Creature wouldn't be able to be called "inept" at
     certain tasks until the Associated Core dipped below -3.
+
+    There are ways to raise Cores without lowering another, but these methods
+    are always temporary and typically have penalties associated with them.
+
+    Cores can be raised or lowered to a point where they become Heightened, or
+    Diminished. Cores become Heightened when they reach a value of +3 or more.
+    When this happens, you always Bang while using that Core in order to Attempt
+    Challenges. Cores become Diminished when they reach a value of -3 or less.
+    Then this happens, you always Bust while using that Core to Attempt
+    Challenges. Diminished Cores also cause additional penalties.
     
     With this in mind, you are given 3 Slant at Character Creation, which you
     may apply to your Cores in one of two directions. Using Slant for Core
-    Enhancement is not required. Your Cores and Capacities are represented
-    visually below:
+    Enhancement is not required, however you should keep in mind that if a Core
+    has 3 or higher, it is considered Hightened and leads to your Character
+    Banging every time they use it. Contrastringly, if a Core is -3 or lower, it
+    is considered Deminished, and causes your Character to Bust every time they
+    utilize it.
 
-                -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
-                 |    |     |     |     |     |     |     |     |     |    |
-                 ------------------------------------------------------------ BRAWN
-                                               
-                    Flexibility, Agility << BODY >> Strength, Durability
-                                               
-           SPEED ------------------------------------------------------------      
-                 |    |     |     |     |     |     |     |     |     |    |
-                +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
+    Your Cores and Aspects are represented visually below:
 
+                /\       Weak     |           Average           |  Strong       /\
+                \/ -5   -4    -3  | -2    -1     0    +1    +2  | +3    +4   +5 \/                    
+                /\  |    |     |  |  |     |     |     |     |  |  |     |    | /\
+                \/  --------------|-------------[+]-------------|-------------- \/ BRAWN
+                /\                |             | |             |               /\
+         SPEED  \/  --------------|-------------[+]-------------|-------------- \/     
+                /\  |    |     |  |  |     |     |     |     |  |  |     |    | /\
+                \/ +5   +4    +3  | +2    +1     0    -1    -2  | -3    -4   -5 \/                     
+                /\      Fast      |                             |  Slow         /\
+                \/                                                              \/
+                                              BODY
+         )~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~(
+                                               SOUL
 
+               /\        Dumb    |           Average           |   Smart       /\ 
+               \/ -5   -4    -3  | -2    -1     0    +1    +2  | +3    +4   +5 \/                       
+               /\  |    |     |  |  |     |     |     |     |  |  |     |    | /\
+               \/  --------------|-------------[+]-------------|-------------- \/ BRAIN
+               /\                |             | |             |               /\
+         HEART \/  --------------|-------------[+]-------------|-------------- \/      
+               /\  |    |     |  |  |     |     |     |     |  |  |     |    | /\
+               \/ +5   +4    +3  | +2    +1     0    -1    -2  | -3    -4   -5 \/                       
+               /\                |                             |               /\
+               \/      Inspiring |                             | Pathetic      \/
 
-                -5   -4    -3    -2    -1     0    +1    +2    +3    +4   +5                       
-                 |    |     |     |     |     |     |     |     |     |    |
-                 ----------------------------------------------------------- BRAIN
-                                               
-                     Intuition, Willpower << SOUL >> Expertise, Perception
-                                               
-           HEART -----------------------------------------------------------      
-                 |    |     |     |     |     |     |     |     |     |    |
-                +5   +4    +3    +2    +1     0    -1    -2    -3    -4   -5                       
-      
-STRESS
------
+BREAKING HEARTS AND GOING REALLY FAST
+-------------------------------------
 
-      Each Capacity is also subject to a penalty called Stress. Stress ranges
-      from 0 to 10. You accumulate Stress by sustaining injuries, starving,
-      suffering from intense psychological effects, or coming into contact with
-      certain environmental Hazards or from your Character pushing themselves
-      briefly beyond their limits. Stress applies to both your Body and Soul
-      simultaneously.
+Even though Cores can only be set at a value between -5 and +5, they can
+temporarily be pushed past these two values. Cores cannot be set to a value
+beyond -5 or +5, but they can be Broken or Super Charged. 
 
-      Stress is relieved by having your Character take a Break, eating food, and
-      by tending to minor injuries that occur during adventures. Sometimes, the
-      Stress becomes semi-permenant, such as when you take severe Injury.
+### BROKEN CORES
 
-      When a Creature accumulates Stress, it lowers the effective score of the
-      Capacity, and can even make a Core unusuable. If a Creature accumulates 15
-      Stress, they fall unconscious and becomes vulnerable to Execution.
+    If a Core suffers from enough penalties that it would normally be set to a
+    value lower than -5, you instead count if as Broken. When a Core is Broken,
+    instead of drawing 1 Cards from the Play Deck per Action, you draw 2, then
+    choose the worse Card. 
 
-      Stress does not effect your vitals, but there are consequences associated
-      with Cores dropping to negative values. You accumulate these penalties
-      whether your Core is naturally below certain values, or is lowered by Stress
+### SUPER CHARGED CORES
 
-      The consequences for having low Core Stats are as follows:
+    If a Core benefits from enough bonuses that it would normally be set to a
+    value higher than +5, you instead count if as Super Charged. When a Core is
+    Super Charged, instead of drawing 1 Cards from the Play Deck per Action, you
+    draw 2, then choose the the higher valued Card. 
 
-        Brawn 
+### STRESS
 
-            <= -3 Weakened
+    Each Aspect is also subject to a penalty called Stress. Stress ranges from 0
+    to 20. You accumulate Stress by sustaining injuries, starving, suffering
+    from intense psychological effects, or coming into contact with certain
+    environmental Hazards or from your Character pushing themselves briefly
+    beyond their limits. Stress can be either Physical or Mental. Physical
+    Stress lowers your Brawn and Speed Cores, whereas Mental Stress lowers
+    your Heart and Brain Cores. 
 
-                            Your Character is treated as if they had no Brawn
-                            for purposes of determing how much Burden they can
-                            bare. 
+    Stress is relieved by having your Character take a Break, eat food, and
+    mend Injuries.
 
-            == -5 Enfeebled
+    When a Creature accumulates Stress, it lowers the effective score of the
+    Stressed Cores, and can Break Cores. If all Cores are Broken, the
+    Character falls unconscious and becomes vulnerable to Execution.  
 
+    Stress does not effect your vitals, but there are consequences associated
+    with Cores dropping to negative values. You accumulate these penalties
+    whether your Core is naturally below certain values, or is lowered by Stress
+    
+    Brawn
 
-                            Your Character automatically fails all Brawn
-                            Challenges. It is also treated as if
-                            it only had 1 Momentum when determing how much
-                            Burden they can bare.
+    .= Weakened
 
-        Speed
+            The Stamina required to perform Grunts is doubled. 
 
-            <= -3 Hobbled
+    // Enfeebled
 
-                            Your Character's is only able to Dash if they expend
-                            an Action. They also Busts when Attempting Movement
-                            and their Stride is also set to 1::1.
+            Enfeebled Creatures must expend an Action at the beginning of their
+            Turn in order to remain upright. If they don't use an Action to do
+            so, they fall Prone. They must spend an Action similarly when they
+            stand up from being Prone. All Brawn related Challenges are failed
+            automatically.
 
-            == -5 Crippled
+    Speed
 
-                            Your Character is unable to move more than 5ft per
-                            round, and doing so consumes both Actons they have.
-                            They also fail any Speed Challenges encountered.
+    .= Hobbled 
 
-        Brain
+            Your Character's is only able to Dash if they expend an Action.
+  
+    // Crippled
 
-            <= -3 Foggy
-                            Your Creature loses all Talents other than those
-                            supplied by their Natural Talent until they stop
-                            being Foggy. In addition, all Brain related
-                            Challenges are made with a Bust.
+            Your Character loses the ability to Dash entirely and fails all
+            Speed based Challenges automatically. 
 
-            == -5 Gobsmacked
+    Brain
 
-                            Your Character automatically fails all Brain related
-                            Challenges. They are also considered to be Busted
-                            for every other Action. 
+    .= -3 Foggy
 
-        Heart
+            While Foggy, your Creature loses all Talents other than those
+            supplied by their Natural Talent as well as the ability to Weave
+            Silk if they previously possessed it. 
+ 
+    // Gobsmacked
 
-            <= -3 Disheartened  
+            Your Character automatically fails all Brain related Challenges
+            except those to do with their senses. They also become unable to
+            speak, read or comprehend spoken words. 
 
-                            Your Character loses the ability to Grunt except for
-                            when they Grit Their Teeth. Breaks only restore 1
-                            Stamina per 2 Hours.
+            The Creature can't benefit from any Talents they have. 
 
-            == -5 Enthralled
+            Creatures who were born with a -5 Brain Core can only learn how to
+            speak and read if they raise their Brain Core to 0.
 
-                            The Character loses their free will, meaning they
-                            can't take Actions. Reactions may be taken as
-                            normal. 
+    Heart
 
-                            Other Creatures can make 2-worded commands that may
-                            or may not be paired with a gesture as an Action.
-                            The Enthralled Creature fulfills all commands given
-                            to them in good faith, but Enthralled Creatures
-                            cannot be made to directly cause Damage to
-                            themselves or their Friends, but can't be made to
-                            cause Damage the Creature they're Enthralled to or
-                            the Friends of that Creature either. 
+        <= -3 Disheartened  
 
-                            They obey the instructions of Friends over those
-                            issued by Strangers, and obey the instructions of
-                            Strangers over those issues by Foes. 
+            Disheartened Creatures doubled the amount of Stress they take on.
+            This bonus Stress is refered to as Despair, and is dropped when a
+            Creature stops being Disheartened.
 
-                            If a Foe issues instructions in the presence of
-                            Friends, the Enthralled Creature will check for
-                            disapproval from their Friends before they carry out
-                            the instructions. Voicing disapproval costs 1
-                            Action. If no Friend voices disapproval, then the
-                            Creature follows the command if it satisfies the
-                            above criteria.
+         /= -5 Enthralled
 
-                            Enthralled Creatures consider other Enthralled
-                            Creatures as Strangers. If no Friends are present,
-                            you treat Foes as if they were Friends.
+            The Character loses their free will, meaning they can't take Actions
+            unless they are acting on behalf of another Creature. Reactions may
+            be taken as normal. 
 
-                            Enthralled Creatures snap out of it if their Heart
-                            Core is raised above -4.
+            Other Creatures can make 2-worded commands that may or may not be
+            paired with a gesture as an Action. The Enthralled Creature fulfills
+            all commands given to them in good faith, but Enthralled Creatures
+            cannot be made to directly cause Damage to themselves or their
+            Friends, but can't be made to directly Damage the Creature they're
+            Enthralled to or the Friends of the Enthralling Creature. 
+
+            Enthralled Creatures obey the instructions of Friends over those
+            issued by Strangers, and obey the instructions of Strangers over
+            those issues by Foes. 
+
+            If a Foe issues instructions in the presence of Friends, the
+            Enthralled Creature will check for disapproval from their Friends
+            before they carry out the instructions. Voicing disapproval costs 1
+            Action. If no Friend voices disapproval, then the Creature follows
+            the command if it satisfies the above criteria. If two Friends issue
+            conflicting instructions, the Enthralled Creature follows the
+            instructions of the Friend with the highest Heart Core.
+
+            Enthralled Creatures consider other Enthralled Creatures as
+            Strangers. If no Friends are present, you treat Foes as if they were
+            Friends.
+
+            If the thing that Enthralled a Creature was a Hazard, or some other
+            effect such as hunger or thirst, the GM assumes the role as the Foe
+            and issues commands on the force's behalf.
+
+            Instructions are followed in a FIFO (First In, First Out) pattern.
+            This means that if an Enthralled Creature gets two valid,
+            non-conflicting instructions that can't be completed simultaneously,
+            they will fulfill the oldest instructions first. Requests can be
+            cancelled by the person who issued them.
 
