@@ -12,16 +12,16 @@ as if you were another person, creature or some other entity and living,
 thinking and acting as them.
 
 In our modern times, you might've played a videogame where you play as a
-Character with a pre-existing history, personality and look, but there actions
+Character with a pre-existing history, personality and look, but their actions
 are directed by you through the use of some input device. Maybe without even
 realizing it, you suddenly "were" that Character! They had powers, abilities and
 character Traits that you didn't, but you acted as if you *were* them in order
 to accomplish some tasks provided to you by the game. This was a RPG, and many
-many games have at least some aspects of RPG's.
+many games have at least some aspects of an RPG.
 
 If you haven't played a videogame, then you might've shared a story with those
 close to you where you imagined a Character (or several!) that had traits that
-made them interesting and unique. In a weird way, you were playing a role! You
+made them interesting and unique. In a weird way, you were playing a role. You
 were using your imagination to empathize with a Character that doesn't exist in
 order to figure out what THEY would do in a given situation given the character
 traits you supplied to them and the implied history of their reality.
@@ -49,7 +49,7 @@ match as of time of writing.
 What this means is that you and your table-mates are free to craft a unique
 story together. You can live multiple lives without leaving your living room.
 You can face bitter defeats, hard-won victories, toxic betrayals, and
-tear-eyed elation in the span of hours.
+teary-eyed elation in the span of hours.
 
 Doing this is harder if you're *just* playing make-believe like young children
 do on the playground. That's why many TTRPG authors seek to give you structure;
@@ -67,7 +67,5 @@ crafted by Wizards of the Coast if you've found FarOut. Dungeons and Dragons is
 what is says on the tin, it's a TTRPG that gives you all the bells and dragon
 scales you need to play as Character in a rule defined by medieval fantasy.
 
-FarOut is a TTRPG *System*. While it *does* provide a setting and a lore that
-helps carve out an engaging tale, you can just as easily use it in a Swords and
-Sorcery story as you could in one about Jets and Jaberwoks if you use a little
-bit of imagination and careful rule-bending.
+COOL, SO WHAT'S ALL THIS THEN?
+------------------------------
