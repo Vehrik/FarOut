@@ -157,7 +157,7 @@ like its solid ground, or chucking cars like they're baseballs, but you're
 definitely beyond what the human body is capable of.
 
 
-    Brawn   :: Throw a car 20ft.
+    Brawn   :: Flip parked car, shoving it out by 20ft in the process.
 
     Speed   :: Slice the bullet whizzing towards your friend's head in half.
 
@@ -233,30 +233,4 @@ there are some mechanics within the game that explicitly cause Bangs and Busts.
 You are able to Bang or Bust multiple times per round, sometimes within the same
 Moment. Bangs that occur more or less simultaneously require you to swap cards
 out from Options in sequence in order to perserve the 3 Card maximum.
-
-
-BOONS
------
-
-As a reward for playing the game well, a GM may grant you a Boon. A
-Boon can do one of three things:
-
-            1. Grant your Character a Bang, but not while it's in the middle of
-               a Try.
-
-            2. Nullify the effects of a Bust, but not while the Avatar is in the
-               middle of a Try.
-
-            3. Be gifted to another player. You may do this at-will without
-               using an action, but a Boon can't be transfered back to a player
-               that has already gifted it.
-
-What is meant by "playing the game well" is really up to the GM, but typically
-it would include things like reacting compellingly to situations, remaining in
-Character consistently, abiding by the Virtues and Vices of your Character, or
-otherwise improving the play experience for everyone (including the GM!). This
-list is by no means exhaustive, and a GM is free to hand out Boons as they see
-fit.
-
-A Player can only be in possession of a single Boon at a time.
 

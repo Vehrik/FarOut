@@ -33,13 +33,14 @@ would do and say, and used that as a guide for your words and actions. You
 assumed a Role, you acted as if you were a slightly different person that you
 are when you're comfortable and relaxed.
 
-RPG hook into this almost primal desire to tell stories and to pretend in order
-to make a imagined world that's fun to engage with, but additionally, they
-almost always try to provide enough structure in order to lend itself to a
+RPG's hook into this almost primal desire to tell stories; to pretend and
+imagine in order to make a world that's fun to engage with, but additionally,
+they almost always try to provide enough structure in order to lend itself to a
 certain type of story.
 
-Videogames do this by only having a certain number of places to go and things to
-do. You can't help but abide by the systems that make the Game playable.
+Videogames do this almost implicitely by only having a certain number of places
+to go and things to do. You can't help but abide by the systems that make the
+Game playable aside from a few unintended glitches.
 
 Table Top RPGs don't have the luxury of being limited by how many pixels it can
 project onto a screen at once -- everything takes place in the imagination of
@@ -65,7 +66,8 @@ whenever it wanted!
 You've probably heard of games like Dungeons and Dragons that was so lovingly
 crafted by Wizards of the Coast if you've found FarOut. Dungeons and Dragons is
 what is says on the tin, it's a TTRPG that gives you all the bells and dragon
-scales you need to play as Character in a rule defined by medieval fantasy.
+scales you need to play as Character in a world defined by (predominantly)
+Western medieval fantasy.
 
 COOL, SO WHAT'S ALL THIS THEN?
 ------------------------------
